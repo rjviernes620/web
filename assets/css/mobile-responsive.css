@@ -1,0 +1,198 @@
+/* Mobile-specific CSS improvements */
+
+/* General mobile optimizations */
+@media (max-width: 768px) {
+    /* Improve text readability on mobile */
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    
+    /* Improve navbar for mobile */
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+    
+    /* Header section improvements */
+    .intro-title {
+        font-size: 2.5rem !important;
+        margin-bottom: 1rem;
+    }
+    
+    /* Card improvements for mobile */
+    .card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .card-body {
+        padding: 1.5rem 1rem;
+    }
+    
+    .card-title {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+    
+    .card-text {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    
+    /* Skills section improvements */
+    .skill-item {
+        padding: 1rem 0.5rem;
+        text-align: center;
+    }
+    
+    .skill-item strong {
+        font-size: 0.9rem;
+        display: block;
+        margin-top: 0.5rem;
+    }
+    
+    /* Project section improvements */
+    .row-cols-1 .col {
+        margin-bottom: 2rem;
+    }
+    
+    /* Contact section improvements */
+    .d-flex.align-items-center.p-3 {
+        flex-direction: column !important;
+        text-align: center;
+        padding: 1.5rem 1rem !important;
+    }
+    
+    .bs-icon-md {
+        margin-bottom: 1rem;
+    }
+    
+    /* Footer improvements */
+    footer .d-flex {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    
+    footer .text-muted p {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .intro-title {
+        font-size: 2rem !important;
+    }
+    
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Reduce padding on very small screens */
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    
+    .py-4 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    
+    /* Stack contact items vertically */
+    .d-flex.h-100 {
+        flex-direction: column !important;
+    }
+}
+
+/* Improve touch targets for mobile */
+@media (max-width: 768px) {
+    .nav-link, .btn, a {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navbar-toggler {
+        padding: 0.5rem;
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
+/* Ensure images are always responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improve swiper slider for mobile */
+@media (max-width: 768px) {
+    .simple-slider {
+        margin-top: 2rem;
+    }
+    
+    .swiper-container {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .swiper-slide {
+        border-radius: 0.5rem;
+    }
+}
+
+/* Fix text overflow issues */
+.text-wrap {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Improve spacing between sections on mobile */
+@media (max-width: 768px) {
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .mb-5 {
+        margin-bottom: 2rem !important;
+    }
+}

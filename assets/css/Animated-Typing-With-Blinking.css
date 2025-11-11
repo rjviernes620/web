@@ -1,0 +1,109 @@
+.blinking {
+  font-size: 70px;
+  animation: blinkingText 1.2s infinite;
+}
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 70px;
+}
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+.blc {
+  font-size: 70px;
+}
+
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline b.is-visible {
+  opacity: 1;
+  font-weight: 900;
+}
+
+.is-visible, .blc {
+  color: gery;
+}
+
+.animated-text {
+  transform: scale(0.5);
+}
+
+@media (min-width: 768px) {
+  .animated-text {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 576px) {
+  .animated-text {
+    transform: scale(0.3);
+    white-space: nowrap;
+  }
+}
+
+.noSelect {
+  pointer-events: none;
+}
+
+.intro-title {
+  display: inline-block;
+  font-family: 'Inconsolata';
+  font-size: 42px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: initial;
+  animation: typing, blinking 2s infinite;
+  animation-duration: 2s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  border-right: 2px solid;
+}
+
+@keyframes blinking {
+  0% {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: white;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes  {}
+
