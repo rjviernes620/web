@@ -9,6 +9,8 @@
   width: 50px;
   margin-left: 20px;
   margin-right: 20px;
+  z-index: 9999;
+  pointer-events: auto;
 }
 
 @media (max-width:767px) {

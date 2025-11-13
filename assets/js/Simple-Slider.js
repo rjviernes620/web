@@ -3,16 +3,20 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initializing the swiper plugin for the slider.
     // Read more here: http://idangero.us/swiper/api/
     
-    var mySwiper = new Swiper('.swiper-container', {
+    var mySwiper = new Swiper('.simple-slider .swiper-container', {
         loop: true,
+        keyboard: {
+            enabled: true,
+            onlyInViewport: true
+        },
         pagination: {
-            el: '.swiper-pagination' ,
+            el: '.simple-slider .swiper-pagination',
             clickable: true
         },
         paginationClickable: true,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
+            nextEl: '.simple-slider .swiper-button-next',
+            prevEl: '.simple-slider .swiper-button-prev'
         }
     });
     
