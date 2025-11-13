@@ -55,6 +55,14 @@
             .simple-slider .swiper-slide { min-height: 180px; }
         }
 
+        /* Make slides with <img> fill the slide and preserve aspect via object-fit */
+        .simple-slider .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
         /* Iframe banner styles */
         .iframe-banner {
             background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.5));
@@ -115,16 +123,26 @@
                     <div class="mb-3">
                         <strong>Computer Science BSc (Hons) Graduate</strong>
                     </div>
-                    <p class="mb-3">I've recently graduated from the University of Greenwich with a 2:1 in Computer Science. And now I create content and develop very interesting and very cool things. Feel free to reach out and see what I've worked on as I look for graduate schemes and more</p>
+                    <p class="mb-3">I've recently graduated from the University of Greenwich with a 2:1 in Computer Science. And now I create content and develop very interesting and very cool things for the time being.
+                        Feel free to reach out and see what I've worked on as I look for graduate schemes and more</p>
                     <a href="assets/mmayer.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">See my CV Here</a>
                 </div>
                 <div class="col-xl-4 mt-4 mt-xl-0">
                     <div class="simple-slider">
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/team/20231026_195128(0).jpg&quot;) center center / cover no-repeat;" role="img" aria-label="Roel Viernes personal photo"></div>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/team/Computer Science - Roel Viernes Greenwich Campus 3 - Nov 23.png&quot;) center center / cover no-repeat;" role="img" aria-label="Roel Viernes graduation photo at Greenwich Campus"></div>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/team/WhatsApp Image 2024-12-10 at 00.00.37_a377927e.jpg&quot;) center center / cover no-repeat;" role="img" aria-label="Roel Viernes profile photo"></div>
+                                <div class="swiper-slide" role="img" aria-label="Roel Viernes personal photo">
+                                    <img src="assets/img/team/20231026_195128(0).jpg" alt="Roel Viernes personal photo">
+                                </div>
+                                <div class="swiper-slide" role="img" aria-label="Roel Viernes graduation photo at Greenwich Campus">
+                                    <img src="assets/img/team/Computer%20Science%20-%20Roel%20Viernes%20Greenwich%20Campus%203%20-%20Nov%2023.png" alt="Roel Viernes graduation photo at Greenwich Campus">
+                                </div>
+                                <div class="swiper-slide" role="img" aria-label="Roel Viernes profile photo">
+                                    <img src="assets/img/team/WhatsApp%20Image%202024-12-10%20at%2000.00.37_a377927e.jpg" alt="Roel Viernes profile photo">
+                                </div>
+                                <div class="swiper-slide" role="img" aria-label="Roel Viernes profile photo">
+                                    <img src="assets/img/team/WhatsApp%20Image%202025-10-29%20at%2021.14.03.jpeg" alt="Roel Viernes profile photo">
+                                </div>
                             </div>
                             <div class="swiper-pagination"></div>
                             <div class="swiper-button-prev"></div>
@@ -216,7 +234,9 @@
                         <div class="card shadow-sm h-100 w-100">
                             <div class="card-body px-4 px-md-5 py-5">
                                 <h5 class="fw-bold card-title">Social Media Assistant - (2023 - Present)</h5>
-                                <p class="text-muted mb-4 card-text">I help create content for the University's social media channels and paid campaigns</p>
+                                <p class="text-muted mb-4 card-text">I create different pieces of content (specializing within videos)
+for the Social Media Channels for the Faculty of Engineering &
+Science at the University and sometimes for the main University pages too. </p>
                                 <small>Content Creation | Video Production | Project Management</small>
                                 <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="bottom: 1rem;right: 1rem;position: absolute;"></div>
                             </div>
@@ -273,7 +293,7 @@
                     <div class="row g-4 align-items-center">
                         <div class="col-12 col-md-6">
                             <div class="iframe-wrapper">
-                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DCEemcqoPJo/" data-instgrm-version="14" style="background:#000; margin:0 auto;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DCEemcqoPJo/" data-instgrm-version="14" style="background:#000; margin:300 auto;">
                                     <a href="https://www.instagram.com/reel/DCEemcqoPJo/" target="_blank" rel="noopener noreferrer"></a>
                                 </blockquote>
                             </div>
