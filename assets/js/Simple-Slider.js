@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
     
     var mySwiper = new Swiper('.simple-slider .swiper-container', {
         loop: true,
+        slidesPerView: 1,
+        spaceBetween: 2,
+        centeredSlides: false,
         keyboard: {
             enabled: true,
             onlyInViewport: true

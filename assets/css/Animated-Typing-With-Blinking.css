@@ -76,12 +76,14 @@
   font-size: 42px;
   overflow: hidden;
   white-space: nowrap;
-  width: initial;
-  animation: typing, blinking 2s infinite;
-  animation-duration: 2s;
-  animation-timing-function: steps(30, end);
-  animation-fill-mode: forwards;
+  width: 0; /* start collapsed so typing reveals it */
   border-right: 2px solid;
+  /*
+    Animate to a fixed character width using `ch` so the cursor stops
+    exactly at the end of the sentence. Replace the `12` below with the
+    character count of your final sentence if different.
+  */
+  animation: typing 1.2s steps(12, end) forwards, blinking 1s step-end infinite;
 }
 
 @keyframes blinking {
@@ -97,12 +99,10 @@
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+  from { width: 0; }
+  /* Use `ch` units equal to the number of characters in the line.
+     For "Hi, I'm Roel" use 12ch — change if your text differs. */
+  to   { width: 12ch; }
 }
 
 

@@ -47,7 +47,7 @@
             background-size: contain !important;
             background-position: center center !important;
             background-repeat: no-repeat !important;
-            background-color: #000; /* fallback background while image loads */
+            background-color: transparent; /* transparent so no black borders */
         }
 
         /* Mobile adjustments: slightly smaller slides on small screens */
@@ -55,12 +55,16 @@
             .simple-slider .swiper-slide { min-height: 180px; }
         }
 
-        /* Make slides with <img> fill the slide and preserve aspect via object-fit */
+        /* Make slides with <img> slightly larger while keeping a small gap */
+        .simple-slider .swiper-slide { padding: 4px; box-sizing: border-box; }
         .simple-slider .swiper-slide img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            width: auto;
+            max-width: 98%;
+            height: auto;
+            max-height: 400px;
+            object-fit: contain;
             display: block;
+            border-radius: 6px;
         }
 
         /* Iframe banner styles */
@@ -126,31 +130,12 @@
                     <p class="mb-3">I've recently graduated from the University of Greenwich with a 2:1 in Computer Science. And now I create content and develop very interesting and very cool things for the time being.
                         Feel free to reach out and see what I've worked on as I look for graduate schemes and more</p>
                     <a href="assets/mmayer.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">See my CV Here</a>
-                </div>
-                <div class="col-xl-4 mt-4 mt-xl-0">
-                    <div class="simple-slider">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide" role="img" aria-label="Roel Viernes personal photo">
-                                    <img src="assets/img/team/20231026_195128(0).jpg" alt="Roel Viernes personal photo">
-                                </div>
-                                <div class="swiper-slide" role="img" aria-label="Roel Viernes graduation photo at Greenwich Campus">
-                                    <img src="assets/img/team/Computer%20Science%20-%20Roel%20Viernes%20Greenwich%20Campus%203%20-%20Nov%2023.png" alt="Roel Viernes graduation photo at Greenwich Campus">
-                                </div>
-                                <div class="swiper-slide" role="img" aria-label="Roel Viernes profile photo">
-                                    <img src="assets/img/team/WhatsApp%20Image%202024-12-10%20at%2000.00.37_a377927e%20%281%29.jpg" alt="Roel Viernes profile photo">
-                                </div>
-                                <div class="swiper-slide" role="img" aria-label="Roel Viernes profile photo">
-                                    <img src="assets/img/team/WhatsApp%20Image%202025-10-29%20at%2021.14.03%20%282%29.jpeg" alt="Roel Viernes profile photo">
-                                </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                        </div>
+                    </div>
+                    <div class="col-lg-5 col-xl-4 mt-4 mt-xl-0 d-flex align-items-center justify-content-center">
+                            <img src="assets/img/team/Untitled.png" alt="Untitled image" class="img-fluid rounded" style="max-width:100%; height:auto; object-fit:contain;">
                     </div>
                 </div>
-                <div class="col-12 col-lg-9 offset-lg-2 mx-auto">
+                <div class="col-15 col-lg-9 offset-lg-2 mx-auto">
                     <div class="position-relative" style="display: flex;flex-wrap: wrap;justify-content: flex-end;"></div>
                 </div>
             </div>
