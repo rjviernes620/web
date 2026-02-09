@@ -95,6 +95,28 @@
             .iframe-banner { padding: 1rem 0; }
             .iframe-banner .col-md-6 { margin-bottom: 1rem; }
         }
+
+        .center-fixed-text {
+            display: inline-block;
+            transform: scale(1.35);
+            padding: 0;
+            overflow: visible;
+        }
+
+        /* Constrain overall page width - only on desktop */
+        @media (min-width: 1200px) {
+            body {
+                max-width: 1600px;
+                margin: 0 auto;
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        /* Prevent horizontal scrolling on the entire page */
+        html, body {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
     </style>
 </head>
 
@@ -125,7 +147,7 @@
                         </div>
                     </div>
                     <div class="mb-3">
-                        <strong>Computer Science BSc (Hons) Graduate</strong>
+                        <strong>Computer Science BSc (Hons) Graduate | Content Creator</strong>
                     </div>
                     <p class="mb-3">I've recently graduated from the University of Greenwich with a 2:1 on Computer Science.
                         I also was previously a Faculty Social Media Assistant for the University and a Student Ambassador for the University as well. I have a passion for coding and creating content, which is what I have been doing for the past few years.
@@ -134,7 +156,7 @@
                          Now I'm looking for a role either in software development, Data Analyutics, Content creation or a role that combines both of these things. I have a wide range of skills and experience that I can bring to any role, and I'm always looking to learn new things and take on new challenges.
 
                     </p>
-                    <a href="assets/CV/mmayer_tech.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">See my CV Here</a>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#cvModal">See my CV Here</button>
                     </div>
                     <div class="col-lg-5 col-xl-4 mt-4 mt-xl-0 d-flex align-items-center justify-content-center">
                             <img src="assets/img/team/Untitled.png" alt="Untitled image" class="img-fluid rounded" style="max-width:100%; height:auto; object-fit:contain;">
@@ -202,15 +224,36 @@
                             <h4 class="fw-bold">Portfolio Website</h4><small>HTML | CSS | Bootstrap | JS&nbsp;</small>
                             <p class="text-muted">This very website that you are currently on! Built from scratch using Bootstrap and custom CSS/JS to make it look unique and represent me as a person.</p>
 
-            </div>             
+            </div>
             <div class="col-md-12 text-center my-3">
-                    <strong style="display:inline-block; transform:scale(1.35); padding: 0; position:relative; overflow:visible;">Visit my GitHub to find more projects that I have worked on</strong>
+                    <strong class="center-fixed-text">Visit my GitHub to find more projects that I have worked on</strong>
                 </div>
         </div>
     </section>
+    <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border border-light">
+                <div class="modal-header border-light">
+                    <h5 class="modal-title fw-bold" id="cvModalLabel">Choose a CV</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted">Select the version you want to view.</p>
+                    <div class="d-grid gap-2">
+                        <a href="assets\CV\mmayer_tech.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">Tech CV</a>
+                        <a href="assets\CV\mmayer_SM.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">Social Media CV</a>
+                        <a href="assets\CV\mmayer_AD.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">Combined CV</a>
+                    </div>
+                </div>
+                <div class="modal-footer border-light">
+                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <section></section>
-    <section>
-        <div class="container bg-dark py-5" id="jobs">
+    <section class="bg-dark py-5">
+        <div class="container" id="jobs">
             <div class="row">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <p class="fw-bold text-success mb-2">Jobs</p>
@@ -241,8 +284,8 @@
                             <div class="card-body px-4 px-md-5 py-5">
                                 <h5 class="fw-bold card-title">Social Media Assistant - (2023 - Oct 2025)</h5>
                                 <p class="text-muted mb-4 card-text">I create different pieces of content (specializing within videos)
-for the Social Media Channels for the Faculty of Engineering &
-Science at the University and sometimes for the main University pages too. </p>
+                                        for the Social Media Channels for the Faculty of Engineering &
+                                        Science at the University and sometimes for the main University pages too. </p>
                                 <small>Content Creation | Video Production | Project Management</small>
                                 <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="bottom: 1rem;right: 1rem;position: absolute;"></div>
                             </div>
@@ -287,34 +330,134 @@ Science at the University and sometimes for the main University pages too. </p>
                     </div>
                 </div>
             </div>
-            <section class="py-5" id="videos">
+            <section class="py-5" id="videos" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); border-radius: 50px; margin: 2rem 1rem;">
                 <div class="container py-5">
                     <div class="row mb-4 mb-lg-5">
                         <div class="col-md-8 col-xl-6 text-center mx-auto">
                             <p class="fw-bold text-success mb-2">Videos</p>
-                            <h2 class="fw-bold">Some of My Video Content</h2>
-                            <p class="text-center">Here are some of the videos that I have created for my personal channel and for the University of Greenwich</p>
+                            <h2 class="fw-bold text-white">Some of My Video Content</h2>
+                            <p class="text-center text-white-50">Here are some of the videos that I have created for my personal channel and for the University of Greenwich</p>
                         </div>
                     </div>
-                    <div class="row g-4">
-                        <div class="col-12 col-md-6">
+                    <div class="row row-cols-1 g-4 mx-auto" style="max-width: 903px;">
+                        <p class="text-left text-white-50 mb-3">Section 1: Instagram Videos for @uniofgreenwichfes</p>
+                        </div>
+                    <div class="scrollable-video-container" style="display: flex; gap: 2.5rem; overflow-x: auto; padding: 1rem 0; scroll-behavior: smooth;">
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
                             <div class="iframe-wrapper" style="margin:0;">
                                 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DCEemcqoPJo/" data-instgrm-version="14" style="background:#000; margin:0;">
                                     <a href="https://www.instagram.com/reel/DCEemcqoPJo/" target="_blank" rel="noopener noreferrer"></a>
                                 </blockquote>
                             </div>
                         </div>
-                        <div class="col-13 col-md-6">
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
                             <div class="iframe-wrapper" style="margin:0;">
                                 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DLHseObSzgC/" data-instgrm-version="14" style="background:#000; margin:0;">
                                     <a href="https://www.instagram.com/reel/DLHseObSzgC/" target="_blank" rel="noopener noreferrer"></a>
                                 </blockquote>
                             </div>
                         </div>
+                        
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                            <div class="iframe-wrapper" style="margin:0;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DTAeynnjbxU" data-instgrm-version="14" style="background:#000; margin:0;">
+                                    <a href="https://www.instagram.com/reel/DTAeynnjbxU" target="_blank" rel="noopener noreferrer"></a>
+                                </blockquote>
+                            </div>
+                        </div>
+                                            
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                            <div class="iframe-wrapper" style="margin:0;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEFVzEJIyJS" data-instgrm-version="14" style="background:#000; margin:0;">
+                                    <a href="https://www.instagram.com/reel/DEFVzEJIyJS" target="_blank" rel="noopener noreferrer"></a>
+                                </blockquote>
+                            </div>
+                        </div>
+                                                
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                            <div class="iframe-wrapper" style="margin:0;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DDzesm6oM_7" data-instgrm-version="14" style="background:#000; margin:0;">
+                                    <a href="https://www.instagram.com/reel/DDzesm6oM_7" target="_blank" rel="noopener noreferrer"></a>
+                                </blockquote>
+                            </div>
+                        </div>
+                            
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                            <div class="iframe-wrapper" style="margin:0;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-Zvr77AjWB" data-instgrm-version="14" style="background:#000; margin:0;">
+                                    <a href="https://www.instagram.com/reel/C-Zvr77AjWB" target="_blank" rel="noopener noreferrer"></a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        
+
+                        <!-- 
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                            <div class="iframe-wrapper" style="margin:0;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="YOUR_INSTAGRAM_REEL_URL_HERE" data-instgrm-version="14" style="background:#000; margin:0;">
+                                    <a href="YOUR_INSTAGRAM_REEL_URL_HERE" target="_blank" rel="noopener noreferrer"></a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        -->
+
+                        <!-- 
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                            <div class="iframe-wrapper" style="margin:0;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="YOUR_INSTAGRAM_REEL_URL_HERE" data-instgrm-version="14" style="background:#000; margin:0;">
+                                    <a href="YOUR_INSTAGRAM_REEL_URL_HERE" target="_blank" rel="noopener noreferrer"></a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        -->
+
+                        <!-- 
+                        <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                            <div class="iframe-wrapper" style="margin:0;">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DUUYQeKCAlL" data-instgrm-version="14" style="background:#000; margin:0;">
+                                    <a href="https://www.instagram.com/reel/DUUYQeKCAlL" target="_blank" rel="noopener noreferrer"></a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        -->
+
                     </div>
                 </div>
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/51TtSJR6Yog?si=RzGjly9Uiv-T4gwf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="container py-5">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-lg-6">
+                            <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/51TtSJR6Yog?si=RzGjly9Uiv-T4gwf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/0nG3yea1OmU?si=N5aseqFCwhhm3KY3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-5">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-12 col-lg-6">
+                            <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;"src="https://www.youtube.com/embed/r1ZK9TaM3vE?si=oA5sBA2PBMj3FRJ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/1isouGPRAGw?si=qOMzxscfBnuNL6Sa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                            </div>
+                        </div>
+                    </div>
+                </div>
+                                    
+                <div class="video-item" style="flex: 0 0 auto; width: 300px;">
+                    <div class="iframe-wrapper" style="margin:0;">
+                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DUUYQeKCAlL" data-instgrm-version="14" style="background:#000; margin:0;">
+                            <a href="https://www.instagram.com/reel/DUUYQeKCAlL" target="_blank" rel="noopener noreferrer"></a>
+                        </blockquote>
+                    </div>
+                </div>
+                        
             </section>
             <section class="py-5" id="mini-references">
                 <div class="container py-5">
@@ -482,6 +625,18 @@ Science at the University and sometimes for the main University pages too. </p>
     <script src="assets/js/Simple-Slider-swiper-bundle.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
     <script async defer src="https://www.instagram.com/embed.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var container = document.querySelector(".scrollable-video-container");
+            if (!container) {
+                return;
+            }
+            var maxScrollLeft = container.scrollWidth - container.clientWidth;
+            if (maxScrollLeft > 0) {
+                container.scrollLeft = Math.floor(maxScrollLeft * 0.1);
+            }
+        });
+    </script>
 </body>
 
 </html>
