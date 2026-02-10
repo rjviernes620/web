@@ -231,13 +231,13 @@ export function FileExplorer() {
   const currentFolder = getCurrentFolder();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 p-8">
+    <div className="min-h-screen bg-transparent p-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl mb-8 text-gray-800">My Projects</h1>
+        <h1 className="text-4xl mb-8 text-white">My Projects</h1>
         
-        <div className="bg-white/60 backdrop-blur-xl rounded-xl border border-gray-200/50 shadow-2xl overflow-hidden">
+        <div className="bg-white rounded-xl border border-gray-200/50 shadow-2xl overflow-hidden">
           {/* Top Navigation Bar */}
-          <div className="bg-white/80 backdrop-blur-sm border-b border-gray-200/50 p-3">
+          <div className="bg-white border-b border-gray-200/50 p-3">
             <div className="flex items-center gap-2">
               <Home className="w-4 h-4 text-gray-600" />
               {currentPath.map((segment, index) => (
@@ -265,7 +265,7 @@ export function FileExplorer() {
 
           <div className="flex" style={{ height: '600px' }}>
             {/* Sidebar Tree View */}
-            <div className="w-64 border-r border-gray-200/50 bg-gray-50/50 p-3 overflow-y-auto">
+            <div className="w-64 border-r border-gray-200/50 bg-gray-50 p-3 overflow-y-auto">
               <TreeNode item={fileSystem} />
             </div>
 
