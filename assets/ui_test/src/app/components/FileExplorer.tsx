@@ -45,7 +45,7 @@ const fileSystem: FolderItem = {
   children: [
     {
       id: 'web',
-      name: 'Web Development',
+      name: 'Year 1 Projects',
       type: 'folder',
       children: [
         {
@@ -76,7 +76,7 @@ const fileSystem: FolderItem = {
     },
     {
       id: 'mobile',
-      name: 'Mobile Apps',
+      name: 'Year 2 Projects',
       type: 'folder',
       children: [
         {
@@ -94,7 +94,7 @@ const fileSystem: FolderItem = {
     },
     {
       id: 'design',
-      name: 'Design Systems',
+      name: 'Year 3 Projects',
       type: 'folder',
       children: [
         {
@@ -113,7 +113,7 @@ const fileSystem: FolderItem = {
     },
     {
       id: 'ai',
-      name: 'AI & Machine Learning',
+      name: 'Work Projects',
       type: 'folder',
       children: [
         {
@@ -233,7 +233,7 @@ export function FileExplorer() {
   return (
     <div className="min-h-screen bg-transparent p-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl mb-8 text-white">My Projects</h1>
+        <h1 className="text-4xl mb-8 text-black">My Projects - INCOMPLETE</h1>
         
         <div className="bg-white rounded-xl border border-gray-200/50 shadow-2xl overflow-hidden">
           {/* Top Navigation Bar */}
