@@ -1,0 +1,3 @@
+exclude:
+  - assets/recommend/node_modules/
+  - assets/ui_test/node_modules/
