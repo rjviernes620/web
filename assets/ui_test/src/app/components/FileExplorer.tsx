@@ -49,16 +49,15 @@ const fileSystem: FolderItem = {
       type: 'folder',
       children: [
         {
-          id: 'ecommerce',
-          name: 'E-Commerce Platform',
+          id: 'algo_y1',
+          name: 'Algorithm Analysis Tool',
           type: 'file',
           project: {
-            title: 'E-Commerce Platform',
-            description: 'A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard.',
-            technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
-            date: '2024-01',
-            github: 'https://github.com/username/ecommerce',
-            demo: 'https://demo.example.com'
+            title: 'Algorithm Analysis tool',
+            description: 'A full-stack tool for analyzing and visualizing algorithm performance with interactive charts and benchmarks.',
+            technologies: ['Python'],
+            date: '2023-01',
+            github: 'https://github.com/rjviernes620/COMP-1819---Coursework',
           }
         },
         {
@@ -98,17 +97,29 @@ const fileSystem: FolderItem = {
       type: 'folder',
       children: [
         {
-          id: 'ui-kit',
-          name: 'Modern UI Kit',
+          id: 'Dissertation: AI',
+          name: 'Dissertation: AI: HandTyper',
           type: 'file',
           project: {
-            title: 'Modern UI Kit',
+            title: 'Dissertation: AI: HandTyper',
             description: 'Comprehensive design system with 100+ components, dark mode support, and accessibility features.',
-            technologies: ['React', 'TypeScript', 'Storybook', 'Figma'],
-            date: '2023-09',
+            technologies: ['Python', 'TensorFlow', 'OpenCV', 'Mediapipe'],
+            date: '2025-05',
             demo: 'https://storybook.example.com'
           }
-        }
+        }    
+        ,
+        {
+      id: 'AI_2',
+      name: 'Algo Analysis: GameAI',
+      type: 'file',
+      project: {
+        title: 'Algo Analysis: GameAI',
+        description: 'A full-stack tool for analyzing and visualizing algorithm performance with interactive charts and benchmarks.',
+        technologies: ['Python'],
+        date: '2023-01',
+    }
+  },
       ]
     },
     {
@@ -129,6 +140,8 @@ const fileSystem: FolderItem = {
         }
       ]
     }
+    ,
+
   ]
 };
 
@@ -233,7 +246,6 @@ export function FileExplorer() {
   return (
     <div className="min-h-screen bg-transparent p-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl mb-8 text-black">My Projects - INCOMPLETE</h1>
         
         <div className="bg-white rounded-xl border border-gray-200/50 shadow-2xl overflow-hidden">
           {/* Top Navigation Bar */}
