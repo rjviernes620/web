@@ -80,7 +80,18 @@ const fileSystem: FolderItem = {
       children: [
         {
           id: 'fitness',
-          name: 'Fitness Tracker',
+          name: 'London Underground Wayfinder',
+          type: 'file',
+          project: {
+            title: 'Fitness Tracker',
+            description: 'Cross-platform mobile app for tracking workouts, nutrition, and health metrics with social features.',
+            technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
+            date: '2024-03'
+          }
+        },
+        {
+          id: 'fitness',
+          name: 'Connect4: AI vs AI',
           type: 'file',
           project: {
             title: 'Fitness Tracker',
@@ -115,8 +126,8 @@ const fileSystem: FolderItem = {
       type: 'file',
       project: {
         title: 'Algo Analysis: GameAI',
-        description: 'A full-stack tool for analyzing and visualizing algorithm performance with interactive charts and benchmarks.',
-        technologies: ['Python'],
+        description: 'This project invovled me and my coursework group researching into different ML algorithms which are commonly used within the controlling of CPU players in video games and creating our own implementations of ML algorithms to onto the game "Super Mario Bros" to create a CPU player which would be able to complete levels in the fastest time possible. My own implementation included the use of the MCTS (Monte Carlo Tree Search) algorithm and pathfinding to create an AI agent which would be able to play through levels of Super Mario Bros.',
+        technologies: ['Python', 'TensorFlow', 'matplotlib'],
         date: '2023-01',
     }
   },
