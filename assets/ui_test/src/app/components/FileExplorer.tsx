@@ -79,24 +79,24 @@ const fileSystem: FolderItem = {
       type: 'folder',
       children: [
         {
-          id: 'fitness',
+          id: 'london_underground',
           name: 'London Underground Wayfinder',
           type: 'file',
           project: {
-            title: 'Fitness Tracker',
-            description: 'Cross-platform mobile app for tracking workouts, nutrition, and health metrics with social features.',
+            title: 'London Underground Wayfinder',
+            description: 'Interactive wayfinding application for navigating the London Underground transit system.',
             technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
             date: '2024-03'
           }
         },
         {
-          id: 'fitness',
+          id: 'connect4_ai',
           name: 'Connect4: AI vs AI',
           type: 'file',
           project: {
-            title: 'Fitness Tracker',
-            description: 'Cross-platform mobile app for tracking workouts, nutrition, and health metrics with social features.',
-            technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
+            title: 'Connect4: AI vs AI',
+            description: 'AI-powered Connect Four game where different algorithms compete against each other to determine optimal strategies.',
+            technologies: ['Python', 'Minimax Algorithm', 'Alpha-Beta Pruning'],
             date: '2024-03'
           }
         }
@@ -204,6 +204,7 @@ export function FileExplorer() {
   }) => {
     const isExpanded = expandedFolders.has(item.id);
     const itemPath = [...parentPath, item.name];
+    const isSelected = selectedProject?.id === item.id;
 
     if (item.type === 'folder') {
       return (
@@ -242,11 +243,13 @@ export function FileExplorer() {
       return (
         <button
           onClick={() => openProject(item, itemPath)}
-          className="flex items-center gap-2 w-full px-2 py-1.5 rounded hover:bg-white/40 transition-colors text-sm"
+          className={`flex items-center gap-2 w-full px-2 py-1.5 rounded transition-colors text-sm ${
+            isSelected ? 'bg-blue-100 hover:bg-blue-200' : 'hover:bg-white/40'
+          }`}
           style={{ paddingLeft: `${depth * 12 + 8 + 15}px` }}
         >
-          <File className="w-4 h-4 text-blue-600" />
-          <span className="text-gray-800">{item.name}</span>
+          <File className={`w-4 h-4 ${isSelected ? 'text-blue-700' : 'text-blue-600'}`} />
+          <span className={isSelected ? 'text-blue-900 font-medium' : 'text-gray-800'}>{item.name}</span>
         </button>
       );
     }
@@ -293,7 +296,15 @@ export function FileExplorer() {
             </div>
 
             {/* Main Content Area */}
-            <div className="flex-1 p-6 overflow-y-auto">
+            <div 
+              className="flex-1 p-6 overflow-y-auto"
+              onClick={(e) => {
+                // Only deselect if clicking on the container itself, not on interactive elements
+                if (e.target === e.currentTarget) {
+                  setSelectedProject(null);
+                }
+              }}
+            >
               {selectedProject ? (
                 // Project Details View
                 <div className="space-y-6">
@@ -355,11 +366,19 @@ export function FileExplorer() {
                 </div>
               ) : (
                 // Folder Contents View
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                <div 
+                  className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4"
+                  onClick={(e) => {
+                    if (e.target === e.currentTarget) {
+                      setSelectedProject(null);
+                    }
+                  }}
+                >
                   {currentFolder.type === 'folder' && currentFolder.children.map(item => (
                     <button
                       key={item.id}
-                      onClick={() => {
+                      onClick={(e) => {
+                        e.stopPropagation();
                         if (item.type === 'folder') {
                           navigateToFolder(item, [...currentPath, item.name]);
                         } else {
