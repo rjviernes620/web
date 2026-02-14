@@ -26,6 +26,33 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
+    var getLoopWidth = function () {
+        var list = document.getElementById("skillsCarousel");
+        if (!list) {
+            return 0;
+        }
+        return list.scrollWidth / 2;
+    };
+
+    var normalizeScrollPosition = function () {
+        var loopWidth = getLoopWidth();
+        if (!loopWidth) {
+            return;
+        }
+        if (skillsCarouselWrapper.scrollLeft >= loopWidth) {
+            skillsCarouselWrapper.scrollLeft -= loopWidth;
+        } else if (skillsCarouselWrapper.scrollLeft < 0) {
+            skillsCarouselWrapper.scrollLeft += loopWidth;
+        }
+    };
+
+    requestAnimationFrame(function () {
+        var loopWidth = getLoopWidth();
+        if (loopWidth) {
+            skillsCarouselWrapper.scrollLeft = loopWidth;
+        }
+    });
+
     var isDragging = false;
     var dragStartX = 0;
     var startScrollLeft = 0;
@@ -33,6 +60,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var lastPointerTime = 0;
     var momentumVelocity = 0;
     var momentumFrameId = null;
+    var autoScrollFrameId = null;
+    var autoScrollSpeed = 0.25;
+    var isAutoScrollPaused = false;
+    var prefersReducedMotion = false;
 
     var stopMomentum = function () {
         if (momentumFrameId !== null) {
@@ -52,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
             skillsCarouselWrapper.scrollLeft -= momentumVelocity * 16;
+            normalizeScrollPosition();
             momentumFrameId = requestAnimationFrame(step);
         };
 
@@ -59,8 +91,34 @@ document.addEventListener("DOMContentLoaded", function () {
         momentumFrameId = requestAnimationFrame(step);
     };
 
+    var stopAutoScroll = function () {
+        if (autoScrollFrameId !== null) {
+            cancelAnimationFrame(autoScrollFrameId);
+            autoScrollFrameId = null;
+        }
+    };
+
+    var startAutoScroll = function () {
+        if (prefersReducedMotion || autoScrollFrameId !== null) {
+            return;
+        }
+        var step = function () {
+            if (!isDragging && !isAutoScrollPaused) {
+                skillsCarouselWrapper.scrollLeft += autoScrollSpeed;
+                normalizeScrollPosition();
+            }
+            autoScrollFrameId = requestAnimationFrame(step);
+        };
+        autoScrollFrameId = requestAnimationFrame(step);
+    };
+
+    if (window.matchMedia) {
+        prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    }
+
     skillsCarouselWrapper.addEventListener("pointerdown", function (event) {
         stopMomentum();
+        stopAutoScroll();
         isDragging = true;
         dragStartX = event.pageX - skillsCarouselWrapper.offsetLeft;
         startScrollLeft = skillsCarouselWrapper.scrollLeft;
@@ -79,6 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (Math.abs(momentumVelocity) > 0.02) {
             startMomentum();
         }
+        startAutoScroll();
     });
 
     skillsCarouselWrapper.addEventListener("pointerleave", function () {
@@ -88,6 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (Math.abs(momentumVelocity) > 0.02) {
             startMomentum();
         }
+        startAutoScroll();
     });
 
     skillsCarouselWrapper.addEventListener("pointermove", function (event) {
@@ -96,6 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var currentX = event.pageX - skillsCarouselWrapper.offsetLeft;
         var walk = (currentX - dragStartX) * 1.1;
         skillsCarouselWrapper.scrollLeft = startScrollLeft - walk;
+        normalizeScrollPosition();
 
         var now = Date.now();
         var deltaX = event.pageX - lastPointerX;
@@ -104,4 +165,17 @@ document.addEventListener("DOMContentLoaded", function () {
         lastPointerX = event.pageX;
         lastPointerTime = now;
     });
+
+    skillsCarouselWrapper.addEventListener("scroll", normalizeScrollPosition);
+
+    skillsCarouselWrapper.addEventListener("mouseenter", function () {
+        isAutoScrollPaused = true;
+    });
+
+    skillsCarouselWrapper.addEventListener("mouseleave", function () {
+        isAutoScrollPaused = false;
+        startAutoScroll();
+    });
+
+    startAutoScroll();
 });
