@@ -54,21 +54,10 @@ const fileSystem: FolderItem = {
           type: 'file',
           project: {
             title: 'Algorithm Analysis tool',
-            description: 'A full-stack tool for analyzing and visualizing algorithm performance with interactive charts and benchmarks.',
+            description: 'A full-stack tool for analyzing and visualizing algorithm performance on a given leetcode-style problem.',
             technologies: ['Python'],
             date: '2023-01',
             github: 'https://github.com/rjviernes620/COMP-1819---Coursework',
-          }
-        },
-        {
-          id: 'blog',
-          name: 'Personal Blog Engine',
-          type: 'file',
-          project: {
-            title: 'Personal Blog Engine',
-            description: 'A lightweight, SEO-optimized blog engine with markdown support and custom theming.',
-            technologies: ['Next.js', 'MDX', 'Tailwind CSS', 'Vercel'],
-            date: '2023-11'
           }
         }
       ]
@@ -139,16 +128,30 @@ const fileSystem: FolderItem = {
       type: 'folder',
       children: [
         {
-          id: 'chatbot',
-          name: 'AI Chatbot',
+          id: 'login_spreadsheet',
+          name: 'login spreadsheet generator',
           type: 'file',
           project: {
-            title: 'AI Chatbot',
-            description: 'Intelligent chatbot using natural language processing for customer support automation.',
-            technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
+            title: 'login spreadsheet generator',
+            description: 'Automated tool for generating physical login slips for events.',
+            technologies: ['Python', 'Pandas', 'OpenPyXL'],
             date: '2024-02'
           }
-        }
+        },
+          {
+            id: 'NFC_OD',
+            name: 'NFC-Based Event engagement system',
+            type: 'file',
+            project: {
+              title: 'NFC-Based Event engagement system',
+              description: 'An NFC-based event engagement framework which allows for users to access event information and interavtive content with the use of NFC technology and mobile devices. Reducing the need for physical materials and enhancing user experience at events.',
+              technologies: ['Python', 'NFC Technology'],
+              date: '2024-04'
+          }
+        },
+          // {
+          //   id: 
+          // }
       ]
     }
     ,
