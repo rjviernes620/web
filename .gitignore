@@ -5,12 +5,6 @@ assets/recommend_PK/node_modules/
 assets/recommend_PK copy/node_modules/
 assets/recommend_PK copy 2/node_modules/
 
-# Build outputs
-dist/
-assets/ui_test/dist/
-assets/recommend_PK/dist/
-assets/recommend_PK copy/dist/
-assets/recommend_PK copy 2/dist/
 
 # Lock files
 package-lock.json
