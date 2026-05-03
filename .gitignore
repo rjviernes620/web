@@ -1,2 +1,74 @@
-assets\ui_test\node_modules
-assets\recommend\node_modules
+# Dependencies
+node_modules/
+assets/ui_test/node_modules/
+assets/recommend_PK/node_modules/
+assets/recommend_PK copy/node_modules/
+assets/recommend_PK copy 2/node_modules/
+
+# Build outputs
+dist/
+assets/ui_test/dist/
+assets/recommend_PK/dist/
+assets/recommend_PK copy/dist/
+assets/recommend_PK copy 2/dist/
+
+# Lock files
+package-lock.json
+assets/ui_test/package-lock.json
+assets/recommend_PK/package-lock.json
+assets/recommend_PK copy/package-lock.json
+assets/recommend_PK copy 2/package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+assets/ui_test/.env*
+assets/recommend_PK/.env*
+assets/recommend_PK copy/.env*
+assets/recommend_PK copy 2/.env*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+assets/ui_test/*.log
+assets/recommend_PK/*.log
+assets/recommend_PK copy/*.log
+assets/recommend_PK copy 2/*.log
+
+# Cache and temp
+.cache/
+.temp/
+.tmp/
+assets/ui_test/.cache/
+assets/recommend_PK/.cache/
+assets/recommend_PK copy/.cache/
+assets/recommend_PK copy 2/.cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+assets/ui_test/.DS_Store
+assets/recommend_PK/.DS_Store
+assets/recommend_PK copy/.DS_Store
+assets/recommend_PK copy 2/.DS_Store
+
+# IDE
+.vscode/
+assets/ui_test/.vscode/
+assets/recommend_PK/.vscode/
+assets/recommend_PK copy/.vscode/
+assets/recommend_PK copy 2/.vscode/
+
+# Coverage
+coverage/
+assets/ui_test/coverage/
+assets/recommend_PK/coverage/
+assets/recommend_PK copy/coverage/
+assets/recommend_PK copy 2/coverage/
