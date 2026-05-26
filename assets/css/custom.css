@@ -293,10 +293,19 @@ html, body {
 }
 
 /* Keep the section-2 Instagram item and note side-by-side */
+/* Keep the section-2 Instagram item and note side-by-side */
 .instagram-note-row {
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* vertically center the badge with the embed */
+    justify-content: space-between; /* push the badge to the right */
     gap: 0.75rem;
+    width: 100%;
+}
+
+/* Ensure the instagram wrapper can shrink inside narrower containers */
+.instagram-note-row .instagram-wrapper {
+    flex: 1 1 auto;
+    min-width: 0; /* allow proper shrinking with text-overflow */
 }
 
 .coming-soon-badge {
@@ -307,7 +316,8 @@ html, body {
     font-weight: 700;
     border-radius: 4px;
     white-space: nowrap;
-    margin-top: 8px;
+    margin-top: 0;
+    flex: 0 0 auto; /* keep badge at its intrinsic size */
 }
 
 @media (max-width: 576px) {
