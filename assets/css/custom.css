@@ -76,7 +76,7 @@
 
 /* Increase page zoom by 25% */
 body {
-    zoom: 100%;
+    zoom: 150%;
 }
 
 /* Constrain overall page width - only on desktop */
