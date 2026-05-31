@@ -149,9 +149,17 @@ const fileSystem: FolderItem = {
               date: '2024-04'
           }
         },
-          // {
-          //   id: 
-          // }
+           {
+             id: 'Robot_Painter',
+             name: 'Robot Painter',
+             type: 'file',
+             project: {
+              title: 'Robot Painter',
+              description: 'A robotic system designed to autonomously create paintings based on user input and predefined styles.',
+              technologies: ['Python', 'Robotics', 'Computer Vision'],
+              date: '2024-05'
+            }
+           },
       ]
     }
     ,
@@ -191,7 +199,7 @@ export function FileExplorer() {
     let current: FileSystemItem = fileSystem;
     for (let i = 1; i < currentPath.length; i++) {
       if (current.type === 'folder') {
-        const found = current.children.find(child => child.name === currentPath[i]);
+        const found: FileSystemItem | undefined = current.children.find((child: FileSystemItem) => child.name === currentPath[i]);
         if (found) {
           current = found;
         }
