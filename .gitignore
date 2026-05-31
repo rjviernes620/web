@@ -1,17 +1,19 @@
 # Dependencies
 node_modules/
-assets/ui_test/node_modules/
-assets/recommend_PK/node_modules/
-assets/recommend_PK copy/node_modules/
-assets/recommend_PK copy 2/node_modules/
+assets/dynam_assets/ui_test/node_modules/
+assets/dynam_assets/jobs/node_modules/
+assets/dynam_assets/recommend_AT/node_modules/
+assets/dynam_assets/recommend_PK/node_modules/
+assets/dynam_assets/recommend_ZF/node_modules/
 
 
 # Lock files
 package-lock.json
-assets/ui_test/package-lock.json
-assets/recommend_PK/package-lock.json
-assets/recommend_PK copy/package-lock.json
-assets/recommend_PK copy 2/package-lock.json
+assets/dynam_assets/ui_test/package-lock.json
+assets/dynam_assets/jobs/package-lock.json
+assets/dynam_assets/recommend_AT/package-lock.json
+assets/dynam_assets/recommend_PK/package-lock.json
+assets/dynam_assets/recommend_ZF/package-lock.json
 
 # Environment variables
 .env
@@ -19,10 +21,11 @@ assets/recommend_PK copy 2/package-lock.json
 .env.development.local
 .env.test.local
 .env.production.local
-assets/ui_test/.env*
-assets/recommend_PK/.env*
-assets/recommend_PK copy/.env*
-assets/recommend_PK copy 2/.env*
+assets/dynam_assets/ui_test/.env*
+assets/dynam_assets/jobs/.env*
+assets/dynam_assets/recommend_AT/.env*
+assets/dynam_assets/recommend_PK/.env*
+assets/dynam_assets/recommend_ZF/.env*
 
 # Logs
 *.log
@@ -31,38 +34,43 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-assets/ui_test/*.log
-assets/recommend_PK/*.log
-assets/recommend_PK copy/*.log
-assets/recommend_PK copy 2/*.log
+assets/dynam_assets/ui_test/*.log
+assets/dynam_assets/jobs/*.log
+assets/dynam_assets/recommend_AT/*.log
+assets/dynam_assets/recommend_PK/*.log
+assets/dynam_assets/recommend_ZF/*.log
 
 # Cache and temp
 .cache/
 .temp/
 .tmp/
-assets/ui_test/.cache/
-assets/recommend_PK/.cache/
-assets/recommend_PK copy/.cache/
-assets/recommend_PK copy 2/.cache/
+assets/dynam_assets/ui_test/.cache/
+assets/dynam_assets/jobs/.cache/
+assets/dynam_assets/recommend_AT/.cache/
+assets/dynam_assets/recommend_PK/.cache/
+assets/dynam_assets/recommend_ZF/.cache/
 
 # OS generated files
 .DS_Store
 Thumbs.db
-assets/ui_test/.DS_Store
-assets/recommend_PK/.DS_Store
-assets/recommend_PK copy/.DS_Store
-assets/recommend_PK copy 2/.DS_Store
+assets/dynam_assets/ui_test/.DS_Store
+assets/dynam_assets/jobs/.DS_Store
+assets/dynam_assets/recommend_AT/.DS_Store
+assets/dynam_assets/recommend_PK/.DS_Store
+assets/dynam_assets/recommend_ZF/.DS_Store
 
 # IDE
 .vscode/
-assets/ui_test/.vscode/
-assets/recommend_PK/.vscode/
-assets/recommend_PK copy/.vscode/
-assets/recommend_PK copy 2/.vscode/
+assets/dynam_assets/ui_test/.vscode/
+assets/dynam_assets/jobs/.vscode/
+assets/dynam_assets/recommend_AT/.vscode/
+assets/dynam_assets/recommend_PK/.vscode/
+assets/dynam_assets/recommend_ZF/.vscode/
 
 # Coverage
 coverage/
-assets/ui_test/coverage/
-assets/recommend_PK/coverage/
-assets/recommend_PK copy/coverage/
-assets/recommend_PK copy 2/coverage/
+assets/dynam_assets/ui_test/coverage/
+assets/dynam_assets/jobs/coverage/
+assets/dynam_assets/recommend_AT/coverage/
+assets/dynam_assets/recommend_PK/coverage/
+assets/dynam_assets/recommend_ZF/coverage/

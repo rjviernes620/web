@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { 
   Folder, 
   FolderOpen, 
@@ -309,7 +309,7 @@ export function FileExplorer() {
             {/* Main Content Area */}
             <div 
               className="flex-1 p-6 overflow-y-auto"
-              onClick={(e) => {
+              onClick={(e: React.MouseEvent<HTMLDivElement>) => {
                 // Only deselect if clicking on the container itself, not on interactive elements
                 if (e.target === e.currentTarget) {
                   setSelectedProject(null);
