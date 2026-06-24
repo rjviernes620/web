@@ -162,7 +162,7 @@ const fileSystem: FolderItem = {
       ]
     },
         {
-      id: 'ai',
+      id: 'prof',
       name: 'Professional Projects',
       type: 'folder',
       children: [
