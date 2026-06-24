@@ -247,8 +247,10 @@ export function FileExplorer() {
       return (
         <div>
           <button
-            onClick={() => toggleFolder(item.id)}
-            onDoubleClick={() => navigateToFolder(item, itemPath)}
+            onClick={() => {
+              toggleFolder(item.id)
+              navigateToFolder(item, itemPath)
+            }}
             className="flex items-center gap-2 w-full px-2 py-1.5 rounded hover:bg-white/5 transition-colors text-sm text-left focus:outline-none"
             style={{ paddingLeft: `${depth * 12 + 8}px` }}
           >
@@ -279,7 +281,7 @@ export function FileExplorer() {
     } else {
       return (
         <button
-          onClick={() => openProject(item, itemPath)}
+          onClick={() => openProject(item, parentPath)}
           className={`flex items-center gap-2 w-full px-2 py-1.5 rounded transition-colors text-sm text-left focus:outline-none ${
             isSelected ? 'bg-indigo-600/20 border-l-2 border-indigo-500 text-indigo-300' : 'hover:bg-white/5 text-gray-400'
           }`}
@@ -308,24 +310,33 @@ export function FileExplorer() {
         {/* Navigation Breadcrumbs */}
         <div className="flex items-center gap-1.5 text-xs text-gray-400 font-mono">
           <Home className="w-3.5 h-3.5" />
-          {currentPath.map((segment, index) => (
-            <div key={index} className="flex items-center gap-1">
-              <ChevronRight className="w-3 h-3 text-gray-600" />
-              <button
-                onClick={() => {
-                  if (index < currentPath.length - 1) {
+          {currentPath.map((segment, index) => {
+            const isLastFolder = index === currentPath.length - 1
+            const isCurrentActive = isLastFolder && !selectedProject
+            return (
+              <div key={index} className="flex items-center gap-1">
+                <ChevronRight className="w-3 h-3 text-gray-600" />
+                <button
+                  onClick={() => {
                     setCurrentPath(currentPath.slice(0, index + 1))
                     setSelectedProject(null)
-                  }
-                }}
-                className={`hover:text-white transition-colors focus:outline-none ${
-                  index === currentPath.length - 1 ? 'text-indigo-400 font-semibold' : ''
-                }`}
-              >
-                {segment}
-              </button>
+                  }}
+                  className={`hover:text-white transition-colors focus:outline-none ${
+                    isCurrentActive ? 'text-indigo-400 font-semibold' : ''
+                  }`}
+                  disabled={isCurrentActive}
+                >
+                  {segment}
+                </button>
+              </div>
+            )
+          })}
+          {selectedProject && (
+            <div className="flex items-center gap-1">
+              <ChevronRight className="w-3 h-3 text-gray-600" />
+              <span className="text-indigo-400 font-semibold">{selectedProject.name}</span>
             </div>
-          ))}
+          )}
         </div>
 
         <div className="w-16" /> {/* Spacer */}
@@ -422,7 +433,7 @@ export function FileExplorer() {
                     if (item.type === 'folder') {
                       navigateToFolder(item, [...currentPath, item.name])
                     } else {
-                      openProject(item, [...currentPath, item.name])
+                      openProject(item, currentPath)
                     }
                   }}
                   className="flex flex-col items-center gap-3 p-4 rounded-xl hover:bg-white/5 border border-transparent hover:border-white/5 transition-all group focus:outline-none"
