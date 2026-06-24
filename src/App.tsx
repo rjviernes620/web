@@ -12,7 +12,8 @@ export default function App() {
   return (
     <div className="bg-[#0a0b10] text-[#f3f4f6] min-h-screen selection:bg-indigo-500 selection:text-white">
       {/* Floating Header */}
-      <Navbar />
+      <Navbar /> 
+      
 
       {/* Main Sections */}
       <Hero />
