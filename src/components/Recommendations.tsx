@@ -52,7 +52,7 @@ Beyond social media, I also had the opportunity to work with Roel on events. He 
           <span className="text-xs font-mono font-bold tracking-wider text-indigo-400 uppercase bg-indigo-500/10 px-3 py-1 rounded-full border border-indigo-500/20">
             Recommendations
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-4">
+          <h2 className="text-3xl md:text-4xl font-consolas font-bold text-white mt-4 mb-4">
             Endorsements & Recommendations
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">

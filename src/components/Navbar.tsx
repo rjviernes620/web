@@ -75,7 +75,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <a
             href="#contact_info"
-            className="px-5 py-2 text-sm font-medium rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/20 hover:shadow-indigo-500/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+            className="px-5 py-2 text-sm font-consolas rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/20 hover:shadow-indigo-500/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0"
           >
             Contact Me
           </a>

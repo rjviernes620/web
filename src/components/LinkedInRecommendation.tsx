@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'motion'
+import { motion, AnimatePresence } from 'motion/react'
 import { Quote, Linkedin, ChevronDown, ChevronUp } from 'lucide-react'
 
 interface LinkedInRecommendationProps {

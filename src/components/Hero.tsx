@@ -26,8 +26,8 @@ export default function Hero() {
             <span className="px-3 py-1 text-xs font-mono font-semibold tracking-wider text-indigo-400 bg-indigo-500/10 rounded-full border border-indigo-500/20 mb-4 animate-pulse">
               WELCOME TO MY PORTFOLIO
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-              Hi, I'm <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Roel</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
+              <span className="typing-header">Hi, I'm Roel</span>
             </h1>
             <p className="text-lg md:text-xl font-medium text-gray-300 mb-6 font-mono border-b border-indigo-500/20 pb-3">
               Computer Science BSc (Hons) Graduate | UGC Content Creator
@@ -49,18 +49,13 @@ export default function Hero() {
 
           {/* Profile Picture */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
-            <div className="relative group">
-              {/* Glowing ring under picture */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500 to-emerald-400 rounded-2xl blur-lg opacity-40 group-hover:opacity-60 transition-opacity duration-500" />
-              
-              <div className="relative bg-[#111219] p-2.5 rounded-2xl border border-white/10 shadow-2xl transform transition-transform duration-500 group-hover:scale-[1.02]">
-                <img
-                  src="/assets/img/team/Untitled.png"
-                  alt="Roel"
-                  className="w-72 h-96 lg:w-80 lg:h-[420px] object-cover rounded-xl"
-                  loading="eager"
-                />
-              </div>
+            <div className="relative transform transition-transform duration-500 hover:scale-[1.02]">
+              <img
+                src="/assets/img/team/Untitled.png"
+                alt="Roel"
+                className="w-72 h-96 lg:w-80 lg:h-[420px] object-cover rounded-xl shadow-2xl"
+                loading="eager"
+              />
             </div>
           </div>
         </div>

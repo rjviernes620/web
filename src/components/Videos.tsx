@@ -49,7 +49,7 @@ export default function Videos() {
           <span className="text-xs font-mono font-bold tracking-wider text-emerald-400 uppercase bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
             Social Media & Production
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-4">
+          <h2 className="text-3xl md:text-4xl font-consolas font-bold text-white mt-4 mb-4">
             Some of My Video Content
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
@@ -70,14 +70,14 @@ export default function Videos() {
             {instagramFes.map((url, i) => (
               <div 
                 key={url} 
-                className="flex-shrink-0 w-[280px] md:w-[320px] bg-[#111219]/40 border border-white/5 rounded-2xl p-3 snap-start hover:border-indigo-500/20 transition-colors"
+                className="flex-shrink-0 w-[320px] sm:w-[350px] bg-[#111219]/40 border border-white/5 rounded-2xl p-3 snap-start hover:border-indigo-500/20 transition-colors"
               >
-                <div className="relative rounded-xl overflow-hidden h-[450px] bg-black/20 flex items-center justify-center">
+                <div className="relative rounded-xl overflow-hidden h-[540px] bg-black/20 flex items-center justify-center instagram-media-wrapper">
                   <blockquote 
                     className="instagram-media" 
                     data-instgrm-permalink={url} 
                     data-instgrm-version="14" 
-                    style={{ background: '#000', margin: 0, width: '100%' }}
+                    style={{ background: '#000', margin: 0, width: '100%', height: '100%' }}
                   >
                     <a href={url} target="_blank" rel="noopener noreferrer"></a>
                   </blockquote>
@@ -121,14 +121,14 @@ export default function Videos() {
             {instagramSw.map((url) => (
               <div 
                 key={url} 
-                className="flex-shrink-0 w-[280px] md:w-[320px] bg-[#111219]/40 border border-white/5 rounded-2xl p-3 snap-start hover:border-indigo-500/20 transition-colors"
+                className="flex-shrink-0 w-[320px] sm:w-[350px] bg-[#111219]/40 border border-white/5 rounded-2xl p-3 snap-start hover:border-indigo-500/20 transition-colors"
               >
-                <div className="relative rounded-xl overflow-hidden h-[450px] bg-black/20 flex items-center justify-center">
+                <div className="relative rounded-xl overflow-hidden h-[540px] bg-black/20 flex items-center justify-center instagram-media-wrapper">
                   <blockquote 
                     className="instagram-media" 
                     data-instgrm-permalink={url} 
                     data-instgrm-version="14" 
-                    style={{ background: '#000', margin: 0, width: '100%' }}
+                    style={{ background: '#000', margin: 0, width: '100%', height: '100%' }}
                   >
                     <a href={url} target="_blank" rel="noopener noreferrer"></a>
                   </blockquote>
@@ -137,7 +137,7 @@ export default function Videos() {
             ))}
             
             {/* Coming Soon Card */}
-            <div className="flex-shrink-0 w-[280px] md:w-[320px] bg-[#111219]/20 border border-dashed border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center snap-start">
+            <div className="flex-shrink-0 w-[320px] sm:w-[350px] h-[566px] bg-[#111219]/20 border border-dashed border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center snap-start">
               <span className="coming-soon-badge mb-3">More coming soon</span>
               <p className="text-sm text-gray-500 font-mono">Stay tuned for new content updates!</p>
             </div>

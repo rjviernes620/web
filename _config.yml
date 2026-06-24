@@ -1,6 +1,0 @@
-exclude:
-  - assets/dynam_assets/jobs/node_modules/
-  - assets/dynam_assets/recommend_AT/node_modules/
-  - assets/dynam_assets/recommend_PK/node_modules/
-  - assets/dynam_assets/recommend_ZF/node_modules/
-  - assets/dynam_assets/ui_test/node_modules/

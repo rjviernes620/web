@@ -10,6 +10,8 @@
   
   --animate-carousel: autoScroll 45s linear infinite;
   --animate-carousel-fast: autoScroll 30s linear infinite;
+
+  --font-consolas: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;
 }
 
 @layer utilities {
@@ -88,3 +90,37 @@
     transform: translateX(calc(-50% - 1.25rem));
   }
 }
+
+/* Force Instagram processed iframe to fill container */
+.instagram-media-wrapper iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  max-height: 100% !important;
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+
+/* Typing animation for hero header */
+.typing-header {
+  font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 3px solid #6366f1;
+  animation: typing 1.2s steps(12, end) forwards, blinking 0.8s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 12ch; }
+}
+
+@keyframes blinking {
+  from, to { border-color: transparent; }
+  50% { border-color: #6366f1; }
+}
+

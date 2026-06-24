@@ -37,7 +37,7 @@ export default function Contact() {
           <span className="text-xs font-mono font-bold tracking-wider text-purple-400 uppercase bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">
             Get In Touch
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-4">
+          <h2 className="text-3xl md:text-4xl font-consolas font-bold text-white mt-4 mb-4">
             How you can reach me
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto">

@@ -322,7 +322,7 @@ export function FileExplorer() {
             /* Project Details View */
             <div className="space-y-6 animate-fade-in">
               <div className="space-y-2 border-b border-white/5 pb-4">
-                <h2 className="text-2xl md:text-3xl font-extrabold text-white">{selectedProject.project.title}</h2>
+                <h2 className="text-2xl md:text-3xl font-consolas font-bold text-white">{selectedProject.project.title}</h2>
                 <div className="flex items-center gap-2 text-xs font-mono text-gray-400">
                   <Calendar className="w-4 h-4 text-indigo-400" />
                   <span>{new Date(selectedProject.project.date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</span>
