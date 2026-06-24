@@ -45,7 +45,7 @@ export default function Navbar() {
     }`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         <a href="#home_area" className="text-xl font-bold tracking-tight text-white flex items-center gap-1 group">
-          <span className="text-indigo-400 group-hover:text-indigo-300 transition-colors">rjviernes</span>
+          <span className="text-indigo-400 group-hover:text-indigo-300 transition-colors">Roel-Junior Alejo Viernes</span>
           <span className="text-emerald-400 font-mono text-sm group-hover:text-emerald-300 transition-colors">_</span>
         </a>
 
