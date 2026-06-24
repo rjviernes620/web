@@ -160,6 +160,35 @@ const fileSystem: FolderItem = {
           }
         },
       ]
+    },
+        {
+      id: 'ai',
+      name: 'Professional Projects',
+      type: 'folder',
+      children: [
+        {
+          id: 'juicegels',
+          name: 'juicegels.com',
+          type: 'file',
+          project: {
+            title: 'juicegels.com',
+            description: 'A mobile first e-commerce website for a startup company selling juice gels. Built on React, Python and a DB on Sanity, it features a custom CMS for managing products, orders and customer data.',
+            technologies: ['Python', 'React', 'Sanity', 'HTML', 'CSS', 'Typescript'],
+            date: '2024-02'
+          }
+        },
+        {
+          id: 'SM_Dashboard',
+          name: 'Social Media Dashboard',
+          type: 'file',
+          project: {
+            title: 'Social Media Dashboard',
+            description: 'A comprehensive web-based social media management dashboard for monitoring and analyzing social media performance.',
+            technologies: ['Python', 'React', 'Node.js'],
+            date: '2024-04'
+          }
+        },
+      ]
     }
   ]
 }
