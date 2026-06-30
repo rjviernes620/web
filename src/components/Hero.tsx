@@ -48,13 +48,12 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-lg md:text-xl font-medium text-gray-300 mb-6 font-mono border-b border-indigo-500/20 pb-3">
-              Computer Science BSc (Hons) Graduate | UGC Content Creator
+              Web Dev | UGC Content Creator | Full Stack Dev 
             </p>
             <p className="text-base md:text-lg text-gray-400 mb-8 leading-relaxed max-w-2xl">
-              I recently graduated from the University of Greenwich with a 2:1 in Computer Science. 
-              I also was previously a Faculty Social Media Assistant and a Student Ambassador. I have a passion for coding and creating content, which is what I have been doing for the past few years.
+              I’m a Computer Science graduate from the University of Greenwich who builds at the intersection of software engineering and digital storytelling. Combining structured coding with creative content production, I turn complex concepts into clean code and engaging media.
               <br /><br />
-              Now I'm looking for a role either in software development, Data Analytics, Content creation, Social Media or a role that combines both of these things. I have a wide range of skills and experience that I can bring to any role, and I'm always looking to learn new things and take on new challenges.
+              Whether developing full-stack apps, analyzing data, or building UGC campaigns, I focus on crafting premium digital experiences. I am currently looking for roles in Software Development, Data Analytics, or Content Ops where I can push boundaries and bridge technology with audience engagement.
             </p>
             <button
               onClick={() => setShowModal(true)}
