@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FileText, X, ExternalLink } from 'lucide-react'
+import { FileText, X, ExternalLink, Github, Linkedin, Instagram, Mail } from 'lucide-react'
 
 export default function Hero() {
   const [showModal, setShowModal] = useState(false)
@@ -23,9 +23,30 @@ export default function Hero() {
             <span className="px-3 py-1 text-xs font-mono font-semibold tracking-wider text-indigo-400 bg-indigo-500/10 rounded-full border border-indigo-500/20 mb-4">
               WELCOME TO MY PORTFOLIO
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 leading-tight">
               <span className="typing-header">Hi, I'm Roel</span>
             </h1>
+
+            {/* Social Links Row */}
+            <div className="flex items-center gap-3 mb-6">
+              {[
+                { icon: <Github className="w-5 h-5" />, href: 'https://github.com/rjviernes620', color: 'hover:text-white hover:scale-110 hover:border-white/20', label: 'GitHub' },
+                { icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/in/roel-junior-alejo-viernes-bab8a7253/', color: 'hover:text-[#0077B5] hover:scale-110 hover:border-[#0077B5]/30', label: 'LinkedIn' },
+                { icon: <Instagram className="w-5 h-5" />, href: 'https://www.instagram.com/rj.viernes04', color: 'hover:text-[#E1306C] hover:scale-110 hover:border-[#E1306C]/30', label: 'Instagram' },
+                { icon: <Mail className="w-5 h-5" />, href: 'mailto:roel@rjviernes.tech', color: 'hover:text-indigo-400 hover:scale-110 hover:border-indigo-500/30', label: 'Email' }
+              ].map((item, idx) => (
+                <a
+                  key={idx}
+                  href={item.href}
+                  target={item.href.startsWith('mailto:') ? undefined : '_blank'}
+                  rel={item.href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+                  className={`p-2 rounded-full bg-white/[0.03] border border-white/5 text-gray-400 transition-all duration-300 ${item.color}`}
+                  title={item.label}
+                >
+                  {item.icon}
+                </a>
+              ))}
+            </div>
             <p className="text-lg md:text-xl font-medium text-gray-300 mb-6 font-mono border-b border-indigo-500/20 pb-3">
               Computer Science BSc (Hons) Graduate | UGC Content Creator
             </p>
