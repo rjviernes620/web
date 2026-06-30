@@ -52,7 +52,7 @@ export default function Contact() {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`glass-card p-6 md:p-8 rounded-2xl border border-white/5 flex flex-col justify-between items-start gap-8 transition-all hover:-translate-y-1 hover:bg-white/[0.04] shadow-xl ${link.color} group`}
+              className={`bg-[#111219]/65 backdrop-blur-[16px] border border-[#ffffff]/8 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] p-6 md:p-8 rounded-2xl flex flex-col justify-between items-start gap-8 transition-all hover:-translate-y-1 hover:bg-[#ffffff]/[0.04] ${link.color} group`}
             >
               <div className="flex justify-between items-start w-full">
                 <div className={`p-4 rounded-xl ${link.accent}`}>

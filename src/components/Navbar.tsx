@@ -40,17 +40,17 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled 
-        ? 'bg-[#0a0b10]/80 backdrop-blur-md py-3 border-b border-white/5 shadow-lg' 
-        : 'bg-transparent py-5'
+        ? 'bg-[#0a0b10]/80 backdrop-blur-md py-2 md:py-2.5 border-b border-white/5 shadow-lg' 
+        : 'bg-transparent py-4 md:py-5'
     }`}>
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a href="#home_area" className="text-xl font-bold tracking-tight text-white flex items-center gap-1 group">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-12 flex items-center justify-between">
+        <a href="#home_area" className="text-base sm:text-lg md:text-sm lg:text-lg xl:text-xl font-bold tracking-tight text-white flex items-center gap-1 group">
           <span className="text-indigo-400 group-hover:text-indigo-300 transition-colors">Roel-Junior Alejo Viernes</span>
           <span className="text-emerald-400 font-mono text-sm group-hover:text-emerald-300 transition-colors">_</span>
         </a>
 
         {/* Desktop Nav */}
-        <ul className="hidden md:flex items-center gap-8">
+        <ul className="hidden md:flex items-center md:gap-3 lg:gap-5 xl:gap-8">
           {navLinks.map((link) => {
             const id = link.href.substring(1)
             const isActive = activeSection === id
@@ -58,7 +58,7 @@ export default function Navbar() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className={`text-sm font-mono transition-colors relative py-1 ${
+                  className={`text-xs lg:text-sm font-mono transition-colors relative py-1 ${
                     isActive ? 'text-indigo-400 font-semibold' : 'text-gray-400 hover:text-white'
                   }`}
                 >
@@ -75,7 +75,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <a
             href="#contact_info"
-            className="px-5 py-2 text-sm font-consolas rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/20 hover:shadow-indigo-500/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+            className="md:px-3 md:py-1.5 md:text-xs lg:px-5 lg:py-2 lg:text-sm font-consolas rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/20 hover:shadow-indigo-500/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0"
           >
             Contact Me
           </a>

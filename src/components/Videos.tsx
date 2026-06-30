@@ -90,7 +90,7 @@ export default function Videos() {
         {/* YouTube Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
           {youtubeVideos.map((src, i) => (
-            <div key={src} className="glass-card p-4 rounded-2xl overflow-hidden shadow-2xl hover:scale-[1.01] transition-transform duration-300">
+            <div key={src} className="bg-[#111219]/65 backdrop-blur-[16px] border border-[#ffffff]/8 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] p-4 rounded-2xl overflow-hidden hover:scale-[1.01] transition-transform duration-300">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-black/40 border border-white/5">
                 <iframe
                   width="100%"
@@ -138,7 +138,7 @@ export default function Videos() {
             
             {/* Coming Soon Card */}
             <div className="flex-shrink-0 w-[320px] sm:w-[350px] h-[566px] bg-[#111219]/20 border border-dashed border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center snap-start">
-              <span className="coming-soon-badge mb-3">More coming soon</span>
+              <span className="bg-[#ffffff]/10 backdrop-blur-[4px] text-[#ffffff] border border-[#ffffff]/15 px-2.5 py-1 text-xs font-bold rounded-full mb-3">More coming soon</span>
               <p className="text-sm text-gray-500 font-mono">Stay tuned for new content updates!</p>
             </div>
           </div>
