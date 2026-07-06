@@ -138,11 +138,11 @@ export default function Skills() {
 
         {/* Bento Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          
+
           {/* Card 1: Tech Code Console (Col Span 2) */}
           <div className="lg:col-span-2 bg-[#111219]/60 border border-white/5 rounded-2xl p-6 relative overflow-hidden backdrop-blur-md flex flex-col justify-between group hover:border-indigo-500/20 transition-all duration-300">
             <div className="absolute top-0 right-0 w-48 h-48 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
-            
+
             {/* Window header */}
             <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-4">
               <div className="flex items-center gap-2">
@@ -152,25 +152,22 @@ export default function Skills() {
               <div className="flex gap-1.5 font-mono">
                 <button
                   onClick={() => setActiveTab('ts')}
-                  className={`font-mono text-[11px] px-2.5 py-1 rounded transition-colors cursor-pointer ${
-                    activeTab === 'ts' ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30' : 'text-gray-500 hover:text-gray-300'
-                  }`}
+                  className={`font-mono text-[11px] px-2.5 py-1 rounded transition-colors cursor-pointer ${activeTab === 'ts' ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30' : 'text-gray-500 hover:text-gray-300'
+                    }`}
                 >
                   skills.ts
                 </button>
                 <button
                   onClick={() => setActiveTab('sql')}
-                  className={`font-mono text-[11px] px-2.5 py-1 rounded transition-colors cursor-pointer ${
-                    activeTab === 'sql' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' : 'text-gray-500 hover:text-gray-300'
-                  }`}
+                  className={`font-mono text-[11px] px-2.5 py-1 rounded transition-colors cursor-pointer ${activeTab === 'sql' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' : 'text-gray-500 hover:text-gray-300'
+                    }`}
                 >
                   analytics.sql
                 </button>
                 <button
                   onClick={() => setActiveTab('css')}
-                  className={`font-mono text-[11px] px-2.5 py-1 rounded transition-colors cursor-pointer ${
-                    activeTab === 'css' ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30' : 'text-gray-500 hover:text-gray-300'
-                  }`}
+                  className={`font-mono text-[11px] px-2.5 py-1 rounded transition-colors cursor-pointer ${activeTab === 'css' ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30' : 'text-gray-500 hover:text-gray-300'
+                    }`}
                 >
                   styling.css
                 </button>
@@ -225,7 +222,7 @@ export default function Skills() {
           {/* Card 2: GitHub Status and Commits (Col Span 1, Row Span 2) */}
           <div className="bg-[#111219]/60 border border-white/5 rounded-2xl p-6 relative overflow-hidden backdrop-blur-md flex flex-col justify-between group hover:border-indigo-500/20 transition-all duration-300 lg:row-span-2">
             <div className="absolute top-0 right-0 w-36 h-36 bg-indigo-500/5 rounded-full blur-2xl pointer-events-none" />
-            
+
             {/* Header */}
             <div>
               <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-4">
@@ -343,7 +340,7 @@ export default function Skills() {
           {/* Card 3: Data Analytics & Operations (Col Span 1) */}
           <div className="bg-[#111219]/60 border border-white/5 rounded-2xl p-6 relative overflow-hidden backdrop-blur-md flex flex-col justify-between group hover:border-emerald-500/20 transition-all duration-300">
             <div className="absolute top-0 right-0 w-36 h-36 bg-emerald-500/5 rounded-full blur-2xl pointer-events-none" />
-            
+
             <div>
               <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-4">
                 <div className="flex items-center gap-2">
@@ -360,7 +357,7 @@ export default function Skills() {
                 <div className="flex items-end justify-between h-14 w-full px-2 border-b border-white/5 pb-1">
                   {[35, 45, 60, 50, 75, 90, 85].map((val, idx) => (
                     <div key={idx} className="flex flex-col items-center w-[10%] group/bar">
-                      <div 
+                      <div
                         className="w-full bg-emerald-500/30 group-hover/bar:bg-emerald-500 rounded-t-sm transition-all duration-300"
                         style={{ height: `${val}%` }}
                       />
@@ -395,7 +392,7 @@ export default function Skills() {
           {/* Card 4: Leadership & Influence (Col Span 2) */}
           <div className="lg:col-span-2 bg-[#111219]/60 border border-white/5 rounded-2xl p-6 relative overflow-hidden backdrop-blur-md flex flex-col justify-between group hover:border-indigo-500/20 transition-all duration-300">
             <div className="absolute top-0 right-0 w-48 h-48 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
-            
+
             <div>
               <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-4">
                 <div className="flex items-center gap-2">
@@ -418,7 +415,7 @@ export default function Skills() {
                 <div className="bg-[#0c0d13] p-4 rounded-lg border border-white/5">
                   <div className="flex items-center gap-2 mb-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-purple-400" />
-                    <h4 className="text-xs font-semibold text-white">UK Student Recruitment Leader</h4>
+                    <h4 className="text-xs font-semibold text-white">UK Senior Student Recruitment Ambassador</h4>
                   </div>
                   <p className="text-[11px] text-gray-400 leading-relaxed">
                     Managed telephone and CRM databases while mentoring new ambassadors. Led critical Clearing campaigns.
@@ -430,8 +427,8 @@ export default function Skills() {
             {/* Badging list */}
             <div className="mt-4 pt-4 border-t border-white/5 flex flex-wrap gap-2">
               {['Team Management', 'Public Speaking', 'Event Operations', 'Academic Representation', 'Mentorship'].map((badge) => (
-                <span 
-                  key={badge} 
+                <span
+                  key={badge}
                   className="font-mono text-[9px] px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/20 text-indigo-300"
                 >
                   {badge}
@@ -443,7 +440,7 @@ export default function Skills() {
           {/* Card 5: Toolbox Badge Cluster (Col Span 3) */}
           <div className="lg:col-span-3 bg-[#111219]/60 border border-white/5 rounded-2xl p-6 relative overflow-hidden backdrop-blur-md flex flex-col justify-between group hover:border-indigo-500/20 transition-all duration-300">
             <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
-            
+
             <div>
               <div className="flex items-center justify-between mb-6 border-b border-white/10 pb-4">
                 <div className="flex items-center gap-2">
@@ -473,7 +470,7 @@ export default function Skills() {
                 ))}
               </div>
             </div>
-            
+
             <div className="mt-6 pt-4 border-t border-white/5 flex items-center justify-center gap-4 text-[10px] text-gray-500 font-mono">
               <span className="flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#EA77FF]" /> Creative Production
