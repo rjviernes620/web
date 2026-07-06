@@ -1,0 +1,36 @@
+name: Update GitHub Statistics
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' # Runs every 2 hours
+  workflow_dispatch: # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch GitHub Stats and Commits
+        run: node scripts/fetch-github-data.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/github-data.json docs/github-data.json
+          if git diff --staged --quiet; then
+            echo "No changes in GitHub data. Skipping commit."
+          else
+            git commit -m "chore: auto-update GitHub statistics and commits [skip ci]"
+            git push
+          fi
