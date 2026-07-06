@@ -64,38 +64,77 @@ export default function Skills() {
     })
   }
 
-  // Fetch GitHub Stats and Commits from the pre-fetched local JSON file
+  // Fetch GitHub Stats and Commits: SWR (Stale-While-Revalidate) Hybrid
   useEffect(() => {
-    const fetchGitHubData = async () => {
+    const loadGitHubData = async () => {
+      let cachedData: any = null
+      
+      // 1. Load cached static JSON immediately
       try {
         const res = await fetch('/github-data.json')
-        if (!res.ok) throw new Error('Failed to fetch github-data.json')
-        const data = await res.json()
-        setGhStats(data.stats)
-        setCommits(data.commits)
+        if (res.ok) {
+          cachedData = await res.json()
+          setGhStats(cachedData.stats)
+          setCommits(cachedData.commits)
+          setLoading(false) // Render cached data instantly
+        }
       } catch (err) {
-        console.error('Error fetching GitHub data from local storage, loading fallback:', err)
-        // Graceful fallbacks using real projects & commits
-        setGhStats({
-          followers: 12,
-          public_repos: 15,
-          avatar_url: 'https://github.com/rjviernes620.png',
-          html_url: 'https://github.com/rjviernes620',
-          login: 'rjviernes620',
-          name: 'Roel Viernes'
-        })
-        setCommits([
-          { repo: 'web', message: 'Redesign skills & experience sections into bento layout', date: 'Jul 6', sha: 'a8b3f1c', url: 'https://github.com/rjviernes620/web' },
-          { repo: 'web', message: 'Initial commit of Vite + TS portfolio site', date: 'Jun 28', sha: 'c7d2e4a', url: 'https://github.com/rjviernes620/web' },
-          { repo: 'HandTyper', message: 'Improve Mediapipe gesture calibration scripts', date: 'May 12', sha: 'f9e0d1c', url: 'https://github.com/rjviernes620/HandTyper' },
-          { repo: 'event-guides', message: 'Update NFC tag registry and database schemas', date: 'Apr 24', sha: 'b5d1f2a', url: 'https://github.com/rjviernes620/web' }
-        ])
+        console.error('Error loading local cached GitHub stats:', err)
+      }
+
+      // 2. Fetch fresh real-time data from GitHub API in the background
+      try {
+        const profileRes = await fetch('https://api.github.com/users/rjviernes620')
+        if (!profileRes.ok) throw new Error('Profile fetch failed')
+        const profileData = await profileRes.json()
+        
+        const freshStats = {
+          followers: profileData.followers,
+          public_repos: profileData.public_repos,
+          avatar_url: profileData.avatar_url,
+          html_url: profileData.html_url,
+          login: profileData.login,
+          name: profileData.name || profileData.login
+        }
+        setGhStats(freshStats)
+
+        const commitsRes = await fetch('https://api.github.com/search/commits?q=author:rjviernes620&sort=author-date&order=desc&per_page=4')
+        if (!commitsRes.ok) throw new Error('Commits search failed')
+        const commitsData = await commitsRes.json()
+
+        const freshCommits = (commitsData.items || []).map((item: any) => ({
+          repo: item.repository.name,
+          message: item.commit.message.split('\n')[0],
+          date: new Date(item.commit.author.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+          sha: item.sha.substring(0, 7),
+          url: item.html_url
+        }))
+        setCommits(freshCommits)
+      } catch (err) {
+        console.warn('Background GitHub API refresh failed (likely rate-limited), keeping cached data:', err)
+        // If we failed to load cached data initially, use fallback mockup
+        if (!cachedData) {
+          setGhStats({
+            followers: 12,
+            public_repos: 15,
+            avatar_url: 'https://github.com/rjviernes620.png',
+            html_url: 'https://github.com/rjviernes620',
+            login: 'rjviernes620',
+            name: 'Roel Viernes'
+          })
+          setCommits([
+            { repo: 'web', message: 'Redesign skills & experience sections into bento layout', date: 'Jul 6', sha: 'a8b3f1c', url: 'https://github.com/rjviernes620/web' },
+            { repo: 'web', message: 'Initial commit of Vite + TS portfolio site', date: 'Jun 28', sha: 'c7d2e4a', url: 'https://github.com/rjviernes620/web' },
+            { repo: 'HandTyper', message: 'Improve Mediapipe gesture calibration scripts', date: 'May 12', sha: 'f9e0d1c', url: 'https://github.com/rjviernes620/HandTyper' },
+            { repo: 'event-guides', message: 'Update NFC tag registry and database schemas', date: 'Apr 24', sha: 'b5d1f2a', url: 'https://github.com/rjviernes620/web' }
+          ])
+        }
       } finally {
         setLoading(false)
       }
     }
 
-    fetchGitHubData()
+    loadGitHubData()
   }, [])
 
   // Tools listing
