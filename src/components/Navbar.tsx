@@ -10,6 +10,7 @@ export default function Navbar() {
     { label: './About Me', href: '#home_area' },
     { label: './Projects', href: '#projects' },
     { label: './Roles', href: '#jobs' },
+    { label: './Case Studies', href: '#case-studies' },
     { label: './Recommendations', href: '#recommendations' },
     { label: './Videos', href: '#videos' },
     { label: './Skill Toolkit', href: '#mini-references' },

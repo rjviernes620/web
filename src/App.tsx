@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Jobs from './components/Jobs'
+import CaseStudies from './components/CaseStudies'
 import Recommendations from './components/Recommendations'
 import Videos from './components/Videos'
 import Skills from './components/Skills'
@@ -19,6 +20,7 @@ export default function App() {
       <Hero />
       <Projects />
       <Jobs />
+      <CaseStudies />
       <Recommendations />
       <Videos />
       <Skills />
