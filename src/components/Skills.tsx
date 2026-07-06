@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import confetti from 'canvas-confetti'
 import {
   Terminal,
-  BarChart3,
   Users2,
   Sparkles,
   Code2,
@@ -376,57 +375,6 @@ export default function Skills() {
             </div>
           </div>
 
-          {/* Card 3: Data Analytics & Operations (Col Span 1) */}
-          <div className="bg-[#111219]/60 border border-white/5 rounded-2xl p-6 relative overflow-hidden backdrop-blur-md flex flex-col justify-between group hover:border-emerald-500/20 transition-all duration-300">
-            <div className="absolute top-0 right-0 w-36 h-36 bg-emerald-500/5 rounded-full blur-2xl pointer-events-none" />
-
-            <div>
-              <div className="flex items-center justify-between mb-4 border-b border-white/10 pb-4">
-                <div className="flex items-center gap-2">
-                  <BarChart3 className="text-emerald-400 w-4 h-4" />
-                  <span className="font-mono text-xs text-gray-400">operations_tracker</span>
-                </div>
-              </div>
-
-              {/* SVG Sparkline/Mini Chart */}
-              <div className="h-28 w-full bg-[#0c0d13] rounded-lg border border-white/5 p-3 flex flex-col justify-between relative mb-5">
-                <div className="absolute top-2 left-3 font-mono text-[9px] text-emerald-400 bg-emerald-400/10 px-1.5 py-0.5 rounded">
-                  OUTREACH IMPACT
-                </div>
-                <div className="flex items-end justify-between h-14 w-full px-2 border-b border-white/5 pb-1">
-                  {[35, 45, 60, 50, 75, 90, 85].map((val, idx) => (
-                    <div key={idx} className="flex flex-col items-center w-[10%] group/bar">
-                      <div
-                        className="w-full bg-emerald-500/30 group-hover/bar:bg-emerald-500 rounded-t-sm transition-all duration-300"
-                        style={{ height: `${val}%` }}
-                      />
-                      <span className="text-[7px] font-mono text-gray-600 mt-1">M{idx + 1}</span>
-                    </div>
-                  ))}
-                </div>
-                <div className="flex justify-between items-center text-[10px] text-gray-500 font-mono">
-                  <span>Data Reporting</span>
-                  <span className="text-emerald-400 font-semibold">+15% Conversion</span>
-                </div>
-              </div>
-            </div>
-
-            {/* List Metrics */}
-            <div className="space-y-2.5">
-              <div className="flex items-center justify-between text-xs border-b border-white/5 pb-2">
-                <span className="text-gray-400 font-medium">Faculty Social Reach</span>
-                <span className="text-emerald-400 font-bold font-mono">+10% Growth</span>
-              </div>
-              <div className="flex items-center justify-between text-xs border-b border-white/5 pb-2">
-                <span className="text-gray-400 font-medium">Admissions Clearing Shift</span>
-                <span className="text-emerald-400 font-bold font-mono">10+ Team Leads</span>
-              </div>
-              <div className="flex items-center justify-between text-xs pb-1">
-                <span className="text-gray-400 font-medium">Administrative Task Time</span>
-                <span className="text-emerald-400 font-bold font-mono">-10% Prep Automation</span>
-              </div>
-            </div>
-          </div>
 
           {/* Card 4: Leadership & Influence (Col Span 2) */}
           <div className="lg:col-span-2 bg-[#111219]/60 border border-white/5 rounded-2xl p-6 relative overflow-hidden backdrop-blur-md flex flex-col justify-between group hover:border-indigo-500/20 transition-all duration-300">
