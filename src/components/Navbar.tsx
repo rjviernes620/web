@@ -12,7 +12,7 @@ export default function Navbar() {
     { label: './Roles', href: '#jobs' },
     { label: './Recommendations', href: '#recommendations' },
     { label: './Videos', href: '#videos' },
-    { label: './Skills & Experience', href: '#mini-references' },
+    { label: './Skill Toolkit', href: '#mini-references' },
   ]
 
   useEffect(() => {
@@ -38,11 +38,10 @@ export default function Navbar() {
   }, [])
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled 
-        ? 'bg-[#0a0b10]/80 backdrop-blur-md py-2 md:py-2.5 border-b border-white/5 shadow-lg' 
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+        ? 'bg-[#0a0b10]/80 backdrop-blur-md py-2 md:py-2.5 border-b border-white/5 shadow-lg'
         : 'bg-transparent py-4 md:py-5'
-    }`}>
+      }`}>
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-12 flex items-center justify-between">
         <a href="#home_area" className="text-base sm:text-lg md:text-sm lg:text-lg xl:text-xl font-bold tracking-tight text-white flex items-center gap-1 group">
           <span className="text-indigo-400 group-hover:text-indigo-300 transition-colors">Roel-Junior Alejo Viernes</span>
@@ -58,9 +57,8 @@ export default function Navbar() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className={`text-xs lg:text-sm font-mono transition-colors relative py-1 ${
-                    isActive ? 'text-indigo-400 font-semibold' : 'text-gray-400 hover:text-white'
-                  }`}
+                  className={`text-xs lg:text-sm font-mono transition-colors relative py-1 ${isActive ? 'text-indigo-400 font-semibold' : 'text-gray-400 hover:text-white'
+                    }`}
                 >
                   {link.label}
                   {isActive && (
@@ -102,11 +100,10 @@ export default function Navbar() {
                   <a
                     href={link.href}
                     onClick={() => setIsOpen(false)}
-                    className={`block text-base font-mono py-1 border-l-2 pl-3 ${
-                      isActive 
-                        ? 'text-indigo-400 border-indigo-500 font-semibold bg-indigo-500/5' 
+                    className={`block text-base font-mono py-1 border-l-2 pl-3 ${isActive
+                        ? 'text-indigo-400 border-indigo-500 font-semibold bg-indigo-500/5'
                         : 'text-gray-400 border-transparent hover:text-white'
-                    }`}
+                      }`}
                   >
                     {link.label}
                   </a>

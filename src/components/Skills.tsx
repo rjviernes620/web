@@ -126,7 +126,7 @@ export default function Skills() {
         {/* Header */}
         <div className="text-center mb-16">
           <span className="text-xs font-mono font-bold tracking-wider text-indigo-400 uppercase bg-indigo-500/10 px-3 py-1 rounded-full border border-indigo-500/20">
-            Skills & Toolkit
+            Skills Toolkit
           </span>
           <h2 className="text-3xl md:text-4xl font-consolas font-bold text-white mt-4 mb-4">
             Interactive Skills Dashboard
