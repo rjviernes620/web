@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "portfolio-ate",
+      "message": "sorted out links",
+      "date": "Jul 6",
+      "sha": "d5f8b39",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/d5f8b398fc833d7445e68e238cd4d439bad33f1a"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "change some bits on hero",
+      "date": "Jul 6",
+      "sha": "c42de34",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/c42de34484c98a5068692add1b7988d6dc25e1fa"
+    },
+    {
+      "repo": "portfolio-ate",
       "message": "Merge branch 'main' of https://github.com/rjviernes620/portfolio-ate",
       "date": "Jul 6",
       "sha": "3fed9d2",
@@ -21,21 +35,7 @@
       "date": "Jul 6",
       "sha": "1844520",
       "url": "https://github.com/rjviernes620/portfolio-ate/commit/184452033a8f7a7ef83a6108d779b8066754ebc9"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "Update CNAME",
-      "date": "Jul 6",
-      "sha": "9987807",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/9987807df867c53e6d7dc0c3eb00eade1f2f6833"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "Create CNAME",
-      "date": "Jul 6",
-      "sha": "311877c",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/311877c318515b80f13edb2f425aa1d92822da48"
     }
   ],
-  "updated_at": "2026-07-06T18:02:35.537Z"
+  "updated_at": "2026-07-06T21:18:12.837Z"
 }
