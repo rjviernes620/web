@@ -12,8 +12,17 @@ const DOCS_JSON_PATH = path.join(__dirname, '../docs/github-data.json');
 async function main() {
   console.log(`Fetching GitHub data for ${USERNAME}...`);
   try {
+    const headers = {
+      'Accept': 'application/vnd.github.cloak-preview+json'
+    };
+
+    // If GITHUB_TOKEN is available, use it to avoid rate limits
+    if (process.env.GITHUB_TOKEN) {
+      headers['Authorization'] = `token ${process.env.GITHUB_TOKEN}`;
+    }
+
     // 1. Fetch Profile Stats
-    const profileRes = await fetch(`https://api.github.com/users/${USERNAME}`);
+    const profileRes = await fetch(`https://api.github.com/users/${USERNAME}`, { headers });
     if (!profileRes.ok) throw new Error(`Profile fetch failed: ${profileRes.statusText}`);
     const profileData = await profileRes.json();
     
@@ -26,27 +35,21 @@ async function main() {
       name: profileData.name || profileData.login
     };
 
-    // 2. Fetch public events for commits
-    const eventsRes = await fetch(`https://api.github.com/users/${USERNAME}/events/public`);
-    if (!eventsRes.ok) throw new Error(`Events fetch failed: ${eventsRes.statusText}`);
-    const eventsData = await eventsRes.json();
+    // 2. Fetch recent commits via Commit Search API
+    const commitsRes = await fetch(
+      `https://api.github.com/search/commits?q=author:${USERNAME}&sort=author-date&order=desc&per_page=4`,
+      { headers }
+    );
+    if (!commitsRes.ok) throw new Error(`Commits search failed: ${commitsRes.statusText}`);
+    const commitsData = await commitsRes.json();
 
-    const commits = [];
-    for (const event of eventsData) {
-      if (event.type === 'PushEvent' && event.payload && event.payload.commits) {
-        for (const c of event.payload.commits) {
-          commits.push({
-            repo: event.repo.name.replace(`${USERNAME}/`, ''),
-            message: c.message,
-            date: new Date(event.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
-            sha: c.sha.substring(0, 7),
-            url: `https://github.com/${event.repo.name}/commit/${c.sha}`
-          });
-          if (commits.length >= 4) break;
-        }
-      }
-      if (commits.length >= 4) break;
-    }
+    const commits = (commitsData.items || []).map(item => ({
+      repo: item.repository.name,
+      message: item.commit.message.split('\n')[0], // first line only
+      date: new Date(item.commit.author.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+      sha: item.sha.substring(0, 7),
+      url: item.html_url
+    }));
 
     const outputData = {
       stats,

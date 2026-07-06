@@ -22,6 +22,8 @@ jobs:
 
       - name: Fetch GitHub Stats and Commits
         run: node scripts/fetch-github-data.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push Changes
         run: |

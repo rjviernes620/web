@@ -7,6 +7,35 @@
     "login": "rjviernes620",
     "name": "Roel-Junior Alejo Viernes"
   },
-  "commits": [],
-  "updated_at": "2026-07-06T00:36:37.279Z"
+  "commits": [
+    {
+      "repo": "web",
+      "message": "Working on changing look of jobs and skills section",
+      "date": "Jul 6",
+      "sha": "16e006f",
+      "url": "https://github.com/rjviernes620/web/commit/16e006f2ee7907bb76162ec5aa2836d9366cd577"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "added admin bypass login for maintenance mode",
+      "date": "Jul 5",
+      "sha": "b0196b7",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/b0196b75953528124871ce0124899fb5fa8e3b30"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "added test publish key logic",
+      "date": "Jul 4",
+      "sha": "b6bdd60",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/b6bdd60b47d57c803240f98a289b9f7c79c73053"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "changed wording in the about page",
+      "date": "Jul 4",
+      "sha": "34ed927",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/34ed92701cb710912bd437ae3c27a30383f54b0f"
+    }
+  ],
+  "updated_at": "2026-07-06T00:44:28.073Z"
 }
