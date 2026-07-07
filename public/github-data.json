@@ -9,33 +9,33 @@
   },
   "commits": [
     {
+      "repo": "web",
+      "message": "new portrait navabr",
+      "date": "Jul 7",
+      "sha": "212410f",
+      "url": "https://github.com/rjviernes620/web/commit/212410ffe61fcb942683c33dde735cd2c0791285"
+    },
+    {
+      "repo": "web",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "date": "Jul 7",
+      "sha": "e9a10a4",
+      "url": "https://github.com/rjviernes620/web/commit/e9a10a444d5b9eabdf62d1eb012deebeda0a6676"
+    },
+    {
+      "repo": "web",
+      "message": "added new case study section",
+      "date": "Jul 6",
+      "sha": "15cd0b1",
+      "url": "https://github.com/rjviernes620/web/commit/15cd0b1066b8bed23e5a95b3e80281c4a205b4ce"
+    },
+    {
       "repo": "portfolio-ate",
       "message": "sorted out links",
       "date": "Jul 6",
       "sha": "d5f8b39",
       "url": "https://github.com/rjviernes620/portfolio-ate/commit/d5f8b398fc833d7445e68e238cd4d439bad33f1a"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "change some bits on hero",
-      "date": "Jul 6",
-      "sha": "c42de34",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/c42de34484c98a5068692add1b7988d6dc25e1fa"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/portfolio-ate",
-      "date": "Jul 6",
-      "sha": "3fed9d2",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/3fed9d2c44e4e293df3c228016caf5319b3500ce"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "changed design of case study page, pending copy",
-      "date": "Jul 6",
-      "sha": "1844520",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/184452033a8f7a7ef83a6108d779b8066754ebc9"
     }
   ],
-  "updated_at": "2026-07-06T22:54:16.984Z"
+  "updated_at": "2026-07-07T01:49:37.394Z"
 }
