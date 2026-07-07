@@ -10,32 +10,32 @@
   "commits": [
     {
       "repo": "web",
-      "message": "new portrait navabr",
+      "message": "Added skills to skillset",
       "date": "Jul 7",
-      "sha": "212410f",
-      "url": "https://github.com/rjviernes620/web/commit/212410ffe61fcb942683c33dde735cd2c0791285"
+      "sha": "e7ae077",
+      "url": "https://github.com/rjviernes620/web/commit/e7ae077ef56108fa1012503932e23c98e8790b39"
     },
     {
       "repo": "web",
       "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
       "date": "Jul 7",
-      "sha": "e9a10a4",
-      "url": "https://github.com/rjviernes620/web/commit/e9a10a444d5b9eabdf62d1eb012deebeda0a6676"
+      "sha": "ae166eb",
+      "url": "https://github.com/rjviernes620/web/commit/ae166eb6d93c99fa30cc8133d25f379f77667269"
     },
     {
       "repo": "web",
-      "message": "added new case study section",
-      "date": "Jul 6",
-      "sha": "15cd0b1",
-      "url": "https://github.com/rjviernes620/web/commit/15cd0b1066b8bed23e5a95b3e80281c4a205b4ce"
+      "message": "started on new case study section",
+      "date": "Jul 7",
+      "sha": "d8e9714",
+      "url": "https://github.com/rjviernes620/web/commit/d8e9714cb1b0c07158e2a4d0ce56c23207dc53e5"
     },
     {
-      "repo": "portfolio-ate",
-      "message": "sorted out links",
-      "date": "Jul 6",
-      "sha": "d5f8b39",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/d5f8b398fc833d7445e68e238cd4d439bad33f1a"
+      "repo": "juicegels_v2",
+      "message": "Added dev tag on footer",
+      "date": "Jul 7",
+      "sha": "be8b8ff",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/be8b8ff6736c50041d75a7a88c19edd69c8d642f"
     }
   ],
-  "updated_at": "2026-07-07T12:19:47.797Z"
+  "updated_at": "2026-07-07T16:15:14.182Z"
 }
