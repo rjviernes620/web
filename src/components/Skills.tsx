@@ -4,13 +4,6 @@ import {
   Terminal,
   Users2,
   Sparkles,
-  Code2,
-  Database,
-  Palette,
-  Laptop,
-  GitBranch,
-  FileSpreadsheet,
-  Figma,
   Github,
   GitCommit,
   ExternalLink,
@@ -67,7 +60,7 @@ export default function Skills() {
   useEffect(() => {
     const loadGitHubData = async () => {
       let cachedData: any = null
-      
+
       // 1. Load cached static JSON immediately
       try {
         const res = await fetch('/github-data.json')
@@ -86,7 +79,7 @@ export default function Skills() {
         const profileRes = await fetch('https://api.github.com/users/rjviernes620')
         if (!profileRes.ok) throw new Error('Profile fetch failed')
         const profileData = await profileRes.json()
-        
+
         const freshStats = {
           followers: profileData.followers,
           public_repos: profileData.public_repos,
@@ -138,21 +131,28 @@ export default function Skills() {
 
   // Tools listing
   const tools: Tool[] = [
-    { name: 'Figma', category: 'creative', icon: <Figma size={18} />, color: ['#F24E1E', '#FF7262'], borderColor: 'hover:border-[#F24E1E]/50', textColor: 'text-[#F24E1E]' },
-    { name: 'Canva', category: 'creative', icon: <Palette size={18} />, color: ['#00C4CC', '#7D2AE8'], borderColor: 'hover:border-[#00C4CC]/50', textColor: 'text-[#00C4CC]' },
-    { name: 'Premiere Pro', category: 'creative', icon: <Palette size={18} />, color: ['#EA77FF', '#9E00FF'], borderColor: 'hover:border-[#EA77FF]/50', textColor: 'text-[#EA77FF]' },
-    { name: 'After Effects', category: 'creative', icon: <Palette size={18} />, color: ['#9E00FF', '#0000FF'], borderColor: 'hover:border-[#9E00FF]/50', textColor: 'text-[#9E00FF]' },
-    { name: 'Photoshop', category: 'creative', icon: <Palette size={18} />, color: ['#31A8FF', '#001E36'], borderColor: 'hover:border-[#31A8FF]/50', textColor: 'text-[#31A8FF]' },
-    { name: 'Lightroom', category: 'creative', icon: <Palette size={18} />, color: ['#31A8FF', '#8FF2FF'], borderColor: 'hover:border-[#31A8FF]/50', textColor: 'text-[#8FF2FF]' },
-    { name: 'CapCut', category: 'creative', icon: <Palette size={18} />, color: ['#000000', '#FFFFFF'], borderColor: 'hover:border-white/50', textColor: 'text-white' },
-    { name: 'OBS Studio', category: 'creative', icon: <Laptop size={18} />, color: ['#302e3b', '#4a465c'], borderColor: 'hover:border-indigo-400/50', textColor: 'text-indigo-400' },
-    { name: 'Git', category: 'tech', icon: <GitBranch size={18} />, color: ['#F1502F', '#FD9765'], borderColor: 'hover:border-[#F1502F]/50', textColor: 'text-[#F1502F]' },
-    { name: 'GitHub', category: 'tech', icon: <GitBranch size={18} />, color: ['#24292e', '#4078c0'], borderColor: 'hover:border-white/40', textColor: 'text-white' },
-    { name: 'VS Code', category: 'tech', icon: <Code2 size={18} />, color: ['#007ACC', '#1F9CF0'], borderColor: 'hover:border-[#007ACC]/50', textColor: 'text-[#007ACC]' },
-    { name: 'Dynamics365 CRM', category: 'analytics', icon: <Database size={18} />, color: ['#00205B', '#00A1E0'], borderColor: 'hover:border-[#00A1E0]/50', textColor: 'text-[#00A1E0]' },
-    { name: 'Notion', category: 'analytics', icon: <Laptop size={18} />, color: ['#000000', '#FFFFFF'], borderColor: 'hover:border-gray-200/50', textColor: 'text-white' },
-    { name: 'Trello', category: 'analytics', icon: <Laptop size={18} />, color: ['#0079BF', '#5198D9'], borderColor: 'hover:border-[#0079BF]/50', textColor: 'text-[#0079BF]' },
-    { name: 'Excel', category: 'analytics', icon: <FileSpreadsheet size={18} />, color: ['#107C41', '#1F9A55'], borderColor: 'hover:border-[#107C41]/50', textColor: 'text-[#107C41]' }
+    { name: 'Figma', category: 'creative', icon: <img src="https://cdn.simpleicons.org/figma" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#F24E1E', '#FF7262'], borderColor: 'hover:border-[#F24E1E]/50', textColor: 'text-[#F24E1E]' },
+    { name: 'Canva', category: 'creative', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/canva.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#00C4CC', '#7D2AE8'], borderColor: 'hover:border-[#00C4CC]/50', textColor: 'text-[#00C4CC]' },
+    { name: 'Premiere Pro', category: 'creative', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/adobepremierepro.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#EA77FF', '#9E00FF'], borderColor: 'hover:border-[#EA77FF]/50', textColor: 'text-[#EA77FF]' },
+    { name: 'After Effects', category: 'creative', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/adobeaftereffects.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#9E00FF', '#0000FF'], borderColor: 'hover:border-[#9E00FF]/50', textColor: 'text-[#9E00FF]' },
+    { name: 'Photoshop', category: 'creative', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/adobephotoshop.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#31A8FF', '#001E36'], borderColor: 'hover:border-[#31A8FF]/50', textColor: 'text-[#31A8FF]' },
+    { name: 'Lightroom', category: 'creative', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/adobelightroom.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#31A8FF', '#8FF2FF'], borderColor: 'hover:border-[#31A8FF]/50', textColor: 'text-[#8FF2FF]' },
+    { name: 'CapCut', category: 'creative', icon: <img src="https://www.google.com/s2/favicons?domain=capcut.com&sz=64" className="w-[18px] h-[18px] shrink-0 object-contain rounded-sm" alt="" />, color: ['#000000', '#FFFFFF'], borderColor: 'hover:border-white/50', textColor: 'text-white' },
+    { name: 'OBS Studio', category: 'creative', icon: <img src="https://cdn.simpleicons.org/obsstudio/fff" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#302e3b', '#4a465c'], borderColor: 'hover:border-indigo-400/50', textColor: 'text-indigo-400' },
+    { name: 'Video Production', category: 'creative', icon: <img src="https://cdn.simpleicons.org/davinciresolve" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#1A8CFF', '#EA77FF'], borderColor: 'hover:border-[#1A8CFF]/50', textColor: 'text-[#1A8CFF]' },
+    { name: 'Content Creation', category: 'creative', icon: <img src="https://cdn.simpleicons.org/patreon" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#FF424D', '#141518'], borderColor: 'hover:border-[#FF424D]/50', textColor: 'text-[#FF424D]' },
+    { name: 'Git', category: 'tech', icon: <img src="https://cdn.simpleicons.org/git" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#F1502F', '#FD9765'], borderColor: 'hover:border-[#F1502F]/50', textColor: 'text-[#F1502F]' },
+    { name: 'GitHub', category: 'tech', icon: <img src="https://cdn.simpleicons.org/github/fff" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#24292e', '#4078c0'], borderColor: 'hover:border-white/40', textColor: 'text-white' },
+    { name: 'VS Code', category: 'tech', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/visualstudiocode.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#007ACC', '#1F9CF0'], borderColor: 'hover:border-[#007ACC]/50', textColor: 'text-[#007ACC]' },
+    { name: 'Java', category: 'tech', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#E76F00', '#5382A1'], borderColor: 'hover:border-[#E76F00]/50', textColor: 'text-[#E76F00]' },
+    { name: 'React', category: 'tech', icon: <img src="https://cdn.simpleicons.org/react" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#61DAFB', '#20232A'], borderColor: 'hover:border-[#61DAFB]/50', textColor: 'text-[#61DAFB]' },
+    { name: 'LaTeX', category: 'tech', icon: <img src="https://cdn.simpleicons.org/latex/fff" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#008080', '#FFFFFF'], borderColor: 'hover:border-white/50', textColor: 'text-white' },
+    { name: 'Dynamics365 CRM', category: 'analytics', icon: <img src="https://www.google.com/s2/favicons?domain=dynamics.microsoft.com&sz=64" className="w-[18px] h-[18px] shrink-0 object-contain rounded-sm" alt="" />, color: ['#00205B', '#00A1E0'], borderColor: 'hover:border-[#00A1E0]/50', textColor: 'text-[#00A1E0]' },
+    { name: 'Notion', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/notion/fff" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#000000', '#FFFFFF'], borderColor: 'hover:border-gray-200/50', textColor: 'text-white' },
+    { name: 'Trello', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/trello" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#0079BF', '#5198D9'], borderColor: 'hover:border-[#0079BF]/50', textColor: 'text-[#0079BF]' },
+    { name: 'Excel', category: 'analytics', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/microsoftexcel.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#107C41', '#1F9A55'], borderColor: 'hover:border-[#107C41]/50', textColor: 'text-[#107C41]' },
+    { name: 'Social Media Management', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/instagram" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#E4405F', '#F56040'], borderColor: 'hover:border-[#E4405F]/50', textColor: 'text-[#E4405F]' },
+    { name: 'SEO', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/google" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#4285F4', '#EA4335'], borderColor: 'hover:border-[#4285F4]/50', textColor: 'text-[#4285F4]' }
   ]
 
   return (
@@ -249,7 +249,7 @@ export default function Skills() {
             </div>
 
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-gray-500 font-mono">
-              <span>Stack: Python, Java, JS, TS, HTML/CSS, SQL, PowerShell</span>
+              <span>Stack: Python, Java, JS, TS, React, HTML/CSS, SQL, LaTeX</span>
               <span className="flex items-center gap-1.5 text-indigo-400">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
                 Active Sandbox
@@ -432,7 +432,7 @@ export default function Skills() {
               <div className="flex items-center justify-between mb-6 border-b border-white/10 pb-4">
                 <div className="flex items-center gap-2">
                   <Sparkles className="text-amber-400 w-4 h-4" />
-                  <span className="font-mono text-xs text-gray-400">interactive_toolbox (click badges for confetti!)</span>
+                  <span className="font-mono text-xs text-gray-400">skillset (click badges for confetti!)</span>
                 </div>
               </div>
 
