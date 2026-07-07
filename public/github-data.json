@@ -1,12 +1,41 @@
 {
   "stats": {
     "followers": 5,
-    "public_repos": 19,
+    "public_repos": 20,
     "avatar_url": "https://avatars.githubusercontent.com/u/41326712?v=4",
     "html_url": "https://github.com/rjviernes620",
     "login": "rjviernes620",
     "name": "Roel-Junior Alejo Viernes"
   },
-  "commits": [],
-  "updated_at": "2026-07-06T00:36:37.279Z"
+  "commits": [
+    {
+      "repo": "portfolio-ate",
+      "message": "sorted out links",
+      "date": "Jul 6",
+      "sha": "d5f8b39",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/d5f8b398fc833d7445e68e238cd4d439bad33f1a"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "change some bits on hero",
+      "date": "Jul 6",
+      "sha": "c42de34",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/c42de34484c98a5068692add1b7988d6dc25e1fa"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/portfolio-ate",
+      "date": "Jul 6",
+      "sha": "3fed9d2",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/3fed9d2c44e4e293df3c228016caf5319b3500ce"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "changed design of case study page, pending copy",
+      "date": "Jul 6",
+      "sha": "1844520",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/184452033a8f7a7ef83a6108d779b8066754ebc9"
+    }
+  ],
+  "updated_at": "2026-07-06T22:54:16.984Z"
 }
