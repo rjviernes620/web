@@ -50,11 +50,11 @@ const caseStudies: CaseStudy[] = [
     tags: ["Dynamics365", "CRM Workflows", "SLA Management", "Admissions Ops", "Team Leadership"],
     image: "/assets/img/code-1076536_1280.jpg",
     diagnostic: {
-      overview: "During high-pressure university clearing cycles, admissions queues faced significant performance bottlenecks. High response latency and unsynchronized applicant logs across CRM and LiveChat systems increased customer drop-off risks under tight SLAs.",
+      overview: "Juicegels, A small business selling nails have been operating for 3 years using Instagram DMs to sell their products. However, they have been facing challenges in managing their sales and customer service, which has led to lost leads and poor customer experience. Additionally, there was a significant communication lag between the response team and the admissions database, creating further bottlenecks. Compounded by the challenges of training temporary staff on complex CRM guidelines during peak periods, the existing infrastructure was unable to support the demands of a growing enterprise.",
       challenges: [
         "- Sales were initially made solely via Instagram DM, leading to lost leads and poor customer experience.",
-        "Systemic communication lag between frontline response teams and admissions back-office databases.",
-        "Onboarding bottlenecks for training temporary staff on complex CRM guidelines under strict timelines."
+        "- Inventory is presented via Instagram Posts",
+        "- Response time is slow due to the communication lag between the response team and the admissions database"
       ]
     },
     resolution: {

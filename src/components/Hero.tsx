@@ -20,9 +20,7 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Text Content */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
-            <span className="px-3 py-1 text-xs font-mono font-semibold tracking-wider text-indigo-400 bg-indigo-500/10 rounded-full border border-indigo-500/20 mb-4">
-              WELCOME TO MY PORTFOLIO
-            </span>
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 leading-tight">
               <span className="typing-header">Hi, I'm Roel</span>
             </h1>
@@ -48,7 +46,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-lg md:text-xl font-medium text-gray-300 mb-6 font-mono border-b border-indigo-500/20 pb-3">
-              Web Dev | UGC Content Creator | Full Stack Dev 
+              Web Dev | UGC Content Creator | Full Stack Dev
             </p>
             <p className="text-base md:text-lg text-gray-400 mb-8 leading-relaxed max-w-2xl">
               I’m a Computer Science graduate from the University of Greenwich who builds at the intersection of software engineering and digital storytelling. Combining structured coding with creative content production, I turn complex concepts into clean code and engaging media.
@@ -82,11 +80,11 @@ export default function Hero() {
       {showModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           {/* Backdrop */}
-          <div 
-            onClick={() => setShowModal(false)} 
+          <div
+            onClick={() => setShowModal(false)}
             className="absolute inset-0 bg-black/60 backdrop-blur-sm"
           />
-          
+
           {/* Card */}
           <div className="relative w-full max-w-md bg-[#111219] border border-white/10 rounded-2xl p-6 shadow-2xl z-10 transform scale-100 transition-transform">
             <div className="flex items-center justify-between mb-4 border-b border-white/5 pb-3">
@@ -94,18 +92,18 @@ export default function Hero() {
                 <FileText className="w-5 h-5 text-indigo-400" />
                 Select a CV Version
               </h3>
-              <button 
+              <button
                 onClick={() => setShowModal(false)}
                 className="p-1 rounded-full text-gray-400 hover:text-white hover:bg-white/5 transition-colors"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
-            
+
             <p className="text-sm text-gray-400 mb-6">
               Choose the version of my CV that best fits the role you are looking to fill.
             </p>
-            
+
             <div className="flex flex-col gap-3">
               {cvs.map((cv) => (
                 <a
@@ -120,7 +118,7 @@ export default function Hero() {
                 </a>
               ))}
             </div>
-            
+
             <div className="mt-6 flex justify-end">
               <button
                 onClick={() => setShowModal(false)}
