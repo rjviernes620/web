@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
-import { 
-  AlertCircle, 
-  Terminal, 
-  Cpu, 
-  Activity, 
-  ChevronRight, 
-  CornerDownRight, 
-  CheckCircle2, 
+import {
+  AlertCircle,
+  Terminal,
+  Cpu,
+  Activity,
+  ChevronRight,
+  CornerDownRight,
+  CheckCircle2,
   Sparkles,
   Server
 } from 'lucide-react'
@@ -41,9 +41,9 @@ const caseStudies: CaseStudy[] = [
   {
     id: 1,
     index: "01",
-    company: "University of Greenwich",
-    title: "Admissions & Clearing Operations Optimization",
-    role: "Senior Student Recruitment Ambassador",
+    company: "JuiceGels.com",
+    title: "Creating juicegels.com",
+    role: "Web Developerr",
     period: "Jan 2023 — Oct 2025",
     metric: "+15%",
     metricLabel: "Conversion Increase",
@@ -52,7 +52,7 @@ const caseStudies: CaseStudy[] = [
     diagnostic: {
       overview: "During high-pressure university clearing cycles, admissions queues faced significant performance bottlenecks. High response latency and unsynchronized applicant logs across CRM and LiveChat systems increased customer drop-off risks under tight SLAs.",
       challenges: [
-        "Inefficient triaging of incoming student queries during peak clearing windows.",
+        "- Sales were initially made solely via Instagram DM, leading to lost leads and poor customer experience.",
         "Systemic communication lag between frontline response teams and admissions back-office databases.",
         "Onboarding bottlenecks for training temporary staff on complex CRM guidelines under strict timelines."
       ]
@@ -197,7 +197,7 @@ export default function CaseStudies() {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="text-xs font-mono font-bold tracking-wider text-indigo-400 uppercase bg-indigo-500/10 px-3 py-1 rounded-full border border-indigo-500/20">
@@ -213,7 +213,7 @@ export default function CaseStudies() {
 
         {/* Console Container */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl mx-auto">
-          
+
           {/* Left Panel: Selector List (4 cols) */}
           <div className="lg:col-span-4 flex flex-col gap-4">
             <div className="flex items-center gap-2 px-1 text-gray-500 font-mono text-xs">
@@ -231,11 +231,10 @@ export default function CaseStudies() {
                       setActiveStudy(study)
                       setActiveTab('diagnostic') // Reset tab on study switch
                     }}
-                    className={`text-left w-full p-4 rounded-xl border transition-all duration-300 relative group cursor-pointer ${
-                      isActive 
-                        ? 'bg-[#111219]/90 border-indigo-500/40 shadow-[0_0_20px_rgba(99,102,241,0.08)]' 
-                        : 'bg-[#111219]/45 border-white/5 hover:border-indigo-500/20 hover:bg-[#111219]/60'
-                    }`}
+                    className={`text-left w-full p-4 rounded-xl border transition-all duration-300 relative group cursor-pointer ${isActive
+                      ? 'bg-[#111219]/90 border-indigo-500/40 shadow-[0_0_20px_rgba(99,102,241,0.08)]'
+                      : 'bg-[#111219]/45 border-white/5 hover:border-indigo-500/20 hover:bg-[#111219]/60'
+                      }`}
                   >
                     {/* Glowing highlight indicator */}
                     {isActive && (
@@ -254,7 +253,7 @@ export default function CaseStudies() {
                     <h3 className={`text-sm font-bold transition-colors mb-2 ${isActive ? 'text-white' : 'text-gray-300 group-hover:text-white'}`}>
                       {study.title}
                     </h3>
-                    
+
                     <p className="text-xs text-indigo-300/80 font-mono mb-3 truncate">
                       @{study.company}
                     </p>
@@ -276,7 +275,7 @@ export default function CaseStudies() {
 
           {/* Right Panel: Active Case Study Terminal (8 cols) */}
           <div className="lg:col-span-8 flex flex-col">
-            
+
             {/* Terminal Topbar Info */}
             <div className="flex items-center justify-between px-1 mb-2 text-gray-500 font-mono text-xs">
               <span className="flex items-center gap-1.5">
@@ -288,7 +287,7 @@ export default function CaseStudies() {
 
             {/* Simulated Terminal Window */}
             <div className="flex-1 flex flex-col bg-[#111219]/90 border border-white/10 rounded-2xl shadow-2xl overflow-hidden backdrop-blur-md">
-              
+
               {/* Window Header */}
               <div className="bg-[#0c0d13] px-4 py-3 border-b border-white/5 flex items-center justify-between">
                 <div className="flex items-center gap-2">
@@ -315,11 +314,10 @@ export default function CaseStudies() {
                     <button
                       key={tab.id}
                       onClick={() => setActiveTab(tab.id)}
-                      className={`flex items-center gap-2 px-5 py-3 text-[11px] font-mono border-r border-white/5 transition-colors cursor-pointer ${
-                        isActive 
-                          ? 'bg-[#111219] text-indigo-400 font-bold border-b-2 border-b-indigo-500' 
-                          : 'text-gray-400 hover:bg-white/[0.02] hover:text-white'
-                      }`}
+                      className={`flex items-center gap-2 px-5 py-3 text-[11px] font-mono border-r border-white/5 transition-colors cursor-pointer ${isActive
+                        ? 'bg-[#111219] text-indigo-400 font-bold border-b-2 border-b-indigo-500'
+                        : 'text-gray-400 hover:bg-white/[0.02] hover:text-white'
+                        }`}
                     >
                       <Icon size={12} className={isActive ? 'text-indigo-400' : 'text-gray-500'} />
                       <span>{tab.label}</span>
@@ -330,7 +328,7 @@ export default function CaseStudies() {
 
               {/* Terminal Screen Content */}
               <div className="p-6 md:p-8 flex-1 min-h-[300px] font-mono text-xs md:text-sm text-gray-300 space-y-6">
-                
+
                 {/* Active Info Header */}
                 <div className="border-b border-white/5 pb-4 mb-4 font-sans">
                   <div className="flex items-center gap-2 text-[10px] font-mono text-indigo-400 uppercase tracking-widest mb-1">
@@ -347,7 +345,7 @@ export default function CaseStudies() {
                 </div>
                 {/* Dual Column Layout (Text + Optional Image) */}
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
-                  
+
                   {/* Left side: Tab content */}
                   <div className={activeStudy.image ? 'md:col-span-7 space-y-4' : 'md:col-span-12 space-y-4'}>
                     <AnimatePresence mode="wait">
@@ -450,8 +448,8 @@ export default function CaseStudies() {
                     <div className="md:col-span-5 flex flex-col w-full">
                       <div className="text-[10px] font-mono text-indigo-400/70 mb-2">// VISUAL_ATTACHMENT</div>
                       <div className="relative group overflow-hidden rounded-xl border border-white/10 bg-black/30 p-1.5 backdrop-blur-sm transition-all duration-300 hover:border-indigo-500/30">
-                        <img 
-                          src={activeStudy.image} 
+                        <img
+                          src={activeStudy.image}
                           alt={activeStudy.title}
                           className="w-full aspect-video md:aspect-[4/3] object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-all duration-500"
                         />
@@ -470,7 +468,7 @@ export default function CaseStudies() {
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {activeStudy.tags.map((tag) => (
-                      <span 
+                      <span
                         key={tag}
                         className="text-[10px] font-mono px-2 py-0.5 rounded bg-indigo-500/5 border border-indigo-500/10 text-indigo-300/90"
                       >
