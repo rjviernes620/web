@@ -51,7 +51,7 @@ export default function Navbar() {
   return (
     <>
       {/* Name/Branding Badge - Top Left (Desktop Only) */}
-      <div className="fixed top-6 left-6 z-50 hidden md:flex items-center gap-2 bg-[#0a0b10]/40 hover:bg-[#0a0b10]/60 border border-white/5 hover:border-white/10 backdrop-blur-md rounded-full px-4 py-2.5 text-xs font-bold tracking-tight text-white shadow-lg transition-all duration-300 select-none">
+      <div className="fixed top-6 left-6 z-50 hidden md:flex items-center gap-2 bg-[#0a0b10]/40 hover:bg-[#0a0b10]/60 border border-white/15 hover:border-white/30 backdrop-blur-md rounded-full px-4 py-2.5 text-base font-bold tracking-tight text-white shadow-lg transition-all duration-300 select-none">
         <span className="text-indigo-400 font-mono">rjviernes.tech</span>
         <span className="text-gray-600 font-mono">|</span>
         <span className="text-gray-300 font-sans tracking-wide">Roel-Junior Alejo Viernes</span>

@@ -44,7 +44,7 @@ const caseStudies: CaseStudy[] = [
     index: "01",
     company: "JuiceGels.com",
     title: "Creating juicegels.com",
-    role: "Web Developer",
+    role: "Tech Lead",
     period: "June 2026 - Present",
     metric: "+15%",
     metricLabel: "Conversion Increase",
@@ -60,7 +60,7 @@ const caseStudies: CaseStudy[] = [
       ]
     },
     resolution: {
-      strategy: "Revamped the JuiceGels.com online presence with a modern, intuitive storefront, Easy to use CMS and integrated Instagram/Facebook shop connectivity.",
+      strategy: "Revamped the JuiceGels.com online presence with a modern, intuitive storefront, Aligned SEO Tags, Easy to use CMS and integrated Instagram/Facebook shop connectivity.",
       steps: [
         {
           title: "Ease to use CMS",
