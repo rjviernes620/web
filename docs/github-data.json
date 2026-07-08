@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "web",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "date": "Jul 8",
+      "sha": "07e2800",
+      "url": "https://github.com/rjviernes620/web/commit/07e2800a20b3bb90b82eb51088e4611632db496e"
+    },
+    {
+      "repo": "web",
+      "message": "Doing copy for case studies",
+      "date": "Jul 8",
+      "sha": "9796cbe",
+      "url": "https://github.com/rjviernes620/web/commit/9796cbe94203b4935321aae062567b4b9ef83d98"
+    },
+    {
+      "repo": "web",
       "message": "Added skills to skillset",
       "date": "Jul 7",
       "sha": "e7ae077",
@@ -21,21 +35,7 @@
       "date": "Jul 7",
       "sha": "ae166eb",
       "url": "https://github.com/rjviernes620/web/commit/ae166eb6d93c99fa30cc8133d25f379f77667269"
-    },
-    {
-      "repo": "web",
-      "message": "started on new case study section",
-      "date": "Jul 7",
-      "sha": "d8e9714",
-      "url": "https://github.com/rjviernes620/web/commit/d8e9714cb1b0c07158e2a4d0ce56c23207dc53e5"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Added dev tag on footer",
-      "date": "Jul 7",
-      "sha": "be8b8ff",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/be8b8ff6736c50041d75a7a88c19edd69c8d642f"
     }
   ],
-  "updated_at": "2026-07-07T22:49:16.389Z"
+  "updated_at": "2026-07-08T01:21:35.614Z"
 }
