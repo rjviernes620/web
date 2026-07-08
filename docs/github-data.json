@@ -9,33 +9,33 @@
   },
   "commits": [
     {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "repo": "rjviernes620",
+      "message": "updated currently working on line",
       "date": "Jul 8",
-      "sha": "07e2800",
-      "url": "https://github.com/rjviernes620/web/commit/07e2800a20b3bb90b82eb51088e4611632db496e"
+      "sha": "7badf61",
+      "url": "https://github.com/rjviernes620/rjviernes620/commit/7badf61872ba613935129fc52c51fc5578fcc345"
     },
     {
-      "repo": "web",
-      "message": "Doing copy for case studies",
+      "repo": "rjviernes620",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/rjviernes620",
       "date": "Jul 8",
-      "sha": "9796cbe",
-      "url": "https://github.com/rjviernes620/web/commit/9796cbe94203b4935321aae062567b4b9ef83d98"
+      "sha": "95cd6f3",
+      "url": "https://github.com/rjviernes620/rjviernes620/commit/95cd6f3b19fe51ef3df329a4adb930f2c52d2772"
+    },
+    {
+      "repo": "rjviernes620",
+      "message": "Added more icons to table",
+      "date": "Jul 8",
+      "sha": "6632e1c",
+      "url": "https://github.com/rjviernes620/rjviernes620/commit/6632e1cc1d098132969d93576a168ad110c7ef2d"
     },
     {
       "repo": "web",
-      "message": "Added skills to skillset",
-      "date": "Jul 7",
-      "sha": "e7ae077",
-      "url": "https://github.com/rjviernes620/web/commit/e7ae077ef56108fa1012503932e23c98e8790b39"
-    },
-    {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
-      "date": "Jul 7",
-      "sha": "ae166eb",
-      "url": "https://github.com/rjviernes620/web/commit/ae166eb6d93c99fa30cc8133d25f379f77667269"
+      "message": "Finished stuff on case studies",
+      "date": "Jul 8",
+      "sha": "b5139ec",
+      "url": "https://github.com/rjviernes620/web/commit/b5139ecbbbbf97d1b27533939ad42cb93cf23a45"
     }
   ],
-  "updated_at": "2026-07-08T01:21:35.614Z"
+  "updated_at": "2026-07-08T04:55:39.780Z"
 }
