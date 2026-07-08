@@ -51,7 +51,7 @@ export default function Hero() {
             <p className="text-base md:text-lg text-gray-400 mb-8 leading-relaxed max-w-2xl">
               I’m a Computer Science graduate from the University of Greenwich who builds at the intersection of software engineering and digital storytelling. Combining structured coding with creative content production, I turn complex concepts into clean code and engaging media.
               <br /><br />
-              Whether developing full-stack apps, analyzing data, or building UGC campaigns, I focus on crafting premium digital experiences. I am currently looking for roles in Software Development, Data Analytics, or Content Ops where I can push boundaries and bridge technology with audience engagement.
+              Whether developing full-stack experiences, analyzing marketing data, or building UGC campaigns, I focus on crafting premium digital experiences. I am currently looking for roles in Software Development, Data Analytics, or Social Media Marketing, feel free to get in touch!
             </p>
             <button
               onClick={() => setShowModal(true)}
