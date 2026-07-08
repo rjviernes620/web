@@ -96,37 +96,35 @@ const caseStudies: CaseStudy[] = [
     tags: ["Adobe Premiere", "After Effects", "Digital Strategy", "Asset Pipelines", "Audience Engagement"],
     image: "/assets/img/chatbot-3936760_1280.jpg",
     diagnostic: {
-      overview: "The Faculty of Engineering & Science's outreach channels lacked consistent, high-impact branding. Complex academic and computer science concepts were not successfully translating into digestible, engaging digital media for prospective undergraduate candidates.",
+      overview: "Prior to me joining the role, The Faculty of Engineering & Science were struggling with the sourcing UGC content and had a limited social media presence outside of the main University social media strategy.",
       challenges: [
-        "Uncoordinated content pipelines leading to irregular publishing cadences during recruitment cycles.",
-        "Low engagement rates on static, text-heavy promotional materials regarding advanced research.",
-        "Ineffective digital/physical hybrid touchpoints at university open days to spark interest in STEM fields."
+        "Lacked a cohesive content pipeline for high-quality UGC.",
+        "Low Social Media Presence compared to other faculties"
       ]
     },
     resolution: {
-      strategy: "Designed a centralized production schedule and established a high-impact organic video content pipeline. Introduced physical-digital hybrid interaction models to make tech exhibits highly tangible.",
+      strategy: "Introduced various forms of organic UGC content, Series ideas for the social media pages, increased overall reach and engagement.",
       steps: [
         {
-          title: "Creative Content Pipeline",
-          desc: "Established a structured digital asset framework converting complex research projects into fast-paced reels and TikToks."
+          title: "Short-form Video Production",
+          desc: "Created engaging Reels and Videos featuring students and staff showcasing their work and projects."
         },
         {
-          title: "NFC Event Integration",
-          desc: "Engineered and deployed interactive NFC-powered event guides at Campus Open Days, instantly linking physical visitors to digital portfolios."
+          title: "Social Media Management",
+          desc: "Managed and contributed to the social media presence of the Faculty of Engineering & Science, increasing overall reach and engagement."
         },
         {
-          title: "Robotic Tech Showcases",
-          desc: "Filmed, highlighted, and facilitated live robotic demonstration streams to boost engagement and highlight engineering programs."
+          title: "Marketing Campaigns",
+          desc: "Assisted in the development and execution of Faculty and university-wide marketing campaigns, increasing overall reach and engagement."
         }
       ]
     },
     telemetry: {
-      impact: "Dramatically increased online brand authority for the faculty, directly contributing to enrollment targets for computer science and engineering modules.",
+      impact: "Successfully increased the online presence of the Faculty of Engineering & Science, making it more visible to prospective students and increasing engagement with the faculty.",
       stats: [
         { label: "Organic Reach Growth", value: "+10%" },
-        { label: "Clearing Media CTR", value: "+22%" },
-        { label: "Open Day Engagement", value: "Record High" },
-        { label: "Admissions Met", value: "100%" }
+        { label: "Clearing Media CTA Reach", value: "+22%" },
+        { label: "Targets Met", value: "100%" }
       ]
     }
   },
