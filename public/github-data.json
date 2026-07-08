@@ -9,33 +9,33 @@
   },
   "commits": [
     {
+      "repo": "juicegels_v2",
+      "message": "linked stripe test mode to maintenance",
+      "date": "Jul 8",
+      "sha": "6d60639",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/6d6063936356b1ae341986ef102b1d13ea2d37c0"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "Added details of product application and care to Videos, FAQ and product pages",
+      "date": "Jul 8",
+      "sha": "58645c8",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/58645c8b4d9bb78a1e108dfbc4176f5db938b440"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "finished copy on case studies",
+      "date": "Jul 8",
+      "sha": "a7ae475",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/a7ae475d13d93b4eb170ab4a37461db0eaf2ef3b"
+    },
+    {
       "repo": "rjviernes620",
       "message": "updated currently working on line",
       "date": "Jul 8",
       "sha": "7badf61",
       "url": "https://github.com/rjviernes620/rjviernes620/commit/7badf61872ba613935129fc52c51fc5578fcc345"
-    },
-    {
-      "repo": "rjviernes620",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/rjviernes620",
-      "date": "Jul 8",
-      "sha": "95cd6f3",
-      "url": "https://github.com/rjviernes620/rjviernes620/commit/95cd6f3b19fe51ef3df329a4adb930f2c52d2772"
-    },
-    {
-      "repo": "rjviernes620",
-      "message": "Added more icons to table",
-      "date": "Jul 8",
-      "sha": "6632e1c",
-      "url": "https://github.com/rjviernes620/rjviernes620/commit/6632e1cc1d098132969d93576a168ad110c7ef2d"
-    },
-    {
-      "repo": "web",
-      "message": "Finished stuff on case studies",
-      "date": "Jul 8",
-      "sha": "b5139ec",
-      "url": "https://github.com/rjviernes620/web/commit/b5139ecbbbbf97d1b27533939ad42cb93cf23a45"
     }
   ],
-  "updated_at": "2026-07-08T15:56:19.141Z"
+  "updated_at": "2026-07-08T17:19:59.533Z"
 }
