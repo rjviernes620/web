@@ -23,6 +23,7 @@ interface CaseStudy {
   metricLabel: string
   tags: string[]
   image?: string
+  logo?: string
   diagnostic: {
     overview: string
     challenges: string[]
@@ -43,14 +44,15 @@ const caseStudies: CaseStudy[] = [
     index: "01",
     company: "JuiceGels.com",
     title: "Creating juicegels.com",
-    role: "Web Developerr",
-    period: "Jan 2023 — Oct 2025",
+    role: "Web Developer",
+    period: "June 2026 - Present",
     metric: "+15%",
     metricLabel: "Conversion Increase",
-    tags: ["Dynamics365", "CRM Workflows", "SLA Management", "Admissions Ops", "Team Leadership"],
+    tags: ["Analytics", "Web development", "SEO", "Sanity Studio", "React", "Git", "Render", "Python"],
     image: "/assets/img/code-1076536_1280.jpg",
+    logo: "/assets/img/juicegels-logo.png",
     diagnostic: {
-      overview: "Juicegels, A small business selling nails have been operating for 3 years using Instagram DMs to sell their products. However, they have been facing challenges in managing their sales and customer service, which has led to lost leads and poor customer experience. Additionally, there was a significant communication lag between the response team and the admissions database, creating further bottlenecks. Compounded by the challenges of training temporary staff on complex CRM guidelines during peak periods, the existing infrastructure was unable to support the demands of a growing enterprise.",
+      overview: "Juicegels is a relatively new business with a small online presence. They have been operating for 2 years using Instagram DMs to sell their products. However, they have been facing challenges in managing their sales and customer service, which has led to lost leads and poor customer experience.",
       challenges: [
         "- Sales were initially made solely via Instagram DM, leading to lost leads and poor customer experience.",
         "- Inventory is presented via Instagram Posts",
@@ -58,37 +60,35 @@ const caseStudies: CaseStudy[] = [
       ]
     },
     resolution: {
-      strategy: "Implemented structured database logging protocols and a real-time peer-mentoring pipeline to accelerate response times. Redesigned staff training manuals into structured interactive cheat-sheets to expedite query routing.",
+      strategy: "Revamped the JuiceGels.com online presence with a modern, intuitive storefront, Easy to use CMS and integrated Instagram/Facebook shop connectivity.",
       steps: [
         {
-          title: "SLA Optimization",
-          desc: "Set up simplified call-to-action scripts and database search shortkeys to reduce average inquiry handling time."
+          title: "Ease to use CMS",
+          desc: "Implemented a simple product database using Sanity studio, Allowing the client to easily manage their product inventory on the website with no changes needed to the codebase. "
         },
         {
-          title: "Peer-Mentoring Pipeline",
-          desc: "Structured real-time support channels to pair seasoned leads with new ambassadors, solving complex CRM edge cases instantly."
+          title: "Clean, Intuitive Storefront",
+          desc: "Implemented a modern, intuitive storefront for JuiceGels.com, allowing customers to easily browse and purchase products."
         },
         {
-          title: "Inter-departmental Syncing",
-          desc: "Bridged student services and central admissions data flows, reducing lead conversion times by maintaining unified communication logs."
+          title: "Connectivity with Instagram/Facebook shop",
+          desc: "Integrate Instagram and Facebook shop with the website, allowing customers to easily browse and purchase products on Instagram and seamlessly continue the checkout process on the website."
         }
       ]
     },
     telemetry: {
-      impact: "Successfully optimized the student admissions funnel, accelerating response times and maximizing placement enrollment goals for computer science programs.",
+      impact: "Successfully amplified the business's online presence, introducing a new way to interact with customers and improving the customer experience",
       stats: [
-        { label: "Clearing Conversion", value: "+15% YoY" },
-        { label: "Team Size Managed", value: "10+ staff" },
-        { label: "SLA Response Target", value: "99.8% Met" },
-        { label: "Active Enrollment Cycle", value: "3 Cycles" }
+        { label: "Conversion Rates", value: "10% +" },
+        { label: "Order Processing Times", value: "10% Faster" }
       ]
     }
   },
   {
     id: 2,
     index: "02",
-    company: "Faculty of Engineering & Science",
-    title: "CS Recruitment & Digital Content Pipeline",
+    company: "University of Greenwich",
+    title: "FES Recruitment & Digital Content Pipeline",
     role: "Social Media & Content Operations Coordinator",
     period: "June 2023 — Oct 2025",
     metric: "+10%",
@@ -330,18 +330,29 @@ export default function CaseStudies() {
               <div className="p-6 md:p-8 flex-1 min-h-[300px] font-mono text-xs md:text-sm text-gray-300 space-y-6">
 
                 {/* Active Info Header */}
-                <div className="border-b border-white/5 pb-4 mb-4 font-sans">
-                  <div className="flex items-center gap-2 text-[10px] font-mono text-indigo-400 uppercase tracking-widest mb-1">
-                    <span>REPORT CONTEXT</span>
-                    <span className="text-gray-600">|</span>
-                    <span>{activeStudy.period}</span>
+                <div className="border-b border-white/5 pb-4 mb-4 font-sans flex items-center justify-between gap-4">
+                  <div>
+                    <div className="flex items-center gap-2 text-[10px] font-mono text-indigo-400 uppercase tracking-widest mb-1">
+                      <span>REPORT CONTEXT</span>
+                      <span className="text-gray-600">|</span>
+                      <span>{activeStudy.period}</span>
+                    </div>
+                    <h4 className="text-lg md:text-xl font-bold text-white leading-tight">
+                      {activeStudy.title}
+                    </h4>
+                    <p className="text-xs text-gray-400 font-mono mt-1">
+                      Role: <span className="text-indigo-300">{activeStudy.role}</span>
+                    </p>
                   </div>
-                  <h4 className="text-lg md:text-xl font-bold text-white leading-tight">
-                    {activeStudy.title}
-                  </h4>
-                  <p className="text-xs text-gray-400 font-mono mt-1">
-                    Role: <span className="text-indigo-300">{activeStudy.role}</span>
-                  </p>
+                  {activeStudy.logo && (
+                    <div className="shrink-0">
+                      <img
+                        src={activeStudy.logo}
+                        alt={`${activeStudy.company} Logo`}
+                        className="w-16 h-16 md:w-20 md:h-20 object-contain rounded-full border border-white/10 bg-white/5 p-1"
+                      />
+                    </div>
+                  )}
                 </div>
                 {/* Dual Column Layout (Text + Optional Image) */}
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
