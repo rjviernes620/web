@@ -9,33 +9,33 @@
   },
   "commits": [
     {
-      "repo": "portfolio-ate",
-      "message": "changed contact email",
-      "date": "Jul 8",
-      "sha": "9f838be",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/9f838be0d2b62b17ba67c1beccacf612000445b2"
+      "repo": "web",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "date": "Jul 9",
+      "sha": "a756527",
+      "url": "https://github.com/rjviernes620/web/commit/a7565271b858e3726b602c42d4bb028f51508b41"
     },
     {
-      "repo": "juicegels_v2",
-      "message": "linked stripe test mode to maintenance",
-      "date": "Jul 8",
-      "sha": "6d60639",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/6d6063936356b1ae341986ef102b1d13ea2d37c0"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Added details of product application and care to Videos, FAQ and product pages",
-      "date": "Jul 8",
-      "sha": "58645c8",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/58645c8b4d9bb78a1e108dfbc4176f5db938b440"
+      "repo": "web",
+      "message": "finished copy for case study, need to review",
+      "date": "Jul 9",
+      "sha": "c84d692",
+      "url": "https://github.com/rjviernes620/web/commit/c84d69210e911cd73ee31f8469649b8a069660f8"
     },
     {
       "repo": "portfolio-ate",
-      "message": "finished copy on case studies",
+      "message": "redid expertise, contact us",
+      "date": "Jul 9",
+      "sha": "035145d",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/035145de3073b90e1c72c8357d16d7bcae5cc101"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "Changed design of the splash screen",
       "date": "Jul 8",
-      "sha": "a7ae475",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/a7ae475d13d93b4eb170ab4a37461db0eaf2ef3b"
+      "sha": "7f1e53b",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/7f1e53b48f6877a9e88eb06648791bd82d81fe78"
     }
   ],
-  "updated_at": "2026-07-08T22:53:25.419Z"
+  "updated_at": "2026-07-09T01:29:23.126Z"
 }
