@@ -9,33 +9,33 @@
   },
   "commits": [
     {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "repo": "portfolio-ate",
+      "message": "changed contact email",
       "date": "Jul 8",
-      "sha": "07e2800",
-      "url": "https://github.com/rjviernes620/web/commit/07e2800a20b3bb90b82eb51088e4611632db496e"
+      "sha": "9f838be",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/9f838be0d2b62b17ba67c1beccacf612000445b2"
     },
     {
-      "repo": "web",
-      "message": "Doing copy for case studies",
+      "repo": "juicegels_v2",
+      "message": "linked stripe test mode to maintenance",
       "date": "Jul 8",
-      "sha": "9796cbe",
-      "url": "https://github.com/rjviernes620/web/commit/9796cbe94203b4935321aae062567b4b9ef83d98"
+      "sha": "6d60639",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/6d6063936356b1ae341986ef102b1d13ea2d37c0"
     },
     {
-      "repo": "web",
-      "message": "Added skills to skillset",
-      "date": "Jul 7",
-      "sha": "e7ae077",
-      "url": "https://github.com/rjviernes620/web/commit/e7ae077ef56108fa1012503932e23c98e8790b39"
+      "repo": "juicegels_v2",
+      "message": "Added details of product application and care to Videos, FAQ and product pages",
+      "date": "Jul 8",
+      "sha": "58645c8",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/58645c8b4d9bb78a1e108dfbc4176f5db938b440"
     },
     {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
-      "date": "Jul 7",
-      "sha": "ae166eb",
-      "url": "https://github.com/rjviernes620/web/commit/ae166eb6d93c99fa30cc8133d25f379f77667269"
+      "repo": "portfolio-ate",
+      "message": "finished copy on case studies",
+      "date": "Jul 8",
+      "sha": "a7ae475",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/a7ae475d13d93b4eb170ab4a37461db0eaf2ef3b"
     }
   ],
-  "updated_at": "2026-07-08T01:21:35.614Z"
+  "updated_at": "2026-07-08T22:53:25.419Z"
 }
