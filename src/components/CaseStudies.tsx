@@ -456,13 +456,12 @@ export default function CaseStudies() {
                   {activeStudy.image && (
                     <div className="md:col-span-5 flex flex-col w-full">
                       <div className="text-[10px] font-mono text-indigo-400/70 mb-2">// VISUAL_ATTACHMENT</div>
-                      <div className="relative group overflow-hidden rounded-xl border border-white/10 bg-black/30 p-1.5 backdrop-blur-sm transition-all duration-300 hover:border-indigo-500/30">
+                      <div className="relative group">
                         <img
                           src={activeStudy.image}
                           alt={activeStudy.title}
-                          className="w-full aspect-video md:aspect-[4/3] object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-all duration-500"
+                          className="w-full h-auto object-contain rounded-xl opacity-80 group-hover:opacity-100 transition-all duration-500"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-lg" />
                       </div>
                     </div>
                   )}
