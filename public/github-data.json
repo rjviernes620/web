@@ -9,33 +9,33 @@
   },
   "commits": [
     {
-      "repo": "portfolio-ate",
-      "message": "Working on redoing splash screen",
-      "date": "Jul 10",
-      "sha": "afaddcb",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/afaddcbcd6ff9e630fc8b21fcce489da00b2cb2c"
-    },
-    {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
-      "date": "Jul 9",
-      "sha": "a756527",
-      "url": "https://github.com/rjviernes620/web/commit/a7565271b858e3726b602c42d4bb028f51508b41"
-    },
-    {
-      "repo": "web",
-      "message": "finished copy for case study, need to review",
-      "date": "Jul 9",
-      "sha": "c84d692",
-      "url": "https://github.com/rjviernes620/web/commit/c84d69210e911cd73ee31f8469649b8a069660f8"
+      "repo": "juicegels_v2",
+      "message": "added footere to product and basket pages",
+      "date": "Jul 14",
+      "sha": "13025d8",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/13025d8ef55f26e46d5d1ec65ab4b48ef445ce61"
     },
     {
       "repo": "portfolio-ate",
-      "message": "redid expertise, contact us",
-      "date": "Jul 9",
-      "sha": "035145d",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/035145de3073b90e1c72c8357d16d7bcae5cc101"
+      "message": "full name on navbar",
+      "date": "Jul 14",
+      "sha": "1c21fd7",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/1c21fd797488268afb0cc7fb73cd0851a3fd2769"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "made new splash screen and changed wording on contact",
+      "date": "Jul 14",
+      "sha": "0806525",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/0806525c0846af0fcc486987cba349649f5cb890"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "Sorted out photo logic",
+      "date": "Jul 14",
+      "sha": "d7e9778",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/d7e977863b9bccac056472c873ce43ea10bc6c4f"
     }
   ],
-  "updated_at": "2026-07-14T01:13:03.802Z"
+  "updated_at": "2026-07-14T04:37:37.818Z"
 }
