@@ -10,6 +10,13 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "introducing order side on sanity db",
+      "date": "Jul 15",
+      "sha": "92f0b81",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/92f0b81fb9318bea68a450dd4a59f5ae9a32acd0"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "added footere to product and basket pages",
       "date": "Jul 14",
       "sha": "13025d8",
@@ -28,14 +35,7 @@
       "date": "Jul 14",
       "sha": "0806525",
       "url": "https://github.com/rjviernes620/portfolio-ate/commit/0806525c0846af0fcc486987cba349649f5cb890"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Sorted out photo logic",
-      "date": "Jul 14",
-      "sha": "d7e9778",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/d7e977863b9bccac056472c873ce43ea10bc6c4f"
     }
   ],
-  "updated_at": "2026-07-14T22:43:45.747Z"
+  "updated_at": "2026-07-15T01:09:51.308Z"
 }
