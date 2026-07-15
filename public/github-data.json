@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "properly turns on maintenance page when mode is on",
+      "date": "Jul 15",
+      "sha": "9144cf6",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/9144cf6ffbf8df426708989d2945cdb26ebc7592"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "see last commit",
+      "date": "Jul 15",
+      "sha": "cbe075e",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/cbe075e1f9cb5e9269626856ae337fa7ce076919"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "working on fixing maintenance mode",
       "date": "Jul 15",
       "sha": "2138976",
@@ -21,21 +35,7 @@
       "date": "Jul 15",
       "sha": "59d19a2",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/59d19a226f33e5ebc853050401dd9c0e9c4a6fd4"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Added changes for maintenance mode",
-      "date": "Jul 15",
-      "sha": "6007d79",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/6007d790528dffc7179140524813fd23fc8079cb"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Implementing fixes for 2fa bypass",
-      "date": "Jul 15",
-      "sha": "68aa739",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/68aa7390caac24ff576904803161652d0e402d4a"
     }
   ],
-  "updated_at": "2026-07-15T17:01:44.147Z"
+  "updated_at": "2026-07-15T18:50:56.318Z"
 }
