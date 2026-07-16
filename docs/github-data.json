@@ -9,33 +9,33 @@
   },
   "commits": [
     {
-      "repo": "portfolio-ate",
-      "message": "changed contact email",
-      "date": "Jul 8",
-      "sha": "9f838be",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/9f838be0d2b62b17ba67c1beccacf612000445b2"
+      "repo": "juicegels_v2",
+      "message": "added request logic for sendcloud",
+      "date": "Jul 15",
+      "sha": "d3c0c12",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/d3c0c12c7e308d9f5705d4d12cdb5a79aa8a4301"
     },
     {
       "repo": "juicegels_v2",
-      "message": "linked stripe test mode to maintenance",
-      "date": "Jul 8",
-      "sha": "6d60639",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/6d6063936356b1ae341986ef102b1d13ea2d37c0"
+      "message": "added backend shipping logic for sendcloud",
+      "date": "Jul 15",
+      "sha": "7acc7d1",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/7acc7d1661c6a48439eeae85b0c03d820925f197"
     },
     {
       "repo": "juicegels_v2",
-      "message": "Added details of product application and care to Videos, FAQ and product pages",
-      "date": "Jul 8",
-      "sha": "58645c8",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/58645c8b4d9bb78a1e108dfbc4176f5db938b440"
+      "message": "properly handling secrets",
+      "date": "Jul 15",
+      "sha": "81eafa7",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/81eafa7d21683fb94a3236eeac322f2920aedda9"
     },
     {
-      "repo": "portfolio-ate",
-      "message": "finished copy on case studies",
-      "date": "Jul 8",
-      "sha": "a7ae475",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/a7ae475d13d93b4eb170ab4a37461db0eaf2ef3b"
+      "repo": "juicegels_v2",
+      "message": "updated to handle new stripe api",
+      "date": "Jul 15",
+      "sha": "442cbba",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/442cbba47df07ecea54f57df2430cd2b6a7f357f"
     }
   ],
-  "updated_at": "2026-07-08T22:53:25.419Z"
+  "updated_at": "2026-07-15T22:45:26.661Z"
 }
