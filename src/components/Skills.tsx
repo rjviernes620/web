@@ -152,7 +152,8 @@ export default function Skills() {
     { name: 'Trello', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/trello" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#0079BF', '#5198D9'], borderColor: 'hover:border-[#0079BF]/50', textColor: 'text-[#0079BF]' },
     { name: 'Excel', category: 'analytics', icon: <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/microsoftexcel.svg" className="w-[18px] h-[18px] shrink-0 object-contain brightness-0 invert" alt="" />, color: ['#107C41', '#1F9A55'], borderColor: 'hover:border-[#107C41]/50', textColor: 'text-[#107C41]' },
     { name: 'Social Media Management', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/instagram" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#E4405F', '#F56040'], borderColor: 'hover:border-[#E4405F]/50', textColor: 'text-[#E4405F]' },
-    { name: 'SEO', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/google" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#4285F4', '#EA4335'], borderColor: 'hover:border-[#4285F4]/50', textColor: 'text-[#4285F4]' }
+    { name: 'SEO', category: 'analytics', icon: <img src="https://cdn.simpleicons.org/google" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#4285F4', '#EA4335'], borderColor: 'hover:border-[#4285F4]/50', textColor: 'text-[#4285F4]' },
+    { name: 'Python', category: 'tech', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className="w-[18px] h-[18px] shrink-0 object-contain" alt="" />, color: ['#306998', '#FFD43B'], borderColor: 'hover:border-[#306998]/50', textColor: 'text-[#306998]' }
   ]
 
   return (
@@ -200,7 +201,7 @@ export default function Skills() {
                   className={`font-mono text-[11px] px-2.5 py-1 rounded transition-colors cursor-pointer ${activeTab === 'sql' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' : 'text-gray-500 hover:text-gray-300'
                     }`}
                 >
-                  analytics.sql
+                  insights.py
                 </button>
                 <button
                   onClick={() => setActiveTab('css')}
@@ -227,13 +228,19 @@ export default function Skills() {
               )}
               {activeTab === 'sql' && (
                 <div className="text-gray-400">
-                  <span className="text-purple-400">SELECT</span> skill, efficiency_rating<br />
-                  <span className="text-purple-400">FROM</span> technical_toolkit<br />
-                  <span className="text-purple-400">WHERE</span> classification = <span className="text-emerald-400">'Data & Automation'</span><br />
-                  <span className="text-purple-400">ORDER BY</span> productivity_gain <span className="text-purple-400">DESC</span>;<br /><br />
-                  <span className="text-gray-500">-- Output:</span><br />
-                  <span className="text-gray-500">&gt;&gt; Python Scripting &amp; Excel Automations: 10% Administrative reduction</span><br />
-                  <span className="text-gray-500">&gt;&gt; SQL Database Querying &amp; Dynamics365: CRM Workflow efficiency</span>
+                  <span className="text-gray-500"># insights.py — automation & data toolkit</span><br />
+                  <span className="text-purple-400">import</span> <span className="text-blue-400">pandas</span> <span className="text-purple-400">as</span> pd<br />
+                  <span className="text-purple-400">from</span> <span className="text-blue-400">automations</span> <span className="text-purple-400">import</span> <span className="text-emerald-400">reduce_admin_overhead</span><br />
+                  <br />
+                  skills = &#123;<br />
+                  &nbsp;&nbsp;<span className="text-emerald-400">'scripting'</span>: <span className="text-amber-400">['Python', 'PowerShell', 'Bash']</span>,<br />
+                  &nbsp;&nbsp;<span className="text-emerald-400">'data'</span>: <span className="text-amber-400">['SQL', 'Excel', 'Pandas']</span>,<br />
+                  &nbsp;&nbsp;<span className="text-emerald-400">'impact'</span>: <span className="text-orange-400">reduce_admin_overhead</span>(<span className="text-blue-300">by=0.10</span>)<br />
+                  &#125;<br />
+                  <br />
+                  <span className="text-gray-500"># Output:</span><br />
+                  <span className="text-gray-500">&gt;&gt; CRM workflows automated via Dynamics365</span><br />
+                  <span className="text-gray-500">&gt;&gt; 10% admin reduction through scripted pipelines</span>
                 </div>
               )}
               {activeTab === 'css' && (
