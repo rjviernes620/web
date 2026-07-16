@@ -9,33 +9,33 @@
   },
   "commits": [
     {
-      "repo": "juicegels_v2",
-      "message": "added request logic for sendcloud",
-      "date": "Jul 15",
-      "sha": "d3c0c12",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/d3c0c12c7e308d9f5705d4d12cdb5a79aa8a4301"
+      "repo": "web",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "date": "Jul 16",
+      "sha": "07894b8",
+      "url": "https://github.com/rjviernes620/web/commit/07894b81913744abf89ca44241464229f61c8340"
+    },
+    {
+      "repo": "web",
+      "message": "Changed the sql bit in the skills toolbox and added python to Skillset",
+      "date": "Jul 16",
+      "sha": "7b36395",
+      "url": "https://github.com/rjviernes620/web/commit/7b36395cecd325c8fbd2382042732dbb0653dfad"
     },
     {
       "repo": "juicegels_v2",
-      "message": "added backend shipping logic for sendcloud",
-      "date": "Jul 15",
-      "sha": "7acc7d1",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/7acc7d1661c6a48439eeae85b0c03d820925f197"
+      "message": "sanity correctly shows the order id now",
+      "date": "Jul 16",
+      "sha": "1c3aabe",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/1c3aabeb975ee1d300eebc7ab15b1a02dce85ad2"
     },
     {
       "repo": "juicegels_v2",
-      "message": "properly handling secrets",
-      "date": "Jul 15",
-      "sha": "81eafa7",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/81eafa7d21683fb94a3236eeac322f2920aedda9"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "updated to handle new stripe api",
-      "date": "Jul 15",
-      "sha": "442cbba",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/442cbba47df07ecea54f57df2430cd2b6a7f357f"
+      "message": "shipping methods correctly resolve to the QR methods, with no mention on the front_end",
+      "date": "Jul 16",
+      "sha": "c978a66",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/c978a6696f8ba98b81c27251e53a0852ad7fd267"
     }
   ],
-  "updated_at": "2026-07-15T22:45:26.661Z"
+  "updated_at": "2026-07-16T01:19:08.277Z"
 }
