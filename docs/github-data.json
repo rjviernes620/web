@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "portfolio-ate",
+      "message": "Changed order of the case study cards",
+      "date": "Jul 19",
+      "sha": "7c69314",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/7c6931430d9c34aaaf02e32cbdabe9576d41a517"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "updates visuals for paymentflow  Progress bar and confirmation page",
+      "date": "Jul 19",
+      "sha": "d537dbd",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/d537dbdbf07dbf4e52b2e6749f86ed8f96170d66"
+    },
+    {
       "repo": "web",
       "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
       "date": "Jul 16",
@@ -21,21 +35,7 @@
       "date": "Jul 16",
       "sha": "7b36395",
       "url": "https://github.com/rjviernes620/web/commit/7b36395cecd325c8fbd2382042732dbb0653dfad"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "sanity correctly shows the order id now",
-      "date": "Jul 16",
-      "sha": "1c3aabe",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/1c3aabeb975ee1d300eebc7ab15b1a02dce85ad2"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "shipping methods correctly resolve to the QR methods, with no mention on the front_end",
-      "date": "Jul 16",
-      "sha": "c978a66",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/c978a6696f8ba98b81c27251e53a0852ad7fd267"
     }
   ],
-  "updated_at": "2026-07-18T22:35:44.128Z"
+  "updated_at": "2026-07-19T01:20:18.872Z"
 }
