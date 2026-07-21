@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "juicegels_v2",
+      "message": "Corrected Order ID mapping",
+      "date": "Jul 21",
+      "sha": "996bb76",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/996bb76d315dc5c618d24ef1ad507404b186c4eb"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "3 image basis for sets",
+      "date": "Jul 21",
+      "sha": "94ef1b3",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/94ef1b39d526c5db3f594c7aebc5833d7183cbb5"
+    },
+    {
       "repo": "portfolio-ate",
       "message": "Changed order of the case study cards",
       "date": "Jul 19",
@@ -21,21 +35,7 @@
       "date": "Jul 19",
       "sha": "d537dbd",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/d537dbdbf07dbf4e52b2e6749f86ed8f96170d66"
-    },
-    {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
-      "date": "Jul 16",
-      "sha": "07894b8",
-      "url": "https://github.com/rjviernes620/web/commit/07894b81913744abf89ca44241464229f61c8340"
-    },
-    {
-      "repo": "web",
-      "message": "Changed the sql bit in the skills toolbox and added python to Skillset",
-      "date": "Jul 16",
-      "sha": "7b36395",
-      "url": "https://github.com/rjviernes620/web/commit/7b36395cecd325c8fbd2382042732dbb0653dfad"
     }
   ],
-  "updated_at": "2026-07-21T11:40:08.361Z"
+  "updated_at": "2026-07-21T13:10:05.379Z"
 }
