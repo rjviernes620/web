@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "SM-Dashboard",
+      "message": "New footer and legal pages teehee",
+      "date": "Jul 21",
+      "sha": "a84b368",
+      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/a84b3680269c72370368ae60b6c5e2d65a787bb6"
+    },
+    {
+      "repo": "SM-Dashboard",
+      "message": "feat: implement social media dashboard services, UI components, and API integration for Instagram, YouTube, and TikTok.",
+      "date": "Jul 21",
+      "sha": "5dc05a5",
+      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/5dc05a55c1eeee166b10044ca3db24c1cb8c7726"
+    },
+    {
       "repo": "juicegels_v2",
       "message": "Corrected Order ID mapping",
       "date": "Jul 21",
@@ -21,21 +35,7 @@
       "date": "Jul 21",
       "sha": "94ef1b3",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/94ef1b39d526c5db3f594c7aebc5833d7183cbb5"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "Changed order of the case study cards",
-      "date": "Jul 19",
-      "sha": "7c69314",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/7c6931430d9c34aaaf02e32cbdabe9576d41a517"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "updates visuals for paymentflow  Progress bar and confirmation page",
-      "date": "Jul 19",
-      "sha": "d537dbd",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/d537dbdbf07dbf4e52b2e6749f86ed8f96170d66"
     }
   ],
-  "updated_at": "2026-07-21T17:04:40.309Z"
+  "updated_at": "2026-07-21T19:00:08.061Z"
 }
