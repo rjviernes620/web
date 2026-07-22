@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "SM-Dashboard",
+      "message": "fixed blank site error",
+      "date": "Jul 22",
+      "sha": "d171c49",
+      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/d171c492f79156e7bc7668bf746f3eb5d4140b68"
+    },
+    {
+      "repo": "SM-Dashboard",
+      "message": "new docs base folder for new builds",
+      "date": "Jul 22",
+      "sha": "2b93082",
+      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/2b930829b00ace22a8321c8cb9f4696c06f755f0"
+    },
+    {
+      "repo": "SM-Dashboard",
       "message": "New footer and legal pages teehee",
       "date": "Jul 21",
       "sha": "a84b368",
@@ -21,21 +35,7 @@
       "date": "Jul 21",
       "sha": "5dc05a5",
       "url": "https://github.com/rjviernes620/SM-Dashboard/commit/5dc05a55c1eeee166b10044ca3db24c1cb8c7726"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Corrected Order ID mapping",
-      "date": "Jul 21",
-      "sha": "996bb76",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/996bb76d315dc5c618d24ef1ad507404b186c4eb"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "3 image basis for sets",
-      "date": "Jul 21",
-      "sha": "94ef1b3",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/94ef1b39d526c5db3f594c7aebc5833d7183cbb5"
     }
   ],
-  "updated_at": "2026-07-22T01:18:34.109Z"
+  "updated_at": "2026-07-22T04:55:11.255Z"
 }
