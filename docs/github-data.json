@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "portfolio-ate",
+      "message": "reverted commit",
+      "date": "Jul 23",
+      "sha": "cec76b4",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/cec76b4f360d5d9447b25c3f32c2aa3d3b16b816"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "commented out synergy",
+      "date": "Jul 23",
+      "sha": "2c6070e",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/2c6070e49b59436d40b2b96c42f1a9870263279c"
+    },
+    {
       "repo": "SM-Dashboard",
       "message": "fixed blank site error",
       "date": "Jul 22",
@@ -21,21 +35,7 @@
       "date": "Jul 22",
       "sha": "2b93082",
       "url": "https://github.com/rjviernes620/SM-Dashboard/commit/2b930829b00ace22a8321c8cb9f4696c06f755f0"
-    },
-    {
-      "repo": "SM-Dashboard",
-      "message": "New footer and legal pages teehee",
-      "date": "Jul 21",
-      "sha": "a84b368",
-      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/a84b3680269c72370368ae60b6c5e2d65a787bb6"
-    },
-    {
-      "repo": "SM-Dashboard",
-      "message": "feat: implement social media dashboard services, UI components, and API integration for Instagram, YouTube, and TikTok.",
-      "date": "Jul 21",
-      "sha": "5dc05a5",
-      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/5dc05a55c1eeee166b10044ca3db24c1cb8c7726"
     }
   ],
-  "updated_at": "2026-07-23T08:06:26.986Z"
+  "updated_at": "2026-07-23T11:44:13.508Z"
 }
