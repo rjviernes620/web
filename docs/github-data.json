@@ -10,6 +10,13 @@
   "commits": [
     {
       "repo": "portfolio-ate",
+      "message": "Delete CNAME",
+      "date": "Jul 24",
+      "sha": "70fd60d",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/70fd60d8f9797d498251fdc1beec1214cb09d532"
+    },
+    {
+      "repo": "portfolio-ate",
       "message": "reverted commit",
       "date": "Jul 23",
       "sha": "cec76b4",
@@ -28,14 +35,7 @@
       "date": "Jul 22",
       "sha": "d171c49",
       "url": "https://github.com/rjviernes620/SM-Dashboard/commit/d171c492f79156e7bc7668bf746f3eb5d4140b68"
-    },
-    {
-      "repo": "SM-Dashboard",
-      "message": "new docs base folder for new builds",
-      "date": "Jul 22",
-      "sha": "2b93082",
-      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/2b930829b00ace22a8321c8cb9f4696c06f755f0"
     }
   ],
-  "updated_at": "2026-07-24T15:19:14.625Z"
+  "updated_at": "2026-07-24T17:18:12.253Z"
 }
