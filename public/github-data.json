@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "juicegels_v2",
+      "message": "Pre bulleted list in Description, visuals on order side for sanity db",
+      "date": "Jul 26",
+      "sha": "5755295",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/5755295b79f8c5a2f9f64eca739d44608e12ad62"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "no more pink bg on product pages",
+      "date": "Jul 26",
+      "sha": "3330b18",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/3330b18c6f4e186c16f2a354dfdcf0d7ec48d15f"
+    },
+    {
       "repo": "portfolio-ate",
       "message": "Merge branch 'main' of https://github.com/rjviernes620/portfolio-ate",
       "date": "Jul 26",
@@ -21,21 +35,7 @@
       "date": "Jul 26",
       "sha": "ac0a4f0",
       "url": "https://github.com/rjviernes620/portfolio-ate/commit/ac0a4f03e2d30d2a8439749d10c1cd4b082c7501"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "Delete CNAME",
-      "date": "Jul 24",
-      "sha": "70fd60d",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/70fd60d8f9797d498251fdc1beec1214cb09d532"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "reverted commit",
-      "date": "Jul 23",
-      "sha": "cec76b4",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/cec76b4f360d5d9447b25c3f32c2aa3d3b16b816"
     }
   ],
-  "updated_at": "2026-07-26T16:42:39.704Z"
+  "updated_at": "2026-07-26T18:51:08.282Z"
 }
