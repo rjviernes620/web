@@ -9,6 +9,13 @@
   },
   "commits": [
     {
+      "repo": "rjviernes620",
+      "message": "Update current projects in README",
+      "date": "Jul 26",
+      "sha": "30561b2",
+      "url": "https://github.com/rjviernes620/rjviernes620/commit/30561b2d7f4898384a1d7ee63bef96d0880ab75d"
+    },
+    {
       "repo": "juicegels_v2",
       "message": "Pre bulleted list in Description, visuals on order side for sanity db",
       "date": "Jul 26",
@@ -28,14 +35,7 @@
       "date": "Jul 26",
       "sha": "c35f753",
       "url": "https://github.com/rjviernes620/portfolio-ate/commit/c35f753c6c4d8421259c3a23d6ce3d171fffa9c0"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "All synergy content removed",
-      "date": "Jul 26",
-      "sha": "ac0a4f0",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/ac0a4f03e2d30d2a8439749d10c1cd4b082c7501"
     }
   ],
-  "updated_at": "2026-07-26T22:45:58.796Z"
+  "updated_at": "2026-07-27T01:30:06.054Z"
 }
