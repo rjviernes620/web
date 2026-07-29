@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "SM-Dashboard",
+      "message": "Properly points to new OAuth logins for IG",
+      "date": "Jul 29",
+      "sha": "e80fe18",
+      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/e80fe1828d2959c2bbab3076a5bf6acbaeab0334"
+    },
+    {
+      "repo": "portfolio-ate",
+      "message": "Repo purge for new design",
+      "date": "Jul 29",
+      "sha": "61d5e68",
+      "url": "https://github.com/rjviernes620/portfolio-ate/commit/61d5e68eeb589828902f733208158f78b922256d"
+    },
+    {
       "repo": "rjviernes620",
       "message": "Update current projects in README",
       "date": "Jul 26",
@@ -21,21 +35,7 @@
       "date": "Jul 26",
       "sha": "5755295",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/5755295b79f8c5a2f9f64eca739d44608e12ad62"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "no more pink bg on product pages",
-      "date": "Jul 26",
-      "sha": "3330b18",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/3330b18c6f4e186c16f2a354dfdcf0d7ec48d15f"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/portfolio-ate",
-      "date": "Jul 26",
-      "sha": "c35f753",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/c35f753c6c4d8421259c3a23d6ce3d171fffa9c0"
     }
   ],
-  "updated_at": "2026-07-28T22:48:22.819Z"
+  "updated_at": "2026-07-29T01:19:48.104Z"
 }
