@@ -10,6 +10,13 @@
   "commits": [
     {
       "repo": "SM-Dashboard",
+      "message": "feat: implement Instagram OAuth service and modal with support for extended profile metrics and business accounts",
+      "date": "Jul 30",
+      "sha": "2affcca",
+      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/2affcca2685c372266f79e78a787199cf8b95816"
+    },
+    {
+      "repo": "SM-Dashboard",
       "message": "Properly points to new OAuth logins for IG",
       "date": "Jul 29",
       "sha": "e80fe18",
@@ -28,14 +35,7 @@
       "date": "Jul 26",
       "sha": "30561b2",
       "url": "https://github.com/rjviernes620/rjviernes620/commit/30561b2d7f4898384a1d7ee63bef96d0880ab75d"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Pre bulleted list in Description, visuals on order side for sanity db",
-      "date": "Jul 26",
-      "sha": "5755295",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/5755295b79f8c5a2f9f64eca739d44608e12ad62"
     }
   ],
-  "updated_at": "2026-07-29T22:45:14.782Z"
+  "updated_at": "2026-07-30T01:13:11.268Z"
 }
