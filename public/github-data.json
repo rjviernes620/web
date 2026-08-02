@@ -9,6 +9,13 @@
   },
   "commits": [
     {
+      "repo": "juicegels_v2",
+      "message": "Removed all juicy july content",
+      "date": "Aug 2",
+      "sha": "4437624",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/44376248db52127a3d631b4c0943d2ad07e99041"
+    },
+    {
       "repo": "SM-Dashboard",
       "message": "Remove content from README.md",
       "date": "Jul 30",
@@ -28,14 +35,7 @@
       "date": "Jul 29",
       "sha": "e80fe18",
       "url": "https://github.com/rjviernes620/SM-Dashboard/commit/e80fe1828d2959c2bbab3076a5bf6acbaeab0334"
-    },
-    {
-      "repo": "portfolio-ate",
-      "message": "Repo purge for new design",
-      "date": "Jul 29",
-      "sha": "61d5e68",
-      "url": "https://github.com/rjviernes620/portfolio-ate/commit/61d5e68eeb589828902f733208158f78b922256d"
     }
   ],
-  "updated_at": "2026-08-02T18:48:57.344Z"
+  "updated_at": "2026-08-02T20:40:44.942Z"
 }
