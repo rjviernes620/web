@@ -10,32 +10,32 @@
   "commits": [
     {
       "repo": "MeenaCard",
+      "message": "Fix image rendering on GitHub Pages",
+      "date": "Aug 9",
+      "sha": "0840131",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/0840131305437ac7b0f8ee2dbf074102644f2069"
+    },
+    {
+      "repo": "MeenaCard",
+      "message": "heehhah",
+      "date": "Aug 9",
+      "sha": "e224943",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/e224943a4127507a334ad03dedbc7709fce64a4b"
+    },
+    {
+      "repo": "MeenaCard",
+      "message": "try this",
+      "date": "Aug 9",
+      "sha": "5b4ec45",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/5b4ec45c127cf32ffff87654e1011a1bfe4031d6"
+    },
+    {
+      "repo": "MeenaCard",
       "message": "image loading now fixed",
       "date": "Aug 9",
       "sha": "a18015b",
       "url": "https://github.com/rjviernes620/MeenaCard/commit/a18015b29e01b3b47e4d63d7fc3a4813a7f83d3e"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "card is finished",
-      "date": "Aug 9",
-      "sha": "86c64a1",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/86c64a1dd2c7f500c5a2e8591a33f685102df87e"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "first proper build",
-      "date": "Aug 8",
-      "sha": "0c996f8",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/0c996f8abf8d64d6b0f6578f880c473ad987813c"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "first commit",
-      "date": "Aug 8",
-      "sha": "4b2bdde",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/4b2bdde6e137232b327b56f0bd9a80f19eb74482"
     }
   ],
-  "updated_at": "2026-08-09T00:43:29.150Z"
+  "updated_at": "2026-08-09T03:22:30.685Z"
 }
