@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "MeenaCard",
+      "message": "new present link",
+      "date": "Aug 9",
+      "sha": "b3b2167",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/b3b216788606431de42423f8b6f739a0d276f994"
+    },
+    {
+      "repo": "MeenaCard",
+      "message": "Convert LFS pointer images to real binary files for GitHub Pages compatibility",
+      "date": "Aug 9",
+      "sha": "2753d3f",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/2753d3fbdd68ed4a74cfd06bcccc5d56ffe7179f"
+    },
+    {
+      "repo": "MeenaCard",
       "message": "Fix image rendering on GitHub Pages",
       "date": "Aug 9",
       "sha": "0840131",
@@ -21,21 +35,7 @@
       "date": "Aug 9",
       "sha": "e224943",
       "url": "https://github.com/rjviernes620/MeenaCard/commit/e224943a4127507a334ad03dedbc7709fce64a4b"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "try this",
-      "date": "Aug 9",
-      "sha": "5b4ec45",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/5b4ec45c127cf32ffff87654e1011a1bfe4031d6"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "image loading now fixed",
-      "date": "Aug 9",
-      "sha": "a18015b",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/a18015b29e01b3b47e4d63d7fc3a4813a7f83d3e"
     }
   ],
-  "updated_at": "2026-08-09T10:20:21.738Z"
+  "updated_at": "2026-08-09T12:22:16.620Z"
 }
