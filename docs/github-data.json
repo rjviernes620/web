@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "MeenaCard",
+      "message": "image loading now fixed",
+      "date": "Aug 9",
+      "sha": "a18015b",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/a18015b29e01b3b47e4d63d7fc3a4813a7f83d3e"
+    },
+    {
+      "repo": "MeenaCard",
+      "message": "card is finished",
+      "date": "Aug 9",
+      "sha": "86c64a1",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/86c64a1dd2c7f500c5a2e8591a33f685102df87e"
+    },
+    {
+      "repo": "MeenaCard",
       "message": "first proper build",
       "date": "Aug 8",
       "sha": "0c996f8",
@@ -21,21 +35,7 @@
       "date": "Aug 8",
       "sha": "4b2bdde",
       "url": "https://github.com/rjviernes620/MeenaCard/commit/4b2bdde6e137232b327b56f0bd9a80f19eb74482"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Removed all juicy july content",
-      "date": "Aug 2",
-      "sha": "4437624",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/44376248db52127a3d631b4c0943d2ad07e99041"
-    },
-    {
-      "repo": "SM-Dashboard",
-      "message": "Remove content from README.md",
-      "date": "Jul 30",
-      "sha": "40bb164",
-      "url": "https://github.com/rjviernes620/SM-Dashboard/commit/40bb1640def0176eb7fc36b500a2462576fe393a"
     }
   ],
-  "updated_at": "2026-08-08T22:14:46.145Z"
+  "updated_at": "2026-08-09T00:43:29.150Z"
 }
