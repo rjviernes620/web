@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "Basket URL's are now properly obfuscated",
+      "date": "Aug 11",
+      "sha": "451a165",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/451a1658aef19357af6196acc4e9050227852e8a"
+    },
+    {
+      "repo": "MeenaCard",
+      "message": "encased voucher url as secret",
+      "date": "Aug 11",
+      "sha": "fef1215",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/fef1215b52d6dede61464b54e7cd6ba74c9ff92c"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "Migrate backend to Google Cloud Run and update storefront API fallback and webhooks",
       "date": "Aug 11",
       "sha": "8f95854",
@@ -21,21 +35,7 @@
       "date": "Aug 9",
       "sha": "b3b2167",
       "url": "https://github.com/rjviernes620/MeenaCard/commit/b3b216788606431de42423f8b6f739a0d276f994"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "Convert LFS pointer images to real binary files for GitHub Pages compatibility",
-      "date": "Aug 9",
-      "sha": "2753d3f",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/2753d3fbdd68ed4a74cfd06bcccc5d56ffe7179f"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "Fix image rendering on GitHub Pages",
-      "date": "Aug 9",
-      "sha": "0840131",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/0840131305437ac7b0f8ee2dbf074102644f2069"
     }
   ],
-  "updated_at": "2026-08-11T03:24:25.680Z"
+  "updated_at": "2026-08-11T04:56:34.766Z"
 }
