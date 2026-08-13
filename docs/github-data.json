@@ -9,6 +9,13 @@
   },
   "commits": [
     {
+      "repo": "MeenaCard",
+      "message": "changed some wording and new picture hat",
+      "date": "Aug 13",
+      "sha": "09b7059",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/09b70592ae38877673d316b95ee5b524468cdf2e"
+    },
+    {
       "repo": "juicegels_v2",
       "message": "Basket URL's are now properly obfuscated",
       "date": "Aug 11",
@@ -28,14 +35,7 @@
       "date": "Aug 11",
       "sha": "8f95854",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/8f95854f5deaf037c72ea8b9e7d8122d126216fb"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "new present link",
-      "date": "Aug 9",
-      "sha": "b3b2167",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/b3b216788606431de42423f8b6f739a0d276f994"
     }
   ],
-  "updated_at": "2026-08-13T14:49:05.484Z"
+  "updated_at": "2026-08-13T16:42:22.852Z"
 }
