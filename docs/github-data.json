@@ -10,6 +10,13 @@
   "commits": [
     {
       "repo": "MeenaCard",
+      "message": "present url link worked",
+      "date": "Aug 13",
+      "sha": "57329e7",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/57329e7b44d032e98a73b3f772891a20490eedb5"
+    },
+    {
+      "repo": "MeenaCard",
       "message": "changed some wording and new picture hat",
       "date": "Aug 13",
       "sha": "09b7059",
@@ -28,14 +35,7 @@
       "date": "Aug 11",
       "sha": "fef1215",
       "url": "https://github.com/rjviernes620/MeenaCard/commit/fef1215b52d6dede61464b54e7cd6ba74c9ff92c"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Migrate backend to Google Cloud Run and update storefront API fallback and webhooks",
-      "date": "Aug 11",
-      "sha": "8f95854",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/8f95854f5deaf037c72ea8b9e7d8122d126216fb"
     }
   ],
-  "updated_at": "2026-08-13T20:27:20.511Z"
+  "updated_at": "2026-08-13T22:28:29.243Z"
 }
