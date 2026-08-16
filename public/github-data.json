@@ -1,13 +1,20 @@
 {
   "stats": {
     "followers": 5,
-    "public_repos": 21,
+    "public_repos": 22,
     "avatar_url": "https://avatars.githubusercontent.com/u/41326712?v=4",
     "html_url": "https://github.com/rjviernes620",
     "login": "rjviernes620",
     "name": "Roel-Junior Alejo Viernes"
   },
   "commits": [
+    {
+      "repo": "apv",
+      "message": "first commit",
+      "date": "Aug 16",
+      "sha": "29d5e80",
+      "url": "https://github.com/rjviernes620/apv/commit/29d5e808f0435d1727d2162fa9a3ca968a067aa9"
+    },
     {
       "repo": "MeenaCard",
       "message": "present url link worked",
@@ -28,14 +35,7 @@
       "date": "Aug 11",
       "sha": "451a165",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/451a1658aef19357af6196acc4e9050227852e8a"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "encased voucher url as secret",
-      "date": "Aug 11",
-      "sha": "fef1215",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/fef1215b52d6dede61464b54e7cd6ba74c9ff92c"
     }
   ],
-  "updated_at": "2026-08-16T20:07:40.812Z"
+  "updated_at": "2026-08-16T22:08:21.814Z"
 }
