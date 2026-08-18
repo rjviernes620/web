@@ -10,32 +10,32 @@
   "commits": [
     {
       "repo": "apv",
-      "message": "first commit",
-      "date": "Aug 16",
-      "sha": "29d5e80",
-      "url": "https://github.com/rjviernes620/apv/commit/29d5e808f0435d1727d2162fa9a3ca968a067aa9"
+      "message": "updated lodash to safer version, no npm vulnerabilites",
+      "date": "Aug 18",
+      "sha": "904b830",
+      "url": "https://github.com/rjviernes620/apv/commit/904b830f361d82e8920ee9f595baf47470cd62fb"
     },
     {
-      "repo": "MeenaCard",
-      "message": "present url link worked",
-      "date": "Aug 13",
-      "sha": "57329e7",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/57329e7b44d032e98a73b3f772891a20490eedb5"
+      "repo": "apv",
+      "message": "fixed delete func -> mapped to index rather than only splicing to id param. added bits to writeup",
+      "date": "Aug 18",
+      "sha": "875869b",
+      "url": "https://github.com/rjviernes620/apv/commit/875869b1721fcf280aaa01acb768b3e902d7cb33"
     },
     {
-      "repo": "MeenaCard",
-      "message": "changed some wording and new picture hat",
-      "date": "Aug 13",
-      "sha": "09b7059",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/09b70592ae38877673d316b95ee5b524468cdf2e"
+      "repo": "apv",
+      "message": "redid put->  mark task completed w/ new id const and redone todo const. also premade empty analysis.py",
+      "date": "Aug 18",
+      "sha": "31e1f27",
+      "url": "https://github.com/rjviernes620/apv/commit/31e1f272eb9bda5bc03f11be5cfd98a7ecbc4cbd"
     },
     {
-      "repo": "juicegels_v2",
-      "message": "Basket URL's are now properly obfuscated",
-      "date": "Aug 11",
-      "sha": "451a165",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/451a1658aef19357af6196acc4e9050227852e8a"
+      "repo": "apv",
+      "message": "added missing imports for morgan module",
+      "date": "Aug 18",
+      "sha": "04a3f89",
+      "url": "https://github.com/rjviernes620/apv/commit/04a3f897f997ba08811c94a4cea98701a7a26415"
     }
   ],
-  "updated_at": "2026-08-18T00:29:39.011Z"
+  "updated_at": "2026-08-18T02:45:32.071Z"
 }
