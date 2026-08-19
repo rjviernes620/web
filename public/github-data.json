@@ -9,6 +9,13 @@
   },
   "commits": [
     {
+      "repo": "juicegels_v2",
+      "message": "changed colour scheme of shadergradient bg",
+      "date": "Aug 18",
+      "sha": "121ed42",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/121ed42b50297e1f857f22943f5f15790b46bf47"
+    },
+    {
       "repo": "apv",
       "message": "updated lodash to safer version, no npm vulnerabilites",
       "date": "Aug 18",
@@ -28,14 +35,7 @@
       "date": "Aug 18",
       "sha": "31e1f27",
       "url": "https://github.com/rjviernes620/apv/commit/31e1f272eb9bda5bc03f11be5cfd98a7ecbc4cbd"
-    },
-    {
-      "repo": "apv",
-      "message": "added missing imports for morgan module",
-      "date": "Aug 18",
-      "sha": "04a3f89",
-      "url": "https://github.com/rjviernes620/apv/commit/04a3f897f997ba08811c94a4cea98701a7a26415"
     }
   ],
-  "updated_at": "2026-08-18T22:09:41.719Z"
+  "updated_at": "2026-08-19T00:29:52.150Z"
 }
