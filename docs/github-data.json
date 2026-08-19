@@ -1,20 +1,13 @@
 {
   "stats": {
     "followers": 6,
-    "public_repos": 22,
+    "public_repos": 21,
     "avatar_url": "https://avatars.githubusercontent.com/u/41326712?v=4",
     "html_url": "https://github.com/rjviernes620",
     "login": "rjviernes620",
     "name": "Roel-Junior Alejo Viernes"
   },
   "commits": [
-    {
-      "repo": "apv",
-      "message": "Step 2 analysis code done w/ added examples",
-      "date": "Aug 19",
-      "sha": "a573893",
-      "url": "https://github.com/rjviernes620/apv/commit/a573893dc3bcf6ea145592c36f0e685f496ae502"
-    },
     {
       "repo": "juicegels_v2",
       "message": "changed colour scheme of shadergradient bg",
@@ -23,19 +16,26 @@
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/121ed42b50297e1f857f22943f5f15790b46bf47"
     },
     {
-      "repo": "apv",
-      "message": "updated lodash to safer version, no npm vulnerabilites",
-      "date": "Aug 18",
-      "sha": "904b830",
-      "url": "https://github.com/rjviernes620/apv/commit/904b830f361d82e8920ee9f595baf47470cd62fb"
+      "repo": "MeenaCard",
+      "message": "present url link worked",
+      "date": "Aug 13",
+      "sha": "57329e7",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/57329e7b44d032e98a73b3f772891a20490eedb5"
     },
     {
-      "repo": "apv",
-      "message": "fixed delete func -> mapped to index rather than only splicing to id param. added bits to writeup",
-      "date": "Aug 18",
-      "sha": "875869b",
-      "url": "https://github.com/rjviernes620/apv/commit/875869b1721fcf280aaa01acb768b3e902d7cb33"
+      "repo": "MeenaCard",
+      "message": "changed some wording and new picture hat",
+      "date": "Aug 13",
+      "sha": "09b7059",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/09b70592ae38877673d316b95ee5b524468cdf2e"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "Basket URL's are now properly obfuscated",
+      "date": "Aug 11",
+      "sha": "451a165",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/451a1658aef19357af6196acc4e9050227852e8a"
     }
   ],
-  "updated_at": "2026-08-19T16:16:31.829Z"
+  "updated_at": "2026-08-19T18:15:09.043Z"
 }
