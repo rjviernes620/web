@@ -10,32 +10,32 @@
   "commits": [
     {
       "repo": "juicegels_v2",
-      "message": "changed colour scheme of shadergradient bg",
-      "date": "Aug 18",
-      "sha": "121ed42",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/121ed42b50297e1f857f22943f5f15790b46bf47"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "present url link worked",
-      "date": "Aug 13",
-      "sha": "57329e7",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/57329e7b44d032e98a73b3f772891a20490eedb5"
-    },
-    {
-      "repo": "MeenaCard",
-      "message": "changed some wording and new picture hat",
-      "date": "Aug 13",
-      "sha": "09b7059",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/09b70592ae38877673d316b95ee5b524468cdf2e"
+      "message": "fixed additional packages for main",
+      "date": "Aug 20",
+      "sha": "04e0e07",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/04e0e07ff0d463a17211037badf5b5300307317a"
     },
     {
       "repo": "juicegels_v2",
-      "message": "Basket URL's are now properly obfuscated",
-      "date": "Aug 11",
-      "sha": "451a165",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/451a1658aef19357af6196acc4e9050227852e8a"
+      "message": "sorted out npm vulnerabilities with sanity",
+      "date": "Aug 20",
+      "sha": "53b4e6b",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/53b4e6b25a72140fb36893fa0e715de9f6bfc2dd"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "error fixed with images on video page",
+      "date": "Aug 20",
+      "sha": "c95dc2c",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/c95dc2cdea5158bd97106c1757e41230dc59208f"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "Product layout for nails now fixed",
+      "date": "Aug 20",
+      "sha": "8b767f9",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/8b767f9234cf730f489df3c4c7e57b47adda98d6"
     }
   ],
-  "updated_at": "2026-08-20T00:29:58.275Z"
+  "updated_at": "2026-08-20T02:46:51.518Z"
 }
