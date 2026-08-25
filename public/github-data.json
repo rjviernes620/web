@@ -9,6 +9,13 @@
   },
   "commits": [
     {
+      "repo": "MeenaCard",
+      "message": "chore: update project marketing and social media assets",
+      "date": "Aug 25",
+      "sha": "96c1fa0",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/96c1fa0d904f27cc1bbb32a88d953b33b268a347"
+    },
+    {
       "repo": "juicegels_v2",
       "message": "fixed additional packages for main",
       "date": "Aug 20",
@@ -28,14 +35,7 @@
       "date": "Aug 20",
       "sha": "c95dc2c",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/c95dc2cdea5158bd97106c1757e41230dc59208f"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Product layout for nails now fixed",
-      "date": "Aug 20",
-      "sha": "8b767f9",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/8b767f9234cf730f489df3c4c7e57b47adda98d6"
     }
   ],
-  "updated_at": "2026-08-25T00:30:58.823Z"
+  "updated_at": "2026-08-25T02:48:52.139Z"
 }
