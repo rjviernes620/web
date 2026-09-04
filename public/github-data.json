@@ -7,6 +7,35 @@
     "login": "rjviernes620",
     "name": "Roel-Junior Alejo Viernes"
   },
-  "commits": [],
-  "updated_at": "2026-09-03T23:36:41.713Z"
+  "commits": [
+    {
+      "repo": "MeenaCard",
+      "message": "chore: update project marketing and social media assets",
+      "date": "Aug 25",
+      "sha": "96c1fa0",
+      "url": "https://github.com/rjviernes620/MeenaCard/commit/96c1fa0d904f27cc1bbb32a88d953b33b268a347"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "fixed additional packages for main",
+      "date": "Aug 20",
+      "sha": "04e0e07",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/04e0e07ff0d463a17211037badf5b5300307317a"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "sorted out npm vulnerabilities with sanity",
+      "date": "Aug 20",
+      "sha": "53b4e6b",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/53b4e6b25a72140fb36893fa0e715de9f6bfc2dd"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "error fixed with images on video page",
+      "date": "Aug 20",
+      "sha": "c95dc2c",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/c95dc2cdea5158bd97106c1757e41230dc59208f"
+    }
+  ],
+  "updated_at": "2026-09-04T01:37:32.491Z"
 }
