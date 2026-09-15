@@ -11,31 +11,31 @@
     {
       "repo": "web",
       "message": "New Changes to the CV (See CVRepo for details)",
+      "date": "Sep 15",
+      "sha": "4ef20de",
+      "url": "https://github.com/rjviernes620/web/commit/4ef20deb836810e021ba35db9bd9e4a671c44123"
+    },
+    {
+      "repo": "Roel_Junior_Alejo_Viernes___CV",
+      "message": "feat: add new technical CV LaTeX template and gitignore",
+      "date": "Sep 15",
+      "sha": "08b92e0",
+      "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/08b92e0c4e94f635f942095af8a768d0a61f14c9"
+    },
+    {
+      "repo": "web",
+      "message": "New Changes to the CV (See CVRepo for details)",
       "date": "Sep 14",
       "sha": "3a35126",
       "url": "https://github.com/rjviernes620/web/commit/3a351265d03ddd9aeaba92ade86e7ad83320259a"
     },
     {
-      "repo": "MeenaCard",
-      "message": "chore: update project marketing and social media assets",
-      "date": "Aug 25",
-      "sha": "96c1fa0",
-      "url": "https://github.com/rjviernes620/MeenaCard/commit/96c1fa0d904f27cc1bbb32a88d953b33b268a347"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "fixed additional packages for main",
-      "date": "Aug 20",
-      "sha": "04e0e07",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/04e0e07ff0d463a17211037badf5b5300307317a"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "sorted out npm vulnerabilities with sanity",
-      "date": "Aug 20",
-      "sha": "53b4e6b",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/53b4e6b25a72140fb36893fa0e715de9f6bfc2dd"
+      "repo": "Roel_Junior_Alejo_Viernes___CV",
+      "message": "New CV branches and mention of  Sincerely",
+      "date": "Sep 14",
+      "sha": "3d01265",
+      "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/3d01265bbc3117a2318d5157d91847d02bf7a7af"
     }
   ],
-  "updated_at": "2026-09-15T02:06:32.257Z"
+  "updated_at": "2026-09-15T09:00:49.176Z"
 }
