@@ -11,6 +11,20 @@
     {
       "repo": "web",
       "message": "New Changes to the CV (See CVRepo for details)",
+      "date": "Sep 21",
+      "sha": "abcbb70",
+      "url": "https://github.com/rjviernes620/web/commit/abcbb702e57bc3041c26e53f2d1ab2c9f3135999"
+    },
+    {
+      "repo": "Roel_Junior_Alejo_Viernes___CV",
+      "message": "feat: update CV content and structure, enhance project descriptions, and improve formatting",
+      "date": "Sep 21",
+      "sha": "7424b94",
+      "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/7424b94981d813d50396fb2e90116b5d0e3b8e7b"
+    },
+    {
+      "repo": "web",
+      "message": "New Changes to the CV (See CVRepo for details)",
       "date": "Sep 15",
       "sha": "4ef20de",
       "url": "https://github.com/rjviernes620/web/commit/4ef20deb836810e021ba35db9bd9e4a671c44123"
@@ -21,21 +35,7 @@
       "date": "Sep 15",
       "sha": "08b92e0",
       "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/08b92e0c4e94f635f942095af8a768d0a61f14c9"
-    },
-    {
-      "repo": "web",
-      "message": "New Changes to the CV (See CVRepo for details)",
-      "date": "Sep 14",
-      "sha": "3a35126",
-      "url": "https://github.com/rjviernes620/web/commit/3a351265d03ddd9aeaba92ade86e7ad83320259a"
-    },
-    {
-      "repo": "Roel_Junior_Alejo_Viernes___CV",
-      "message": "New CV branches and mention of  Sincerely",
-      "date": "Sep 14",
-      "sha": "3d01265",
-      "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/3d01265bbc3117a2318d5157d91847d02bf7a7af"
     }
   ],
-  "updated_at": "2026-09-21T01:57:59.682Z"
+  "updated_at": "2026-09-21T07:32:22.003Z"
 }
