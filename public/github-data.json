@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "web",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "date": "Sep 29",
+      "sha": "832d2a5",
+      "url": "https://github.com/rjviernes620/web/commit/832d2a53bedaf5893c84f19cd8b9d09df8035e09"
+    },
+    {
+      "repo": "web",
+      "message": "added stuff on sincerely to website",
+      "date": "Sep 29",
+      "sha": "90b437a",
+      "url": "https://github.com/rjviernes620/web/commit/90b437a72d71d4e9427ae67aad25de6d03ca318e"
+    },
+    {
+      "repo": "web",
       "message": "New Changes to the CV (See CVRepo for details)",
       "date": "Sep 21",
       "sha": "abcbb70",
@@ -21,21 +35,7 @@
       "date": "Sep 21",
       "sha": "7424b94",
       "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/7424b94981d813d50396fb2e90116b5d0e3b8e7b"
-    },
-    {
-      "repo": "web",
-      "message": "New Changes to the CV (See CVRepo for details)",
-      "date": "Sep 15",
-      "sha": "4ef20de",
-      "url": "https://github.com/rjviernes620/web/commit/4ef20deb836810e021ba35db9bd9e4a671c44123"
-    },
-    {
-      "repo": "Roel_Junior_Alejo_Viernes___CV",
-      "message": "feat: add new technical CV LaTeX template and gitignore",
-      "date": "Sep 15",
-      "sha": "08b92e0",
-      "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/08b92e0c4e94f635f942095af8a768d0a61f14c9"
     }
   ],
-  "updated_at": "2026-09-29T00:00:22.851Z"
+  "updated_at": "2026-09-29T07:35:27.605Z"
 }
