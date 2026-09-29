@@ -9,7 +9,8 @@ import {
   Github,
   ExternalLink,
   Calendar,
-  Tag
+  Tag,
+  Sparkles
 } from 'lucide-react'
 
 // Project data structure
@@ -166,6 +167,19 @@ const fileSystem: FolderItem = {
       name: 'Professional Projects',
       type: 'folder',
       children: [
+        {
+          id: 'sincerely',
+          name: 'Sincerely [Current Project]',
+          type: 'file',
+          project: {
+            title: 'Sincerely — Digital Keepsakes Studio',
+            description: 'Currently working on: A native Android keepsake creation studio & progressive universal web unboxing engine. Features interactive 3D peeling wax seals, falling ambient particle physics, HD video and voice memos with audio visualizers, and printable 4"×6" QR slips. Live on Google Play.',
+            technologies: ['React', 'TypeScript', 'Capacitor', 'Android SDK', 'Firebase', 'Cloud Storage', 'Tailwind CSS', 'RevenueCat'],
+            date: '2025-01',
+            demo: 'https://play.google.com/store/apps/details?id=com.sw15sy.sincerely',
+            github: 'https://github.com/rjviernes620',
+          }
+        },
         {
           id: 'juicegels',
           name: 'juicegels.com',
@@ -411,6 +425,15 @@ export function FileExplorer() {
                   >
                     <ExternalLink className="w-4 h-4" />
                     Live Demo
+                  </a>
+                )}
+                {selectedProject.id === 'sincerely' && (
+                  <a
+                    href="#sincerely"
+                    className="flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-lg bg-gradient-to-r from-rose-500 via-purple-600 to-indigo-600 hover:from-rose-600 hover:to-indigo-500 text-white shadow-lg shadow-rose-500/20 transition-all transform hover:-translate-y-0.5 border border-rose-400/30"
+                  >
+                    <Sparkles className="w-4 h-4 text-amber-300" />
+                    Dedicated Showcase ↓
                   </a>
                 )}
               </div>

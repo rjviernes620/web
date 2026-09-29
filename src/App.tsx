@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
+import Sincerely from './components/Sincerely'
 import Jobs from './components/Jobs'
 import CaseStudies from './components/CaseStudies'
 import Recommendations from './components/Recommendations'
@@ -19,6 +20,7 @@ export default function App() {
       {/* Main Sections */}
       <Hero />
       <Projects />
+      <Sincerely />
       <Jobs />
       <CaseStudies />
       <Recommendations />

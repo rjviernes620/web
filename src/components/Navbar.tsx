@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import {
   User,
   FolderGit2,
+  Sparkles,
   Briefcase,
   FileCode,
   MessageSquareQuote,
@@ -16,6 +17,7 @@ export default function Navbar() {
   const navLinks = [
     { label: './About Me', href: '#home_area', icon: User },
     { label: './Projects', href: '#projects', icon: FolderGit2 },
+    { label: './Sincerely [Active]', href: '#sincerely', icon: Sparkles, isLive: true },
     { label: './Roles', href: '#jobs', icon: Briefcase },
     { label: './Case Studies', href: '#case-studies', icon: FileCode },
     { label: './Recommendations', href: '#recommendations', icon: MessageSquareQuote },
@@ -79,9 +81,16 @@ export default function Navbar() {
               >
                 <Icon size={18} className="transition-transform duration-300 group-hover:scale-110" />
 
+                {link.isLive && (
+                  <span className="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_rgba(52,211,153,0.8)]" />
+                )}
+
                 {/* Sliding Pill Label Tooltip */}
-                <span className="absolute left-14 top-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg bg-indigo-600 border border-indigo-500 text-white text-xs font-mono whitespace-nowrap opacity-0 scale-90 origin-left group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-1.5 transition-all duration-200 pointer-events-none shadow-lg shadow-indigo-600/20">
+                <span className="absolute left-14 top-1/2 -translate-y-1/2 px-3 py-1.5 rounded-lg bg-indigo-600 border border-indigo-500 text-white text-xs font-mono whitespace-nowrap opacity-0 scale-90 origin-left group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-1.5 transition-all duration-200 pointer-events-none shadow-lg shadow-indigo-600/20 flex items-center gap-1.5">
                   {link.label}
+                  {link.isLive && (
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  )}
                 </span>
               </a>
             )
@@ -94,7 +103,7 @@ export default function Navbar() {
       </nav>
 
       {/* Floating Horizontal Bottom Pill Navbar - (Mobile Only) */}
-      <nav className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 flex md:hidden w-[92%] max-w-md bg-[#111219]/80 border border-white/5 backdrop-blur-lg rounded-full py-2 px-3 items-center justify-between shadow-2xl">
+      <nav className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 flex md:hidden w-[94%] max-w-md bg-[#111219]/90 border border-white/10 backdrop-blur-lg rounded-full py-1.5 px-2 items-center justify-between shadow-2xl">
         {navLinks.map((link) => {
           const id = link.href.substring(1)
           const isActive = activeSection === id
@@ -103,12 +112,15 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className={`p-2.5 rounded-full flex items-center justify-center transition-all duration-300 ${isActive
+              className={`relative p-2 rounded-full flex items-center justify-center transition-all duration-300 ${isActive
                 ? 'bg-indigo-600/20 text-indigo-400 border border-indigo-500/20'
                 : 'text-gray-400 hover:text-white'
                 }`}
             >
-              <Icon size={18} />
+              <Icon size={16} />
+              {link.isLive && (
+                <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              )}
             </a>
           )
         })}
