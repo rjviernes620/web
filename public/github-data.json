@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "juicegels_v2",
+      "message": "feat(halloween): add 20% off Halloween sale, animated drop page, theme updates, and masked coupon handling",
+      "date": "Oct 10",
+      "sha": "9ccf180",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/9ccf180741537030de1337bf5a49c6e3f899429d"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "feat: initialize core components, pages, backend server, and build assets for juicegels shop app",
+      "date": "Oct 10",
+      "sha": "f7369bf",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/f7369bf2d6de6d0fd66f6325f9ee525098749a41"
+    },
+    {
       "repo": "web",
       "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
       "date": "Oct 9",
@@ -21,21 +35,7 @@
       "date": "Oct 9",
       "sha": "36de5e5",
       "url": "https://github.com/rjviernes620/web/commit/36de5e5d3f9bc010d23e0b13eb4d9313042d4f72"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: add test suite and testing infrastructure with vitest",
-      "date": "Oct 9",
-      "sha": "51d8f90",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/51d8f9011f8747e7c945acd380b9c8eea55e45a0"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: add App component, Halloween teaser, and product assets for production build",
-      "date": "Oct 9",
-      "sha": "f082fed",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/f082fedbe7b88cd86e390131c6d66c56127a037e"
     }
   ],
-  "updated_at": "2026-10-10T01:23:21.060Z"
+  "updated_at": "2026-10-10T07:48:48.514Z"
 }
