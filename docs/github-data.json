@@ -10,32 +10,32 @@
   "commits": [
     {
       "repo": "juicegels_v2",
-      "message": "feat: add product components, utility helpers, and production build files",
+      "message": "chore: add gitignore file for functions directory",
       "date": "Oct 11",
-      "sha": "843d50f",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/843d50f15dccd2ac0b6d0526958f584c80ea9c39"
+      "sha": "ac7e2b5",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/ac7e2b5b08127c03ebf68b2d4bb64d880a419368"
     },
     {
       "repo": "juicegels_v2",
-      "message": "feat: add core application components, pages, and utility modules for Juice Gels v2",
+      "message": "feat: add Firebase Functions backend and production frontend assets for JuiceGels",
       "date": "Oct 11",
-      "sha": "86b6089",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/86b6089d1121c50f2f57736f496af011ca52e896"
+      "sha": "8f3c529",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/8f3c5290b3cee8fd0ffe2d68236a6d0567323ef8"
     },
     {
       "repo": "juicegels_v2",
-      "message": "refactor: build production bundle with Three.js and component assets",
+      "message": "feat: add agent skills, firebase configuration, and build assets",
       "date": "Oct 11",
-      "sha": "72d6eb2",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/72d6eb2cae59f705e83f39712a24af6142b5aa93"
+      "sha": "99a0fc2",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/99a0fc2a0186f475ed49525d4eb1cca1c1123a6e"
     },
     {
       "repo": "juicegels_v2",
-      "message": "feat(halloween): add 20% off Halloween sale, animated drop page, theme updates, and masked coupon handling",
-      "date": "Oct 10",
-      "sha": "9ccf180",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/9ccf180741537030de1337bf5a49c6e3f899429d"
+      "message": "firebase coming",
+      "date": "Oct 11",
+      "sha": "8a2d746",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/8a2d74656e1dba9150098f85609da0ae62bebe12"
     }
   ],
-  "updated_at": "2026-10-11T16:52:27.019Z"
+  "updated_at": "2026-10-11T21:08:12.086Z"
 }
