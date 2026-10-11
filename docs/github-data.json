@@ -10,6 +10,13 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "feat: add product components, utility helpers, and production build files",
+      "date": "Oct 11",
+      "sha": "843d50f",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/843d50f15dccd2ac0b6d0526958f584c80ea9c39"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "feat: add core application components, pages, and utility modules for Juice Gels v2",
       "date": "Oct 11",
       "sha": "86b6089",
@@ -28,14 +35,7 @@
       "date": "Oct 10",
       "sha": "9ccf180",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/9ccf180741537030de1337bf5a49c6e3f899429d"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: initialize core components, pages, backend server, and build assets for juicegels shop app",
-      "date": "Oct 10",
-      "sha": "f7369bf",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/f7369bf2d6de6d0fd66f6325f9ee525098749a41"
     }
   ],
-  "updated_at": "2026-10-11T10:22:20.134Z"
+  "updated_at": "2026-10-11T16:52:27.019Z"
 }
