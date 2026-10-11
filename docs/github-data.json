@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "feat: add core application components, pages, and utility modules for Juice Gels v2",
+      "date": "Oct 11",
+      "sha": "86b6089",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/86b6089d1121c50f2f57736f496af011ca52e896"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "refactor: build production bundle with Three.js and component assets",
+      "date": "Oct 11",
+      "sha": "72d6eb2",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/72d6eb2cae59f705e83f39712a24af6142b5aa93"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "feat(halloween): add 20% off Halloween sale, animated drop page, theme updates, and masked coupon handling",
       "date": "Oct 10",
       "sha": "9ccf180",
@@ -21,21 +35,7 @@
       "date": "Oct 10",
       "sha": "f7369bf",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/f7369bf2d6de6d0fd66f6325f9ee525098749a41"
-    },
-    {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
-      "date": "Oct 9",
-      "sha": "86a51f6",
-      "url": "https://github.com/rjviernes620/web/commit/86a51f6bc0e92a50a1dec0c62a6ddb34118224a3"
-    },
-    {
-      "repo": "web",
-      "message": "removed odd ahh github footer",
-      "date": "Oct 9",
-      "sha": "36de5e5",
-      "url": "https://github.com/rjviernes620/web/commit/36de5e5d3f9bc010d23e0b13eb4d9313042d4f72"
     }
   ],
-  "updated_at": "2026-10-11T02:29:28.394Z"
+  "updated_at": "2026-10-11T10:22:20.134Z"
 }
