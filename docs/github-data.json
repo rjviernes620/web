@@ -10,32 +10,32 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "feat: add compiled production bundles and update app components",
+      "date": "Oct 11",
+      "sha": "5f491dd",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/5f491dd3b297107a18dd1ea0c8b0d9ecc836f84f"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "feat: add GitHub Actions workflow for Firebase deployment and update hosting cache files",
+      "date": "Oct 11",
+      "sha": "09bd736",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/09bd7364abb2314205cc1904f793d8ff3a709ffa"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "feat: setup backend application, product parser utils, and bundle built assets",
+      "date": "Oct 11",
+      "sha": "121e87d",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/121e87d7e36e8b84a11cea26b2eafca4b211f825"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "chore: add gitignore file for functions directory",
       "date": "Oct 11",
       "sha": "ac7e2b5",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/ac7e2b5b08127c03ebf68b2d4bb64d880a419368"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: add Firebase Functions backend and production frontend assets for JuiceGels",
-      "date": "Oct 11",
-      "sha": "8f3c529",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/8f3c5290b3cee8fd0ffe2d68236a6d0567323ef8"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: add agent skills, firebase configuration, and build assets",
-      "date": "Oct 11",
-      "sha": "99a0fc2",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/99a0fc2a0186f475ed49525d4eb1cca1c1123a6e"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "firebase coming",
-      "date": "Oct 11",
-      "sha": "8a2d746",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/8a2d74656e1dba9150098f85609da0ae62bebe12"
     }
   ],
-  "updated_at": "2026-10-11T21:08:12.086Z"
+  "updated_at": "2026-10-12T00:47:13.015Z"
 }
