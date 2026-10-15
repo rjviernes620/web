@@ -10,6 +10,20 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "feat: implement Google Merchant feed routes and update Firebase rewrites",
+      "date": "Oct 15",
+      "sha": "ef8d9b4",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/ef8d9b4bfa0bd5f1d0badd5391219c36891f1a09"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "feat: add Google site verification files and update Vite config for deployment",
+      "date": "Oct 15",
+      "sha": "e34bb0c",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/e34bb0c4d8323a635bccb58e5418c1ae14f9dc6a"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "feat: add compiled production bundles and update app components",
       "date": "Oct 11",
       "sha": "5f491dd",
@@ -21,21 +35,7 @@
       "date": "Oct 11",
       "sha": "09bd736",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/09bd7364abb2314205cc1904f793d8ff3a709ffa"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: setup backend application, product parser utils, and bundle built assets",
-      "date": "Oct 11",
-      "sha": "121e87d",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/121e87d7e36e8b84a11cea26b2eafca4b211f825"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "chore: add gitignore file for functions directory",
-      "date": "Oct 11",
-      "sha": "ac7e2b5",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/ac7e2b5b08127c03ebf68b2d4bb64d880a419368"
     }
   ],
-  "updated_at": "2026-10-14T22:45:37.391Z"
+  "updated_at": "2026-10-15T02:03:36.803Z"
 }
