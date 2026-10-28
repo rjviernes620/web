@@ -10,32 +10,32 @@
   "commits": [
     {
       "repo": "juicegels_v2",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "Oct 28",
+      "sha": "6616275",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/6616275e3cad92afef90d12a281c20311dc57d2e"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "fix: update Firebase debug log to include additional error messages for missing configuration files",
+      "date": "Oct 28",
+      "sha": "615cc15",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/615cc153a57dc5a69ff7c962877ca664deedc51b"
+    },
+    {
+      "repo": "juicegels_v2",
+      "message": "feat: add collection schema for organizing nail sets with title, emoji, tagline, description, and product references",
+      "date": "Oct 28",
+      "sha": "16d0543",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/16d054328eb2c995fcb4117a321cd956ee079aa5"
+    },
+    {
+      "repo": "juicegels_v2",
       "message": "feat: implement Google Merchant feed routes and update Firebase rewrites",
       "date": "Oct 15",
       "sha": "ef8d9b4",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/ef8d9b4bfa0bd5f1d0badd5391219c36891f1a09"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: add Google site verification files and update Vite config for deployment",
-      "date": "Oct 15",
-      "sha": "e34bb0c",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/e34bb0c4d8323a635bccb58e5418c1ae14f9dc6a"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: add compiled production bundles and update app components",
-      "date": "Oct 11",
-      "sha": "5f491dd",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/5f491dd3b297107a18dd1ea0c8b0d9ecc836f84f"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "feat: add GitHub Actions workflow for Firebase deployment and update hosting cache files",
-      "date": "Oct 11",
-      "sha": "09bd736",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/09bd7364abb2314205cc1904f793d8ff3a709ffa"
     }
   ],
-  "updated_at": "2026-10-27T23:17:25.171Z"
+  "updated_at": "2026-10-28T02:46:00.498Z"
 }
