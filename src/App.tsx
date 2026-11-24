@@ -1,8 +1,8 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
-import Sincerely from './components/Sincerely'
 import Jobs from './components/Jobs'
+import Sincerely from './components/Sincerely'
 import CaseStudies from './components/CaseStudies'
 import Recommendations from './components/Recommendations'
 import Videos from './components/Videos'
@@ -20,8 +20,8 @@ export default function App() {
       {/* Main Sections */}
       <Hero />
       <Projects />
-      <Sincerely />
       <Jobs />
+      <Sincerely />
       <CaseStudies />
       <Recommendations />
       <Videos />

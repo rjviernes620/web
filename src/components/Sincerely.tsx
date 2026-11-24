@@ -97,15 +97,11 @@ export default function Sincerely() {
           <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-xs font-mono font-semibold tracking-wide">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              CURRENTLY BUILDING
-            </span>
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-mono font-semibold tracking-wide">
-              <Code2 className="w-3.5 h-3.5 text-indigo-400" />
-              FLAGSHIP PRODUCTION PROJECT
+              Currently Live
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-mono font-semibold tracking-wide">
               <GooglePlayIcon className="w-3.5 h-3.5" />
-              LIVE ON GOOGLE PLAY
+              Live on Google Play
             </span>
           </div>
 

@@ -17,8 +17,8 @@ export default function Navbar() {
   const navLinks = [
     { label: './About Me', href: '#home_area', icon: User },
     { label: './Projects', href: '#projects', icon: FolderGit2 },
-    { label: './Sincerely [Active]', href: '#sincerely', icon: Sparkles, isLive: true },
     { label: './Roles', href: '#jobs', icon: Briefcase },
+    { label: './Sincerely [Active]', href: '#sincerely', icon: Sparkles, isLive: true },
     { label: './Case Studies', href: '#case-studies', icon: FileCode },
     { label: './Recommendations', href: '#recommendations', icon: MessageSquareQuote },
     { label: './Videos', href: '#videos', icon: Video },
