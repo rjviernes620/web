@@ -1,6 +1,6 @@
 {
   "stats": {
-    "followers": 9,
+    "followers": 6,
     "public_repos": 21,
     "avatar_url": "https://avatars.githubusercontent.com/u/41326712?v=4",
     "html_url": "https://github.com/rjviernes620",
@@ -9,33 +9,33 @@
   },
   "commits": [
     {
-      "repo": "web",
-      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
-      "date": "Sep 29",
-      "sha": "832d2a5",
-      "url": "https://github.com/rjviernes620/web/commit/832d2a53bedaf5893c84f19cd8b9d09df8035e09"
+      "repo": "juicegels_v2",
+      "message": "feat: enhance Google Merchant image handling and update dependencies",
+      "date": "Nov 7",
+      "sha": "cc7d261",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/cc7d2616e06ad39d31b01e89ae344c555d8392a5"
     },
     {
-      "repo": "web",
-      "message": "added stuff on sincerely to website",
-      "date": "Sep 29",
-      "sha": "90b437a",
-      "url": "https://github.com/rjviernes620/web/commit/90b437a72d71d4e9427ae67aad25de6d03ca318e"
+      "repo": "juicegels_v2",
+      "message": "Refactor code structure for improved readability and maintainability; removed redundant sections and optimized logic flow.",
+      "date": "Nov 3",
+      "sha": "4005659",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/400565961430403b9780931693cfc494a8d8aaa9"
     },
     {
-      "repo": "web",
-      "message": "New Changes to the CV (See CVRepo for details)",
-      "date": "Sep 21",
-      "sha": "abcbb70",
-      "url": "https://github.com/rjviernes620/web/commit/abcbb702e57bc3041c26e53f2d1ab2c9f3135999"
+      "repo": "juicegels_v2",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "Nov 3",
+      "sha": "3f1ec32",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/3f1ec3273470ebc7d9dc0c2e19238baa7f04d6f0"
     },
     {
-      "repo": "Roel_Junior_Alejo_Viernes___CV",
-      "message": "feat: update CV content and structure, enhance project descriptions, and improve formatting",
-      "date": "Sep 21",
-      "sha": "7424b94",
-      "url": "https://github.com/rjviernes620/Roel_Junior_Alejo_Viernes___CV/commit/7424b94981d813d50396fb2e90116b5d0e3b8e7b"
+      "repo": "juicegels_v2",
+      "message": "Implement code changes to enhance functionality and improve performance",
+      "date": "Nov 3",
+      "sha": "0efefb6",
+      "url": "https://github.com/rjviernes620/juicegels_v2/commit/0efefb6a8199732cd54bfb4c4a99771ad177f212"
     }
   ],
-  "updated_at": "2026-10-08T22:33:07.937Z"
+  "updated_at": "2026-11-23T16:39:47.429Z"
 }
