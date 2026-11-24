@@ -9,6 +9,20 @@
   },
   "commits": [
     {
+      "repo": "web",
+      "message": "Merge branch 'main' of https://github.com/rjviernes620/web",
+      "date": "Nov 24",
+      "sha": "349ccb9",
+      "url": "https://github.com/rjviernes620/web/commit/349ccb93702ed4b9c366fb9d86e9969159933f77"
+    },
+    {
+      "repo": "web",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "Nov 24",
+      "sha": "5e5c3e1",
+      "url": "https://github.com/rjviernes620/web/commit/5e5c3e1b95689b97df7b7ba5e5fc7951404893cc"
+    },
+    {
       "repo": "juicegels_v2",
       "message": "feat: enhance Google Merchant image handling and update dependencies",
       "date": "Nov 7",
@@ -21,21 +35,7 @@
       "date": "Nov 3",
       "sha": "4005659",
       "url": "https://github.com/rjviernes620/juicegels_v2/commit/400565961430403b9780931693cfc494a8d8aaa9"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Refactor code structure for improved readability and maintainability",
-      "date": "Nov 3",
-      "sha": "3f1ec32",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/3f1ec3273470ebc7d9dc0c2e19238baa7f04d6f0"
-    },
-    {
-      "repo": "juicegels_v2",
-      "message": "Implement code changes to enhance functionality and improve performance",
-      "date": "Nov 3",
-      "sha": "0efefb6",
-      "url": "https://github.com/rjviernes620/juicegels_v2/commit/0efefb6a8199732cd54bfb4c4a99771ad177f212"
     }
   ],
-  "updated_at": "2026-11-23T16:39:47.429Z"
+  "updated_at": "2026-11-24T03:31:33.268Z"
 }
